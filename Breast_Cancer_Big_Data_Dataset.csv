@@ -1,0 +1,1001 @@
+Patient_ID,Age,Tumor_Size_mm,Mean_Radius,Mean_Texture,Mean_Smoothness,Mean_Compactness,Mean_Symmetry,Mean_Concavity,Mean_Fractal_Dimension,Mean_PeriMeter,Mean_Area,Mean_Compactness_Error,Mean_Smoothness_Error,Malignancy,Recurrence_Risk,Pathology_Report,Hormone_Receptor_Status,HER2_Status,Genetic_Risk_Score,Family_History,Treatment_Type,Followup_Months,Survival_Status,Diagnosis
+P0554,39,53.48,23.82,16.68,0.098,0.095,0.271,0.388,0.081,121.62,306.83,0.0149,0.0045,Malignant,Medium,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.974,No,Surgery,56,Alive,1
+P0224,72,59.41,27.54,33.19,0.11,0.24,0.443,0.307,0.08,107.16,276.35,0.0089,0.0039,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.75,Yes,Hormone Therapy,53,Alive,1
+P0273,39,16.74,14.06,19.87,0.13,0.278,0.474,0.019,0.044,136.94,1489.71,0.0016,0.0022,Malignant,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.302,No,Surgery,43,Alive,1
+P0824,74,37.38,19.81,36.29,0.172,0.076,0.311,0.257,0.055,156.19,1417.29,0.0193,0.0068,Benign,Low,Malignant cells present with irregular borders.,Negative,Positive,0.024,Yes,Surgery,26,Alive,0
+P0531,30,6.01,21.86,14.15,0.142,0.124,0.216,0.012,0.063,54.02,2124.96,0.0158,0.0048,Malignant,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.909,No,Radiation,28,Alive,1
+P0084,72,9.7,7.35,28.2,0.116,0.228,0.293,0.171,0.071,137.89,2119.23,0.0076,0.0051,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.933,No,Hormone Therapy,36,Alive,1
+P0631,64,55.72,9.58,31.63,0.124,0.297,0.386,0.341,0.062,134.29,1772.66,0.005,0.0016,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.066,No,Surgery,29,Alive,1
+P0717,62,58.02,8.59,25.66,0.115,0.036,0.131,0.137,0.061,125.16,1889.71,0.0173,0.0044,Malignant,High,No evidence of tumor recurrence.,Positive,Negative,0.059,No,Surgery,48,Alive,1
+P0695,38,49.68,25.15,19.23,0.053,0.257,0.488,0.199,0.09,78.01,305.62,0.0193,0.0025,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.013,Yes,Chemotherapy,32,Deceased,1
+P0145,57,21.21,12.65,27.2,0.171,0.118,0.136,0.063,0.046,130.16,1340.88,0.0025,0.0088,Malignant,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.247,Yes,Chemotherapy,19,Deceased,1
+P0889,34,40.46,15.99,21.4,0.196,0.139,0.193,0.304,0.082,123.6,1792.93,0.0038,0.0028,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.059,No,Radiation,33,Alive,0
+P0849,73,27.25,18.92,19.03,0.079,0.132,0.208,0.193,0.079,67.41,1243.83,0.0155,0.0061,Malignant,Medium,No evidence of tumor recurrence.,Positive,Negative,0.583,No,Surgery,12,Alive,1
+P0063,29,25.42,23.87,12.93,0.191,0.264,0.115,0.063,0.061,93.36,1816.07,0.0072,0.0059,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.89,No,Surgery,50,Alive,1
+P0522,34,36.57,20.63,33.53,0.08,0.128,0.176,0.329,0.07,46.05,809.29,0.0037,0.0063,Malignant,Low,"Fibroadenoma detected, benign nature.",Negative,Positive,0.522,Yes,Chemotherapy,18,Alive,1
+P0610,32,44.11,15.03,38.8,0.187,0.105,0.238,0.134,0.065,81.8,1168.83,0.0181,0.007,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.287,No,Chemotherapy,57,Alive,1
+P0110,29,54.14,14.58,26.63,0.096,0.181,0.413,0.184,0.064,59.19,1798.24,0.0054,0.0067,Benign,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.297,No,Surgery,15,Alive,0
+P0460,31,32.73,22.25,17.6,0.125,0.264,0.184,0.384,0.053,161.43,678.14,0.0065,0.0025,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.173,No,Surgery,52,Alive,0
+P0664,58,56.57,13.08,35.4,0.131,0.135,0.141,0.337,0.052,73.66,2455.36,0.0127,0.0014,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.597,No,Surgery,57,Alive,1
+P0743,53,31.81,21.47,34.04,0.104,0.048,0.34,0.294,0.04,70.6,2289.28,0.0165,0.0096,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.283,Yes,Hormone Therapy,31,Alive,0
+P0779,59,33.52,16.36,31.49,0.154,0.222,0.483,0.347,0.052,137.89,2333.51,0.0182,0.0046,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.413,No,Radiation,49,Alive,1
+P0642,67,12.21,22.26,32.16,0.158,0.252,0.422,0.398,0.048,154.54,1833.26,0.003,0.0078,Benign,Medium,"Fibroadenoma detected, benign nature.",Negative,Negative,0.891,No,Surgery,18,Alive,0
+P0534,69,22.04,7.25,16.78,0.164,0.141,0.345,0.281,0.041,123.35,1684.63,0.0111,0.004,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Positive,0.135,Yes,Surgery,15,Alive,1
+P0955,32,56.17,12.91,14.81,0.091,0.107,0.446,0.241,0.072,66.06,467.86,0.0172,0.0044,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.421,No,Chemotherapy,7,Alive,1
+P0142,64,41.4,15.95,38.89,0.085,0.291,0.286,0.069,0.087,58.45,2160.41,0.014,0.0017,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.414,No,Hormone Therapy,35,Alive,1
+P0564,58,43.09,10.12,38.13,0.064,0.229,0.416,0.384,0.089,48.01,883.28,0.0113,0.0074,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.012,No,Hormone Therapy,39,Alive,0
+P0573,73,20.3,28.41,28.03,0.177,0.126,0.496,0.23,0.046,105.56,1075.3,0.0072,0.01,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.322,No,Hormone Therapy,34,Deceased,0
+P0797,52,7.32,7.18,20.43,0.153,0.011,0.442,0.112,0.063,108.41,1937.65,0.0147,0.0089,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Positive,0.286,No,Surgery,13,Alive,0
+P0683,64,52.78,25.02,13.02,0.1,0.264,0.459,0.281,0.054,120.87,2343.9,0.0087,0.0021,Benign,High,Invasive ductal carcinoma detected.,Negative,Negative,0.532,No,Surgery,15,Alive,0
+P0614,65,19.43,16.47,18.13,0.125,0.151,0.321,0.229,0.049,121.47,1211.12,0.0168,0.0024,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.874,No,Chemotherapy,23,Alive,0
+P0239,32,22.43,21.65,31.5,0.09,0.048,0.173,0.383,0.078,134.34,2065.34,0.0144,0.0074,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.396,No,Chemotherapy,45,Alive,1
+P0801,47,46.83,13.61,33.64,0.061,0.049,0.185,0.293,0.061,147.13,2460.94,0.0085,0.0065,Malignant,High,Normal epithelial tissue morphology maintained.,Positive,Negative,0.928,No,Radiation,48,Alive,1
+P0144,33,49.49,14.26,24.14,0.13,0.221,0.461,0.375,0.051,68.51,1630.33,0.0137,0.0066,Benign,Low,Malignant cells present with irregular borders.,Negative,Positive,0.303,No,Radiation,34,Alive,0
+P0678,74,7.53,25.13,37.84,0.179,0.042,0.145,0.333,0.05,168.43,1854.83,0.0148,0.0075,Benign,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.483,Yes,Surgery,30,Deceased,0
+P0105,73,21.29,21.41,36.41,0.173,0.174,0.22,0.32,0.044,177.79,1065.65,0.0015,0.0092,Malignant,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.66,No,Surgery,7,Alive,1
+P0388,67,42.02,27.63,35.91,0.052,0.1,0.196,0.017,0.045,57.42,1555.48,0.0079,0.0064,Benign,High,"Fibroadenoma detected, benign nature.",Positive,Negative,0.225,No,Radiation,44,Alive,0
+P0034,56,15.51,18.52,25.39,0.103,0.243,0.414,0.38,0.04,122.74,455.8,0.0018,0.0039,Malignant,Medium,"Benign lesion, no signs of malignancy.",Positive,Negative,0.971,No,Chemotherapy,56,Alive,1
+P0983,57,24.3,27.3,33.23,0.064,0.157,0.388,0.322,0.052,131.55,1080.07,0.0172,0.009,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.91,Yes,Radiation,55,Alive,1
+P0311,67,21.69,29.36,30.86,0.051,0.291,0.152,0.314,0.073,46.0,376.79,0.013,0.0011,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.571,Yes,Radiation,20,Alive,0
+P0408,32,57.45,9.1,23.52,0.123,0.151,0.224,0.331,0.087,162.86,1519.8,0.0151,0.0046,Malignant,Medium,No evidence of tumor recurrence.,Positive,Negative,0.075,Yes,Radiation,32,Alive,1
+P0580,52,31.75,22.36,33.3,0.056,0.173,0.146,0.265,0.075,147.9,673.12,0.0198,0.004,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.396,No,Chemotherapy,57,Alive,0
+P0019,26,53.47,23.91,18.06,0.058,0.113,0.215,0.057,0.066,159.33,650.51,0.0151,0.0015,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.058,Yes,Surgery,36,Alive,1
+P0600,45,19.87,25.08,15.07,0.169,0.251,0.338,0.104,0.078,110.55,1544.36,0.0159,0.0035,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.802,No,Hormone Therapy,43,Alive,1
+P0267,74,33.62,15.15,39.78,0.163,0.026,0.363,0.225,0.052,40.18,2196.39,0.011,0.0027,Benign,Low,Malignant cells present with irregular borders.,Negative,Positive,0.428,No,Hormone Therapy,31,Alive,0
+P0663,65,44.31,13.52,37.32,0.097,0.204,0.373,0.269,0.048,53.67,1848.32,0.0174,0.001,Benign,Low,Extensive necrosis with aggressive tumor cells.,Negative,Positive,0.304,No,Chemotherapy,14,Alive,0
+P0998,27,41.41,21.56,32.0,0.136,0.246,0.216,0.326,0.078,54.27,557.74,0.0085,0.0053,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.793,No,Radiation,23,Alive,1
+P0698,37,19.59,6.26,17.46,0.056,0.27,0.41,0.142,0.064,67.54,422.85,0.0091,0.0069,Benign,High,No evidence of tumor recurrence.,Positive,Positive,0.428,No,Surgery,18,Alive,0
+P0326,38,47.2,7.3,27.55,0.113,0.119,0.296,0.305,0.064,154.64,276.56,0.0106,0.0033,Benign,High,Atypical ductal hyperplasia observed.,Positive,Negative,0.557,No,Chemotherapy,27,Alive,0
+P0742,73,13.72,20.82,36.27,0.181,0.143,0.296,0.389,0.081,166.05,743.37,0.0176,0.0011,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Positive,0.119,No,Surgery,35,Alive,0
+P0771,63,15.66,25.81,38.27,0.086,0.101,0.416,0.03,0.084,117.47,739.42,0.0163,0.0034,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.585,Yes,Hormone Therapy,50,Alive,1
+P0499,54,31.61,22.64,19.45,0.111,0.243,0.403,0.236,0.069,164.64,1942.31,0.0016,0.0072,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.156,Yes,Chemotherapy,25,Alive,1
+P0596,73,47.35,18.82,26.3,0.183,0.016,0.272,0.112,0.072,138.67,2444.41,0.0106,0.0075,Benign,Low,Extensive necrosis with aggressive tumor cells.,Negative,Positive,0.084,Yes,Radiation,20,Alive,0
+P0504,42,54.48,17.54,16.6,0.129,0.058,0.15,0.33,0.06,73.09,1199.36,0.0147,0.0044,Benign,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.431,No,Hormone Therapy,56,Alive,0
+P0567,35,11.74,21.09,24.04,0.087,0.069,0.282,0.027,0.059,44.99,1762.97,0.011,0.0097,Benign,High,"Fibroadenoma detected, benign nature.",Positive,Negative,0.224,No,Radiation,11,Alive,0
+P0015,64,28.11,6.9,18.23,0.174,0.181,0.402,0.061,0.083,97.61,1242.3,0.0067,0.0079,Benign,Medium,"Benign lesion, no signs of malignancy.",Negative,Positive,0.268,Yes,Chemotherapy,16,Deceased,0
+P0986,30,15.55,20.06,15.6,0.066,0.252,0.131,0.193,0.056,98.21,260.45,0.0109,0.0079,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.979,No,Hormone Therapy,15,Alive,1
+P0689,61,34.26,15.88,31.12,0.098,0.134,0.471,0.284,0.062,173.65,660.83,0.0053,0.0014,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.73,Yes,Surgery,45,Alive,1
+P0149,43,21.65,14.53,17.12,0.17,0.295,0.238,0.291,0.065,120.31,265.59,0.012,0.0079,Malignant,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.489,Yes,Radiation,15,Alive,1
+P0701,69,35.38,26.64,19.82,0.052,0.286,0.338,0.114,0.086,169.3,2491.36,0.0159,0.0014,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Positive,0.525,No,Chemotherapy,42,Alive,0
+P0294,34,37.95,8.84,23.17,0.139,0.282,0.226,0.043,0.067,123.14,544.58,0.0072,0.0039,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.657,No,Radiation,10,Alive,1
+P0673,41,11.05,9.02,36.71,0.169,0.283,0.133,0.289,0.04,88.84,2276.93,0.0162,0.0079,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.782,No,Surgery,26,Alive,0
+P0831,78,22.9,17.8,36.3,0.079,0.15,0.182,0.13,0.082,131.78,672.74,0.0157,0.0077,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Positive,0.539,Yes,Chemotherapy,37,Alive,1
+P0013,47,35.81,7.32,37.0,0.184,0.136,0.298,0.033,0.063,164.5,940.2,0.0126,0.009,Malignant,Medium,No evidence of tumor recurrence.,Negative,Negative,0.922,No,Radiation,22,Alive,1
+P0726,32,36.37,14.05,22.54,0.111,0.086,0.295,0.311,0.085,171.06,870.8,0.0082,0.0095,Benign,Low,Malignant cells present with irregular borders.,Negative,Negative,0.251,Yes,Surgery,53,Alive,0
+P0385,42,22.05,17.41,19.4,0.162,0.016,0.294,0.121,0.083,146.52,2218.48,0.0108,0.0089,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.729,Yes,Hormone Therapy,59,Alive,0
+P0249,67,30.54,13.57,39.76,0.151,0.283,0.497,0.031,0.064,59.68,1238.76,0.016,0.0027,Benign,Medium,"Benign lesion, no signs of malignancy.",Negative,Negative,0.512,No,Surgery,9,Alive,0
+P0647,31,12.45,15.78,23.29,0.076,0.123,0.417,0.209,0.084,113.06,1971.26,0.0148,0.0064,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Positive,0.924,No,Hormone Therapy,30,Alive,0
+P0324,28,47.28,21.53,21.21,0.158,0.039,0.354,0.223,0.074,136.07,368.63,0.0053,0.0052,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.051,No,Radiation,35,Alive,0
+P0441,68,36.89,12.56,25.45,0.179,0.114,0.102,0.377,0.061,131.12,217.46,0.007,0.0064,Benign,High,Atypical ductal hyperplasia observed.,Positive,Negative,0.481,Yes,Chemotherapy,37,Alive,0
+P0195,27,27.43,21.9,13.03,0.19,0.014,0.146,0.155,0.051,178.8,287.21,0.0045,0.004,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.784,No,Surgery,52,Deceased,1
+P0803,53,57.02,18.74,14.88,0.107,0.277,0.409,0.399,0.056,169.78,1542.12,0.0053,0.0053,Malignant,High,Normal epithelial tissue morphology maintained.,Positive,Positive,0.883,No,Hormone Therapy,18,Alive,1
+P0822,68,34.0,10.1,30.86,0.077,0.226,0.126,0.361,0.082,157.89,555.75,0.0078,0.0084,Malignant,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.193,No,Radiation,56,Alive,1
+P0444,31,24.01,27.8,13.24,0.11,0.085,0.475,0.153,0.06,135.61,1913.68,0.0144,0.0071,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.207,Yes,Radiation,40,Alive,0
+P0192,52,42.35,10.11,14.49,0.169,0.264,0.102,0.046,0.09,104.02,1674.23,0.017,0.0099,Benign,High,"Fibroadenoma detected, benign nature.",Positive,Negative,0.864,No,Chemotherapy,6,Alive,0
+P0546,32,5.5,25.59,27.29,0.196,0.089,0.263,0.09,0.075,105.22,1684.58,0.0168,0.0012,Malignant,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.111,No,Radiation,59,Alive,1
+P0751,62,55.26,10.83,14.17,0.159,0.025,0.21,0.257,0.073,50.65,1559.44,0.0021,0.0067,Benign,Medium,No evidence of tumor recurrence.,Negative,Positive,0.145,No,Chemotherapy,6,Deceased,0
+P0800,29,14.26,10.74,12.35,0.115,0.242,0.315,0.018,0.045,93.39,1385.09,0.0061,0.0011,Malignant,High,Invasive ductal carcinoma detected.,Positive,Negative,0.199,Yes,Hormone Therapy,44,Alive,1
+P0969,53,45.07,16.23,30.15,0.115,0.03,0.262,0.344,0.05,158.73,1453.94,0.0169,0.0096,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.115,No,Surgery,8,Alive,0
+P0625,60,32.58,8.27,10.17,0.159,0.019,0.142,0.194,0.053,51.08,562.14,0.0168,0.0036,Benign,Low,Malignant cells present with irregular borders.,Negative,Negative,0.649,Yes,Radiation,49,Alive,0
+P0122,57,39.86,23.98,14.31,0.192,0.264,0.224,0.125,0.059,65.98,901.75,0.0127,0.007,Malignant,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.938,No,Chemotherapy,10,Alive,1
+P0740,47,13.84,24.51,38.46,0.123,0.022,0.203,0.136,0.079,85.62,794.82,0.0117,0.0084,Malignant,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.814,No,Radiation,46,Alive,1
+P0200,79,5.08,11.93,38.74,0.083,0.055,0.26,0.266,0.05,101.57,2291.8,0.014,0.0016,Malignant,High,No evidence of tumor recurrence.,Positive,Negative,0.744,No,Chemotherapy,14,Alive,1
+P0258,43,5.71,8.48,35.37,0.088,0.044,0.178,0.126,0.056,110.17,1599.08,0.0182,0.0011,Benign,High,Normal epithelial tissue morphology maintained.,Positive,Negative,0.442,No,Surgery,14,Alive,0
+P0284,26,13.77,15.19,37.61,0.159,0.199,0.137,0.085,0.063,64.48,2365.28,0.0017,0.008,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.459,No,Surgery,24,Alive,1
+P0700,45,22.64,15.91,33.12,0.19,0.105,0.419,0.092,0.081,129.77,318.78,0.0117,0.0084,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.328,No,Hormone Therapy,26,Deceased,0
+P0876,30,20.74,10.78,34.69,0.073,0.066,0.494,0.052,0.09,126.11,869.02,0.0185,0.0094,Malignant,High,"Fibroadenoma detected, benign nature.",Positive,Positive,0.002,Yes,Radiation,34,Alive,1
+P0682,55,38.72,22.87,10.57,0.166,0.163,0.409,0.102,0.087,92.61,450.26,0.0051,0.0033,Benign,Low,No evidence of tumor recurrence.,Positive,Positive,0.275,Yes,Radiation,40,Alive,0
+P0617,36,53.78,25.26,35.66,0.071,0.218,0.452,0.179,0.042,55.2,1702.68,0.0055,0.0093,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.492,No,Surgery,28,Deceased,1
+P0257,47,7.86,7.36,22.06,0.174,0.23,0.476,0.241,0.04,108.01,322.86,0.014,0.002,Malignant,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.963,No,Surgery,32,Deceased,1
+P0634,28,32.61,18.48,38.62,0.076,0.092,0.304,0.382,0.055,69.98,1743.33,0.001,0.0021,Benign,Medium,Malignant cells present with irregular borders.,Positive,Positive,0.879,Yes,Chemotherapy,42,Alive,0
+P0706,78,19.1,8.05,23.61,0.152,0.089,0.493,0.301,0.062,133.65,1210.14,0.0154,0.0044,Benign,High,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.156,No,Chemotherapy,20,Alive,0
+P0127,67,17.83,18.72,34.24,0.054,0.287,0.195,0.302,0.082,43.12,221.79,0.0129,0.0078,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.253,No,Chemotherapy,32,Alive,1
+P0405,42,57.58,6.93,35.6,0.085,0.257,0.466,0.399,0.058,94.38,336.95,0.0183,0.0096,Malignant,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.184,No,Radiation,52,Alive,1
+P0905,53,19.14,13.92,20.25,0.129,0.262,0.216,0.119,0.079,116.72,1749.89,0.0084,0.0052,Benign,Low,No evidence of tumor recurrence.,Positive,Positive,0.273,Yes,Chemotherapy,11,Deceased,0
+P0436,74,57.08,21.71,17.57,0.118,0.202,0.14,0.364,0.044,171.49,1599.58,0.0023,0.0033,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.259,No,Surgery,49,Deceased,0
+P0229,49,22.38,6.31,29.77,0.191,0.215,0.391,0.108,0.054,121.21,1101.56,0.0105,0.0007,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.155,No,Radiation,46,Alive,1
+P0051,54,11.42,22.09,22.24,0.166,0.07,0.415,0.186,0.047,159.41,683.12,0.0115,0.0042,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.053,No,Chemotherapy,35,Alive,1
+P0795,36,56.74,21.52,35.69,0.123,0.26,0.178,0.206,0.058,127.11,484.65,0.0032,0.003,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.935,No,Hormone Therapy,58,Alive,1
+P0828,47,59.29,21.91,27.34,0.088,0.185,0.3,0.296,0.055,41.88,1410.95,0.0052,0.0096,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.806,Yes,Radiation,50,Alive,1
+P0331,61,56.25,25.74,30.69,0.151,0.211,0.144,0.043,0.086,164.56,670.24,0.0091,0.0056,Malignant,Medium,Atypical ductal hyperplasia observed.,Positive,Positive,0.553,No,Radiation,51,Alive,1
+P0781,62,17.87,17.1,16.34,0.168,0.174,0.142,0.3,0.088,156.86,2431.68,0.0198,0.0096,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.506,Yes,Hormone Therapy,34,Deceased,1
+P0164,40,17.69,16.22,36.5,0.075,0.013,0.201,0.288,0.056,66.6,1031.89,0.0067,0.0028,Benign,High,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.321,Yes,Chemotherapy,9,Alive,0
+P0685,57,28.87,9.66,30.7,0.091,0.091,0.497,0.385,0.049,42.43,1889.23,0.0191,0.0035,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.425,No,Radiation,6,Alive,1
+P0574,70,22.85,26.82,31.29,0.14,0.14,0.368,0.284,0.073,160.12,2289.61,0.0088,0.0049,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.72,No,Hormone Therapy,16,Alive,1
+P0469,75,48.6,15.85,19.17,0.051,0.15,0.49,0.273,0.051,148.24,1214.64,0.0014,0.0096,Malignant,Medium,"Fibroadenoma detected, benign nature.",Negative,Negative,0.024,No,Radiation,19,Alive,1
+P0215,48,23.05,23.26,15.1,0.077,0.183,0.109,0.15,0.05,49.14,776.15,0.0117,0.0083,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.707,No,Radiation,34,Alive,1
+P0104,42,12.42,17.45,14.67,0.146,0.139,0.249,0.22,0.05,70.4,763.07,0.0051,0.0013,Benign,High,No evidence of tumor recurrence.,Negative,Negative,0.046,No,Chemotherapy,21,Alive,0
+P0389,52,7.58,9.93,37.88,0.149,0.103,0.444,0.305,0.051,88.31,526.85,0.0101,0.006,Malignant,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.688,Yes,Surgery,59,Deceased,1
+P0464,58,24.6,16.95,11.17,0.065,0.125,0.17,0.172,0.088,66.99,2484.75,0.0144,0.0036,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.965,No,Hormone Therapy,47,Alive,0
+P0565,70,36.45,18.72,35.86,0.163,0.137,0.404,0.09,0.042,123.57,738.34,0.0062,0.0082,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.688,No,Radiation,35,Alive,1
+P0679,52,34.91,20.17,23.62,0.121,0.192,0.185,0.02,0.085,104.92,844.61,0.0155,0.0035,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.867,No,Chemotherapy,12,Alive,0
+P0001,26,44.22,16.79,30.39,0.174,0.158,0.326,0.217,0.06,96.99,2050.9,0.0074,0.0029,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.262,No,Hormone Therapy,53,Deceased,1
+P0569,32,53.37,21.72,36.85,0.158,0.194,0.49,0.225,0.058,125.33,1067.09,0.0162,0.0063,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.089,No,Radiation,37,Deceased,1
+P0961,48,50.13,12.05,15.67,0.124,0.192,0.273,0.224,0.049,52.11,1457.95,0.0189,0.0041,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.981,Yes,Hormone Therapy,11,Deceased,1
+P0641,62,34.8,13.6,12.8,0.189,0.087,0.28,0.341,0.043,93.02,1435.92,0.0087,0.0058,Malignant,High,Malignant cells present with irregular borders.,Negative,Negative,0.0,Yes,Chemotherapy,12,Alive,1
+P0066,78,11.23,26.66,39.88,0.116,0.114,0.321,0.297,0.064,164.49,1184.61,0.012,0.0008,Malignant,Medium,"Fibroadenoma detected, benign nature.",Negative,Negative,0.758,No,Hormone Therapy,14,Alive,1
+P0233,70,49.28,28.18,31.97,0.082,0.013,0.332,0.394,0.044,115.34,969.23,0.0126,0.0065,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.826,No,Chemotherapy,39,Alive,1
+P0923,63,5.7,21.6,36.41,0.058,0.221,0.25,0.278,0.089,116.51,955.22,0.0179,0.003,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Positive,0.298,Yes,Surgery,17,Alive,0
+P0903,66,27.26,15.17,36.14,0.106,0.099,0.287,0.054,0.046,43.05,1932.93,0.0084,0.0068,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Positive,0.426,Yes,Chemotherapy,22,Alive,0
+P0560,27,33.44,15.8,19.78,0.064,0.175,0.498,0.237,0.054,70.34,2098.45,0.0134,0.0029,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.431,Yes,Surgery,32,Alive,0
+P0758,55,21.68,6.7,31.25,0.193,0.145,0.24,0.083,0.073,62.72,283.23,0.0158,0.0049,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.954,No,Hormone Therapy,32,Alive,0
+P0383,48,47.15,20.05,36.81,0.152,0.067,0.266,0.032,0.078,157.44,597.07,0.0059,0.0049,Malignant,High,"Fibroadenoma detected, benign nature.",Positive,Negative,0.864,Yes,Hormone Therapy,24,Alive,1
+P0020,63,9.28,6.2,35.83,0.107,0.273,0.413,0.242,0.067,87.89,584.04,0.003,0.0049,Benign,Medium,No evidence of tumor recurrence.,Negative,Positive,0.07,Yes,Radiation,58,Alive,0
+P0891,70,43.94,22.54,11.34,0.157,0.251,0.102,0.356,0.06,87.71,2356.92,0.003,0.0019,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.045,Yes,Chemotherapy,40,Alive,0
+P0287,35,14.18,16.55,35.61,0.199,0.147,0.337,0.233,0.066,90.28,2347.95,0.0172,0.0006,Malignant,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.128,Yes,Hormone Therapy,16,Deceased,1
+P0062,55,15.98,13.69,38.75,0.153,0.279,0.229,0.042,0.045,75.28,1456.51,0.0045,0.0045,Benign,Medium,Malignant cells present with irregular borders.,Positive,Positive,0.89,No,Chemotherapy,57,Alive,0
+P0741,66,58.8,26.19,37.07,0.197,0.013,0.456,0.096,0.078,149.98,948.98,0.0126,0.0068,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.859,Yes,Hormone Therapy,18,Alive,0
+P0454,43,18.27,22.64,24.94,0.164,0.206,0.28,0.073,0.065,110.56,1400.71,0.0187,0.006,Benign,Medium,"Benign lesion, no signs of malignancy.",Positive,Positive,0.475,No,Hormone Therapy,12,Alive,0
+P0468,72,57.78,25.23,24.55,0.186,0.273,0.442,0.382,0.058,51.72,454.02,0.0099,0.0073,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.33,No,Radiation,28,Alive,0
+P0764,33,29.35,26.59,29.46,0.156,0.113,0.103,0.356,0.084,146.02,757.56,0.0181,0.0071,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.356,No,Hormone Therapy,10,Deceased,1
+P0100,40,18.17,24.06,21.14,0.128,0.121,0.456,0.123,0.07,106.61,1876.94,0.0176,0.0023,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.401,No,Radiation,28,Alive,1
+P0613,73,30.2,22.45,15.17,0.102,0.071,0.401,0.084,0.084,67.44,2471.88,0.0195,0.0059,Benign,High,Atypical ductal hyperplasia observed.,Positive,Negative,0.594,Yes,Chemotherapy,51,Alive,0
+P0636,36,35.79,26.96,37.12,0.145,0.186,0.337,0.337,0.061,177.08,1486.62,0.0046,0.004,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.894,Yes,Hormone Therapy,26,Alive,1
+P0422,32,46.18,28.12,19.86,0.123,0.282,0.279,0.034,0.07,116.24,1274.34,0.0056,0.0056,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.699,No,Chemotherapy,41,Alive,1
+P0942,35,8.99,29.86,24.86,0.129,0.025,0.362,0.372,0.078,97.06,977.67,0.0101,0.0099,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.722,No,Chemotherapy,46,Alive,1
+P0372,48,27.17,26.48,27.81,0.117,0.252,0.102,0.182,0.042,171.01,555.52,0.0042,0.0021,Malignant,High,Normal epithelial tissue morphology maintained.,Positive,Positive,0.385,No,Hormone Therapy,18,Alive,1
+P0557,44,55.51,13.33,25.83,0.055,0.071,0.389,0.215,0.07,144.19,728.83,0.013,0.0013,Benign,High,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.859,No,Surgery,49,Alive,0
+P0263,61,56.29,28.57,20.72,0.119,0.213,0.189,0.385,0.064,90.78,2351.29,0.0022,0.0065,Benign,High,"Fibroadenoma detected, benign nature.",Positive,Negative,0.973,No,Radiation,11,Deceased,0
+P0637,59,31.75,15.48,10.47,0.095,0.055,0.193,0.152,0.043,50.28,305.29,0.0146,0.0069,Malignant,Medium,Malignant cells present with irregular borders.,Positive,Positive,0.116,No,Chemotherapy,41,Alive,1
+P0490,43,56.3,16.82,23.68,0.165,0.117,0.391,0.176,0.049,140.38,1027.91,0.0026,0.0085,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.326,Yes,Chemotherapy,59,Alive,0
+P0048,75,25.13,19.93,35.84,0.076,0.202,0.48,0.194,0.064,52.46,1566.57,0.014,0.0017,Benign,Medium,"Fibroadenoma detected, benign nature.",Negative,Negative,0.999,No,Hormone Therapy,57,Alive,0
+P0347,60,15.98,11.31,37.38,0.106,0.181,0.49,0.116,0.081,62.47,735.39,0.004,0.0041,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.959,No,Hormone Therapy,27,Alive,0
+P0118,77,18.55,27.19,24.93,0.108,0.069,0.193,0.237,0.044,55.2,654.87,0.02,0.0073,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.326,No,Hormone Therapy,21,Alive,0
+P0222,64,45.52,14.19,39.21,0.131,0.097,0.151,0.08,0.06,77.12,2308.69,0.0133,0.0084,Benign,Low,"Benign lesion, no signs of malignancy.",Negative,Negative,0.269,No,Radiation,36,Deceased,0
+P0204,69,59.96,27.4,16.3,0.08,0.108,0.464,0.093,0.049,141.32,469.2,0.0109,0.0016,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.926,No,Radiation,37,Alive,0
+P0416,60,15.94,29.58,13.49,0.06,0.123,0.138,0.206,0.05,179.97,2232.92,0.0066,0.001,Benign,Low,No evidence of tumor recurrence.,Negative,Negative,0.794,No,Chemotherapy,16,Alive,0
+P0616,35,31.57,25.58,18.13,0.128,0.255,0.246,0.218,0.079,63.69,315.83,0.0091,0.0071,Malignant,High,Invasive ductal carcinoma detected.,Negative,Negative,0.269,No,Chemotherapy,56,Deceased,1
+P0113,59,45.94,22.63,15.32,0.083,0.081,0.433,0.306,0.054,117.43,274.05,0.0181,0.0055,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.369,No,Chemotherapy,57,Alive,1
+P0401,66,24.79,18.72,19.68,0.102,0.259,0.439,0.286,0.075,140.19,2063.7,0.01,0.0077,Malignant,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.294,No,Hormone Therapy,57,Alive,1
+P0050,36,33.78,13.68,23.55,0.148,0.127,0.251,0.33,0.041,147.51,808.56,0.0051,0.0007,Benign,High,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.82,Yes,Radiation,49,Alive,0
+P0335,32,33.05,15.6,12.99,0.094,0.033,0.259,0.316,0.074,168.87,2347.89,0.0054,0.0078,Benign,High,"Benign lesion, no signs of malignancy.",Negative,Negative,0.845,Yes,Chemotherapy,22,Alive,0
+P0187,51,11.23,9.93,22.56,0.055,0.235,0.275,0.237,0.044,123.11,1839.12,0.0182,0.0007,Benign,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.106,No,Chemotherapy,15,Alive,0
+P0947,37,50.81,13.42,32.08,0.054,0.267,0.107,0.266,0.085,136.38,1842.1,0.0062,0.004,Benign,Low,Malignant cells present with irregular borders.,Positive,Positive,0.438,No,Hormone Therapy,41,Alive,0
+P0598,37,57.93,8.48,14.04,0.092,0.117,0.155,0.011,0.06,173.61,1501.17,0.0199,0.0046,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.61,No,Hormone Therapy,10,Alive,0
+P0297,59,56.23,22.75,24.11,0.196,0.119,0.456,0.17,0.069,142.18,1722.89,0.0013,0.0099,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.917,No,Surgery,59,Alive,0
+P0520,53,32.7,26.0,21.1,0.197,0.097,0.262,0.381,0.047,170.45,2214.65,0.0118,0.0011,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Positive,0.292,Yes,Surgery,48,Alive,0
+P0817,78,39.83,16.49,15.75,0.186,0.08,0.259,0.106,0.075,127.42,1939.48,0.0072,0.0072,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.733,Yes,Hormone Therapy,50,Alive,1
+P0178,74,56.34,6.02,17.56,0.12,0.229,0.223,0.255,0.088,62.48,2322.2,0.0059,0.0022,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.588,No,Hormone Therapy,38,Alive,1
+P0893,25,19.08,26.61,31.48,0.152,0.13,0.499,0.235,0.065,83.6,2172.26,0.0107,0.0047,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.109,No,Surgery,9,Alive,0
+P0390,64,36.15,15.15,19.1,0.093,0.108,0.47,0.113,0.052,59.26,796.6,0.0045,0.0042,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Positive,0.349,Yes,Radiation,43,Alive,0
+P0946,63,34.86,16.19,25.5,0.056,0.099,0.423,0.098,0.077,174.48,894.71,0.0056,0.007,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.218,No,Radiation,25,Alive,0
+P0900,79,52.92,28.68,35.78,0.172,0.296,0.22,0.174,0.059,67.18,372.03,0.0071,0.0088,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.378,Yes,Radiation,45,Alive,0
+P0424,71,47.42,23.56,29.31,0.193,0.143,0.287,0.076,0.04,137.35,608.53,0.0029,0.0047,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.386,No,Surgery,42,Alive,0
+P0748,40,20.11,23.01,35.4,0.069,0.169,0.238,0.219,0.044,71.96,1087.47,0.0022,0.0021,Malignant,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.648,Yes,Chemotherapy,46,Alive,1
+P0296,33,17.47,13.28,37.6,0.147,0.155,0.215,0.098,0.047,156.98,606.79,0.018,0.0076,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Positive,0.375,No,Surgery,21,Alive,1
+P0455,72,16.45,6.95,27.39,0.164,0.114,0.492,0.081,0.089,68.44,1073.9,0.0146,0.0022,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.2,No,Radiation,27,Alive,0
+P0884,63,20.38,21.38,10.03,0.118,0.268,0.173,0.344,0.073,138.09,1770.21,0.0093,0.0048,Malignant,Low,Malignant cells present with irregular borders.,Negative,Positive,0.7,No,Radiation,46,Alive,1
+P0398,59,29.57,20.47,10.16,0.108,0.075,0.12,0.25,0.089,149.75,969.73,0.0132,0.0011,Malignant,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.195,No,Chemotherapy,59,Deceased,1
+P0120,39,12.24,18.42,11.8,0.11,0.014,0.115,0.141,0.089,63.91,2295.5,0.0127,0.0059,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.318,No,Hormone Therapy,23,Alive,0
+P0994,61,50.63,15.31,24.11,0.094,0.169,0.357,0.345,0.068,43.13,1329.4,0.0173,0.0086,Malignant,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.904,No,Hormone Therapy,38,Alive,1
+P0417,29,38.09,21.29,27.89,0.196,0.285,0.228,0.371,0.067,109.02,211.99,0.0162,0.0066,Benign,High,"Fibroadenoma detected, benign nature.",Positive,Negative,0.061,Yes,Hormone Therapy,46,Alive,0
+P0128,41,52.54,20.76,15.29,0.097,0.082,0.301,0.165,0.082,140.34,208.39,0.0026,0.0072,Malignant,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.28,No,Hormone Therapy,17,Alive,1
+P0420,58,35.06,18.39,22.89,0.116,0.225,0.163,0.393,0.079,45.93,1811.68,0.0041,0.0056,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.372,No,Radiation,7,Alive,0
+P0999,42,30.57,15.92,29.12,0.138,0.207,0.365,0.094,0.083,48.78,2416.48,0.0149,0.0052,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.703,No,Radiation,23,Alive,0
+P0799,44,34.95,19.16,16.05,0.173,0.183,0.231,0.261,0.058,168.55,2405.72,0.0039,0.0093,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.349,No,Surgery,26,Alive,0
+P0103,48,22.63,22.07,16.11,0.079,0.166,0.5,0.013,0.06,135.84,2461.27,0.0011,0.0092,Malignant,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.963,Yes,Hormone Therapy,57,Alive,1
+P0231,76,53.11,17.74,24.15,0.165,0.035,0.448,0.322,0.051,148.48,1203.92,0.0122,0.0032,Malignant,Medium,Normal epithelial tissue morphology maintained.,Negative,Negative,0.573,No,Radiation,26,Deceased,1
+P0763,39,41.02,23.92,21.1,0.084,0.142,0.175,0.197,0.042,72.64,1876.79,0.0126,0.01,Malignant,Medium,"Benign lesion, no signs of malignancy.",Negative,Positive,0.019,Yes,Radiation,28,Deceased,1
+P0243,46,22.21,9.95,25.2,0.147,0.111,0.291,0.198,0.069,66.14,2224.8,0.0042,0.0063,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.338,No,Radiation,44,Alive,1
+P0410,78,21.4,20.36,26.7,0.124,0.269,0.319,0.034,0.078,93.88,1735.36,0.0167,0.0056,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.246,No,Chemotherapy,48,Alive,0
+P0074,76,35.57,27.63,18.5,0.057,0.07,0.237,0.234,0.085,131.83,2232.69,0.0118,0.0065,Malignant,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.525,No,Hormone Therapy,43,Alive,1
+P0604,75,22.29,15.66,29.78,0.185,0.202,0.257,0.367,0.083,76.06,781.23,0.0142,0.0035,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.514,No,Chemotherapy,51,Alive,0
+P0904,41,17.39,28.96,29.89,0.053,0.272,0.27,0.396,0.077,135.14,765.35,0.0022,0.005,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.232,No,Chemotherapy,56,Alive,0
+P0588,71,47.61,21.48,38.85,0.189,0.073,0.368,0.159,0.067,139.61,2256.45,0.0123,0.0074,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.956,Yes,Chemotherapy,31,Alive,1
+P0312,39,26.61,10.65,22.54,0.114,0.021,0.133,0.143,0.08,134.61,2039.75,0.0164,0.0013,Benign,Low,Invasive ductal carcinoma detected.,Negative,Positive,0.914,No,Hormone Therapy,25,Alive,0
+P0125,41,34.02,7.28,14.32,0.099,0.093,0.187,0.106,0.056,162.15,937.53,0.0085,0.0032,Malignant,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.655,No,Hormone Therapy,28,Deceased,1
+P0471,65,32.13,15.75,21.46,0.073,0.174,0.124,0.011,0.057,163.37,1362.27,0.007,0.0089,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.506,Yes,Chemotherapy,22,Alive,1
+P0009,75,36.73,23.29,36.46,0.13,0.077,0.273,0.362,0.068,155.87,691.54,0.0107,0.0013,Benign,Low,Invasive ductal carcinoma detected.,Positive,Positive,0.385,No,Radiation,54,Alive,0
+P0872,77,10.53,8.81,18.56,0.099,0.039,0.284,0.145,0.075,125.6,819.71,0.0038,0.0062,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.75,Yes,Chemotherapy,9,Alive,0
+P0686,44,50.07,23.04,20.04,0.132,0.077,0.141,0.102,0.08,179.16,1352.35,0.0025,0.0061,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.126,No,Radiation,19,Alive,1
+P0897,61,29.04,8.76,28.79,0.193,0.19,0.413,0.243,0.048,73.31,563.54,0.004,0.0058,Malignant,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.798,Yes,Surgery,26,Alive,1
+P0615,27,18.3,10.68,18.57,0.119,0.035,0.245,0.28,0.058,150.06,1694.04,0.0061,0.0033,Malignant,High,Malignant cells present with irregular borders.,Positive,Positive,0.41,No,Hormone Therapy,17,Alive,1
+P0752,62,50.81,10.29,17.57,0.186,0.287,0.302,0.221,0.047,124.5,875.11,0.0042,0.0053,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.844,No,Radiation,55,Alive,0
+P0435,77,6.71,26.13,27.63,0.172,0.207,0.479,0.02,0.045,159.67,1423.56,0.0194,0.0008,Benign,High,"Fibroadenoma detected, benign nature.",Positive,Negative,0.358,Yes,Hormone Therapy,39,Alive,0
+P0724,74,46.71,15.55,10.71,0.104,0.247,0.369,0.174,0.08,89.86,606.07,0.0033,0.0009,Benign,High,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.809,No,Surgery,14,Alive,0
+P0275,28,27.28,8.28,17.86,0.149,0.162,0.117,0.053,0.063,152.53,367.81,0.0114,0.0067,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.004,No,Surgery,34,Alive,1
+P0124,45,35.54,7.77,26.01,0.126,0.065,0.314,0.301,0.063,96.72,2304.07,0.0015,0.0065,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.459,No,Radiation,42,Alive,1
+P0348,36,7.08,12.46,33.42,0.072,0.239,0.372,0.025,0.071,50.77,809.34,0.0095,0.0091,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.959,Yes,Chemotherapy,17,Alive,1
+P0476,76,41.67,14.48,20.45,0.051,0.089,0.301,0.129,0.061,130.36,1257.59,0.0108,0.0053,Malignant,Medium,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.435,No,Surgery,40,Deceased,1
+P0630,63,17.55,12.93,31.06,0.146,0.205,0.129,0.207,0.068,41.48,523.92,0.0052,0.0032,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.624,No,Surgery,12,Alive,1
+P0107,31,29.3,20.92,22.36,0.088,0.024,0.499,0.245,0.052,150.46,452.14,0.0038,0.0048,Malignant,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.213,No,Radiation,39,Alive,1
+P0858,71,18.98,14.41,32.62,0.086,0.031,0.186,0.024,0.071,163.61,1828.75,0.0041,0.0095,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.584,Yes,Chemotherapy,10,Alive,0
+P0934,55,37.96,11.56,12.99,0.144,0.231,0.191,0.103,0.05,88.06,2469.82,0.0172,0.0079,Benign,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.45,No,Radiation,46,Alive,0
+P0754,53,48.41,16.04,14.94,0.186,0.215,0.169,0.373,0.05,159.05,1047.73,0.001,0.0051,Malignant,Medium,Invasive ductal carcinoma detected.,Positive,Positive,0.869,Yes,Radiation,13,Alive,1
+P0036,30,29.97,10.61,35.42,0.127,0.235,0.289,0.354,0.052,142.74,1710.63,0.0082,0.0031,Benign,Medium,Normal epithelial tissue morphology maintained.,Negative,Negative,0.909,Yes,Radiation,39,Alive,0
+P0186,48,14.41,20.49,27.98,0.051,0.058,0.229,0.27,0.054,164.75,1128.45,0.0108,0.0044,Benign,Low,No evidence of tumor recurrence.,Positive,Positive,0.02,Yes,Chemotherapy,47,Alive,0
+P0747,41,28.67,12.22,24.85,0.173,0.067,0.336,0.093,0.072,107.04,1651.33,0.0114,0.0023,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.16,No,Surgery,17,Deceased,1
+P0887,36,9.13,10.96,13.13,0.164,0.168,0.346,0.302,0.061,62.07,786.08,0.0142,0.002,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.036,No,Hormone Therapy,52,Alive,0
+P0333,42,24.7,15.46,30.94,0.171,0.093,0.219,0.131,0.041,50.55,1003.31,0.0116,0.0055,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.362,No,Chemotherapy,32,Alive,1
+P0645,76,57.1,7.58,27.12,0.085,0.283,0.372,0.083,0.068,116.01,1958.69,0.016,0.0048,Benign,High,"Benign lesion, no signs of malignancy.",Positive,Positive,0.129,No,Hormone Therapy,28,Alive,0
+P0095,39,52.24,20.2,16.41,0.08,0.207,0.426,0.368,0.074,116.48,529.58,0.0072,0.01,Malignant,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.383,No,Surgery,38,Alive,1
+P0137,42,16.98,27.15,29.75,0.116,0.03,0.328,0.296,0.042,66.71,1769.13,0.007,0.0032,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.568,No,Chemotherapy,41,Alive,1
+P0400,53,50.07,27.45,20.18,0.075,0.264,0.433,0.174,0.088,122.79,547.72,0.0196,0.0089,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.59,No,Chemotherapy,8,Alive,0
+P0945,40,41.78,13.59,16.44,0.055,0.3,0.436,0.286,0.063,159.87,2238.8,0.0188,0.0017,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.026,Yes,Surgery,20,Alive,1
+P0475,49,13.37,25.35,22.77,0.151,0.014,0.224,0.109,0.045,91.28,2214.11,0.0072,0.0073,Benign,Low,"Fibroadenoma detected, benign nature.",Negative,Positive,0.463,No,Hormone Therapy,38,Alive,0
+P0929,31,32.3,28.37,34.13,0.087,0.177,0.126,0.047,0.061,141.17,1193.07,0.0038,0.0076,Malignant,Low,"Fibroadenoma detected, benign nature.",Negative,Positive,0.921,No,Hormone Therapy,7,Alive,1
+P0053,58,34.53,21.0,17.5,0.124,0.263,0.167,0.359,0.074,128.35,1777.51,0.02,0.005,Benign,Low,Malignant cells present with irregular borders.,Negative,Negative,0.537,Yes,Hormone Therapy,20,Alive,0
+P0802,33,59.17,12.77,35.06,0.168,0.042,0.424,0.024,0.089,123.68,333.39,0.0063,0.0019,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Positive,0.175,No,Surgery,59,Deceased,1
+P0426,61,15.68,10.81,32.65,0.103,0.211,0.157,0.082,0.046,76.27,1712.18,0.016,0.0049,Malignant,High,"Fibroadenoma detected, benign nature.",Negative,Negative,0.017,Yes,Chemotherapy,32,Deceased,1
+P0351,26,7.88,29.81,28.8,0.109,0.129,0.403,0.243,0.059,153.25,500.44,0.0194,0.0093,Benign,Low,No evidence of tumor recurrence.,Positive,Positive,0.998,No,Surgery,33,Alive,0
+P0912,33,51.01,16.48,37.77,0.114,0.049,0.187,0.217,0.056,165.76,1307.44,0.009,0.0059,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.322,No,Radiation,14,Alive,1
+P0601,29,50.25,10.35,13.78,0.113,0.1,0.218,0.034,0.082,135.28,1211.18,0.0073,0.0046,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.429,Yes,Chemotherapy,34,Alive,0
+P0056,37,52.82,13.52,22.54,0.155,0.166,0.461,0.115,0.068,94.72,1496.23,0.0076,0.0009,Malignant,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.762,No,Radiation,35,Alive,1
+P0227,78,31.5,6.74,35.74,0.109,0.156,0.325,0.36,0.041,173.87,1770.08,0.0093,0.0059,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.729,No,Radiation,34,Alive,0
+P0621,73,31.18,12.92,16.0,0.06,0.171,0.372,0.296,0.084,140.0,849.01,0.0147,0.0092,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.078,Yes,Chemotherapy,9,Alive,0
+P0268,67,58.64,15.88,13.82,0.152,0.287,0.275,0.066,0.089,83.11,2022.95,0.0049,0.0069,Benign,High,Normal epithelial tissue morphology maintained.,Positive,Negative,0.15,Yes,Chemotherapy,56,Alive,0
+P0609,70,43.46,17.54,21.06,0.109,0.231,0.192,0.049,0.043,109.05,1092.82,0.0184,0.0079,Benign,Medium,"Benign lesion, no signs of malignancy.",Positive,Negative,0.38,No,Chemotherapy,9,Alive,0
+P0782,78,7.74,28.58,28.98,0.088,0.101,0.175,0.344,0.069,44.64,992.75,0.0011,0.0078,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.061,Yes,Chemotherapy,50,Alive,0
+P0784,42,40.98,17.1,19.32,0.103,0.259,0.417,0.163,0.059,105.75,1448.93,0.0048,0.0041,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.22,No,Surgery,52,Alive,0
+P0931,55,42.33,24.38,28.71,0.177,0.127,0.185,0.397,0.06,154.11,1689.43,0.0067,0.0049,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.105,No,Surgery,13,Alive,0
+P0684,39,41.4,21.1,24.89,0.175,0.144,0.233,0.39,0.065,101.41,1240.32,0.0157,0.0019,Malignant,High,Atypical ductal hyperplasia observed.,Positive,Negative,0.067,Yes,Radiation,40,Alive,1
+P0577,78,30.35,20.61,32.38,0.085,0.094,0.209,0.081,0.061,177.88,2339.58,0.0052,0.0046,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.437,Yes,Radiation,26,Deceased,1
+P0757,50,33.96,12.5,20.5,0.092,0.158,0.372,0.189,0.06,137.82,2303.42,0.0123,0.0087,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Positive,0.959,Yes,Chemotherapy,22,Deceased,0
+P0938,35,23.53,17.25,20.45,0.085,0.131,0.234,0.114,0.051,117.38,1108.79,0.0185,0.0053,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.713,No,Radiation,50,Alive,1
+P0116,53,24.01,24.47,38.42,0.118,0.274,0.235,0.038,0.048,109.8,1617.62,0.0122,0.0007,Benign,High,Normal epithelial tissue morphology maintained.,Positive,Negative,0.797,No,Hormone Therapy,30,Alive,0
+P0572,59,8.88,9.05,22.47,0.124,0.252,0.208,0.077,0.075,129.65,2244.07,0.0038,0.007,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.42,No,Hormone Therapy,15,Alive,1
+P0292,38,27.9,25.97,37.99,0.177,0.18,0.461,0.378,0.075,91.03,1860.43,0.0163,0.005,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.41,Yes,Surgery,55,Alive,1
+P0148,41,25.84,21.47,19.69,0.157,0.058,0.143,0.304,0.077,115.73,1140.87,0.0038,0.0041,Benign,Low,"Benign lesion, no signs of malignancy.",Negative,Positive,0.296,No,Chemotherapy,30,Alive,0
+P0985,75,26.65,27.07,27.79,0.122,0.215,0.136,0.129,0.056,123.49,2071.62,0.0079,0.0074,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.839,No,Radiation,31,Alive,0
+P0060,77,10.6,11.89,16.99,0.197,0.123,0.11,0.365,0.064,115.03,2204.76,0.0119,0.0073,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.491,No,Surgery,22,Alive,1
+P0528,78,28.8,11.13,19.92,0.148,0.121,0.121,0.199,0.089,93.72,759.92,0.003,0.007,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.444,Yes,Radiation,45,Alive,0
+P0059,27,7.0,15.53,13.18,0.066,0.111,0.488,0.119,0.047,137.69,1011.37,0.0019,0.004,Benign,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.727,Yes,Hormone Therapy,31,Deceased,0
+P0834,62,20.74,20.28,23.86,0.18,0.297,0.483,0.254,0.058,105.32,993.86,0.0158,0.0075,Benign,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.149,No,Radiation,16,Alive,0
+P0423,63,50.54,24.18,31.61,0.175,0.224,0.467,0.024,0.057,68.73,2120.44,0.0182,0.0022,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.068,No,Chemotherapy,19,Alive,1
+P0860,60,31.69,9.2,24.03,0.191,0.131,0.157,0.368,0.071,136.88,1497.03,0.0025,0.0087,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.866,Yes,Chemotherapy,43,Alive,0
+P0737,51,9.29,22.64,26.47,0.051,0.102,0.264,0.055,0.041,156.62,650.3,0.0164,0.0048,Malignant,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.837,No,Chemotherapy,56,Deceased,1
+P0896,45,34.5,22.16,23.46,0.159,0.061,0.451,0.316,0.084,119.27,2147.41,0.0197,0.002,Benign,High,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.096,Yes,Chemotherapy,55,Alive,0
+P0927,36,12.6,11.95,18.74,0.154,0.123,0.441,0.013,0.068,69.62,2016.8,0.018,0.0099,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.829,No,Chemotherapy,55,Alive,0
+P0538,25,42.91,20.06,24.64,0.106,0.022,0.155,0.076,0.061,103.98,1787.3,0.0193,0.0017,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.61,Yes,Chemotherapy,9,Alive,0
+P0199,57,9.76,16.21,15.21,0.165,0.199,0.186,0.031,0.052,115.21,1083.57,0.01,0.0044,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.162,Yes,Chemotherapy,28,Alive,0
+P0699,79,54.72,20.95,19.12,0.11,0.272,0.314,0.124,0.081,146.1,742.57,0.0074,0.0049,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.888,Yes,Surgery,45,Alive,0
+P0366,30,56.39,21.55,25.81,0.092,0.218,0.429,0.35,0.049,143.41,2246.99,0.0136,0.001,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.734,No,Surgery,41,Alive,0
+P0226,69,24.53,16.93,14.29,0.105,0.288,0.218,0.275,0.09,165.42,427.59,0.0084,0.0012,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.515,No,Radiation,55,Alive,0
+P0184,65,18.1,21.97,12.69,0.097,0.075,0.386,0.37,0.048,161.64,981.2,0.0168,0.0037,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.958,Yes,Hormone Therapy,43,Alive,1
+P0976,73,9.66,27.83,12.35,0.162,0.292,0.177,0.367,0.066,52.25,1925.36,0.0132,0.0009,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.132,No,Chemotherapy,55,Deceased,1
+P0963,50,18.16,28.16,31.61,0.132,0.051,0.495,0.372,0.064,92.41,2326.58,0.0113,0.0043,Benign,High,Invasive ductal carcinoma detected.,Positive,Negative,0.716,Yes,Hormone Therapy,22,Alive,0
+P0291,74,15.65,20.75,31.97,0.111,0.258,0.125,0.119,0.047,150.13,1555.16,0.0139,0.0029,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.671,No,Hormone Therapy,12,Alive,1
+P0369,30,36.12,7.91,34.84,0.142,0.017,0.492,0.376,0.047,114.91,1174.87,0.0148,0.0068,Benign,Medium,No evidence of tumor recurrence.,Positive,Positive,0.068,No,Chemotherapy,47,Alive,0
+P0990,35,14.18,15.55,20.02,0.186,0.141,0.203,0.095,0.061,144.45,1698.4,0.0097,0.0037,Malignant,Medium,No evidence of tumor recurrence.,Positive,Negative,0.83,No,Chemotherapy,38,Alive,1
+P0583,56,39.44,29.13,19.69,0.147,0.271,0.343,0.012,0.043,78.32,1674.05,0.0143,0.0089,Benign,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.322,No,Surgery,35,Alive,0
+P0832,49,10.21,29.41,37.37,0.07,0.023,0.402,0.247,0.081,72.4,293.78,0.0128,0.0055,Benign,High,"Benign lesion, no signs of malignancy.",Negative,Negative,0.005,No,Radiation,57,Alive,0
+P0659,72,33.0,19.39,22.07,0.136,0.023,0.493,0.371,0.084,48.14,1184.51,0.0025,0.0059,Benign,Low,No evidence of tumor recurrence.,Positive,Positive,0.166,No,Hormone Therapy,59,Alive,0
+P0732,41,34.97,16.59,28.33,0.114,0.285,0.406,0.353,0.043,137.46,2483.41,0.0129,0.0009,Malignant,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.831,Yes,Surgery,21,Alive,1
+P0736,70,44.73,29.27,25.36,0.128,0.18,0.271,0.218,0.078,88.79,936.83,0.0095,0.0093,Malignant,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.078,No,Chemotherapy,58,Alive,1
+P0315,46,57.69,6.2,20.51,0.076,0.117,0.352,0.269,0.063,98.79,986.04,0.0137,0.0044,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.391,No,Chemotherapy,9,Alive,0
+P0628,50,47.9,7.66,13.42,0.108,0.241,0.32,0.054,0.084,148.46,1234.22,0.0098,0.0009,Malignant,High,Invasive ductal carcinoma detected.,Positive,Negative,0.021,Yes,Radiation,43,Alive,1
+P0462,31,18.27,17.36,13.11,0.051,0.204,0.129,0.34,0.087,111.61,2470.83,0.0071,0.0055,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.501,No,Radiation,31,Alive,0
+P0676,55,5.51,10.87,24.28,0.127,0.241,0.346,0.028,0.045,66.16,549.51,0.0121,0.0023,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.272,No,Chemotherapy,35,Alive,0
+P0619,49,46.23,13.16,12.28,0.086,0.211,0.495,0.338,0.081,82.72,2367.65,0.0046,0.0013,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.517,No,Chemotherapy,30,Alive,0
+P0361,68,14.5,11.88,24.49,0.191,0.032,0.496,0.205,0.077,56.57,1138.84,0.0103,0.0025,Benign,High,Atypical ductal hyperplasia observed.,Positive,Negative,0.525,No,Hormone Therapy,11,Alive,0
+P0590,76,56.35,28.82,32.02,0.144,0.016,0.29,0.054,0.066,137.85,1301.01,0.0171,0.001,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.233,No,Hormone Therapy,21,Alive,0
+P0071,44,14.44,21.61,28.13,0.1,0.2,0.129,0.104,0.06,112.26,945.06,0.0119,0.0049,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Positive,0.379,No,Surgery,27,Alive,1
+P0470,42,38.21,11.52,25.53,0.16,0.143,0.276,0.224,0.069,53.99,2060.74,0.016,0.0071,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.499,Yes,Radiation,39,Alive,0
+P0639,76,14.7,10.97,34.29,0.183,0.19,0.336,0.232,0.081,74.02,1644.26,0.0097,0.0028,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.429,Yes,Surgery,56,Deceased,0
+P0065,64,44.9,16.51,14.83,0.079,0.06,0.156,0.256,0.042,108.98,1201.17,0.0191,0.0015,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.914,No,Radiation,59,Alive,0
+P0458,27,20.38,21.28,12.52,0.189,0.288,0.454,0.298,0.053,177.81,1100.3,0.0126,0.0083,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.086,No,Surgery,56,Alive,0
+P0283,52,39.05,22.6,27.53,0.087,0.268,0.411,0.166,0.082,146.43,1339.58,0.0138,0.0046,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.581,Yes,Chemotherapy,44,Alive,0
+P0272,44,15.85,28.66,29.51,0.121,0.017,0.236,0.308,0.065,111.08,884.76,0.0122,0.0026,Malignant,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.122,Yes,Surgery,20,Alive,1
+P0640,55,49.7,15.07,35.12,0.084,0.047,0.224,0.228,0.045,74.8,2486.34,0.0038,0.006,Malignant,Low,No evidence of tumor recurrence.,Positive,Positive,0.336,No,Chemotherapy,34,Alive,1
+P0982,49,48.4,9.27,29.03,0.1,0.273,0.365,0.156,0.071,79.81,1657.53,0.0036,0.002,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.076,No,Radiation,12,Alive,0
+P0022,45,55.6,19.94,30.33,0.158,0.293,0.359,0.024,0.056,177.98,1265.66,0.0149,0.0008,Malignant,Medium,"Fibroadenoma detected, benign nature.",Negative,Positive,0.456,No,Surgery,12,Deceased,1
+P0362,54,25.87,22.33,25.42,0.068,0.041,0.45,0.161,0.08,149.31,804.49,0.0096,0.004,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Positive,0.597,Yes,Radiation,17,Alive,0
+P0873,75,22.03,29.66,35.33,0.176,0.205,0.337,0.312,0.042,49.65,1577.06,0.0015,0.0041,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.57,Yes,Radiation,13,Alive,0
+P0461,47,52.61,24.53,12.23,0.052,0.278,0.35,0.259,0.05,158.83,1452.99,0.0194,0.0088,Benign,High,No evidence of tumor recurrence.,Negative,Negative,0.007,Yes,Surgery,47,Deceased,0
+P0677,53,29.33,16.84,13.68,0.1,0.187,0.491,0.179,0.075,126.75,287.7,0.0126,0.0061,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.072,No,Radiation,41,Alive,0
+P0968,67,35.82,9.76,38.17,0.181,0.073,0.359,0.06,0.084,90.95,2122.46,0.0088,0.0049,Benign,Low,"Benign lesion, no signs of malignancy.",Negative,Negative,0.056,Yes,Surgery,57,Alive,0
+P0356,56,27.88,27.14,31.97,0.099,0.012,0.471,0.226,0.082,76.06,2345.93,0.0191,0.0021,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.124,No,Hormone Therapy,16,Alive,0
+P0920,43,26.9,26.96,37.55,0.157,0.214,0.373,0.194,0.06,111.2,2075.93,0.0075,0.0091,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.694,No,Hormone Therapy,27,Alive,0
+P0563,48,8.62,11.81,39.58,0.142,0.163,0.421,0.222,0.043,165.21,984.15,0.0065,0.0092,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.785,Yes,Hormone Therapy,42,Alive,0
+P0704,72,44.62,20.73,33.25,0.181,0.27,0.313,0.024,0.048,152.02,246.57,0.0164,0.0078,Benign,Medium,"Benign lesion, no signs of malignancy.",Positive,Negative,0.725,Yes,Chemotherapy,36,Alive,0
+P0045,36,36.99,12.75,29.66,0.11,0.147,0.362,0.227,0.087,178.73,663.51,0.0157,0.0079,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.052,No,Radiation,59,Alive,0
+P0607,44,27.6,9.04,29.14,0.142,0.104,0.351,0.241,0.045,114.09,1583.84,0.013,0.0075,Benign,High,Invasive ductal carcinoma detected.,Positive,Negative,0.295,Yes,Chemotherapy,15,Deceased,0
+P0868,64,26.47,11.47,27.49,0.14,0.283,0.16,0.336,0.074,70.22,763.72,0.0066,0.0062,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.701,Yes,Hormone Therapy,10,Alive,1
+P0198,63,21.74,9.08,17.54,0.124,0.172,0.395,0.078,0.052,113.75,920.09,0.0047,0.006,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.953,No,Radiation,19,Alive,0
+P0783,29,19.77,17.67,39.28,0.113,0.062,0.3,0.131,0.089,77.57,1004.84,0.006,0.0025,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.154,No,Radiation,51,Alive,1
+P0397,66,31.06,7.52,34.72,0.151,0.234,0.153,0.341,0.078,61.0,466.35,0.0026,0.0055,Benign,High,Invasive ductal carcinoma detected.,Positive,Positive,0.735,Yes,Hormone Therapy,16,Alive,0
+P0480,43,29.52,25.07,23.63,0.149,0.242,0.451,0.027,0.069,125.27,1925.72,0.0102,0.0082,Benign,Low,Malignant cells present with irregular borders.,Negative,Positive,0.83,Yes,Radiation,12,Alive,0
+P0657,63,14.39,24.26,38.26,0.1,0.216,0.304,0.076,0.088,114.97,433.46,0.0037,0.0022,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.559,No,Chemotherapy,26,Alive,1
+P0381,46,31.13,8.93,29.31,0.066,0.066,0.174,0.29,0.049,172.09,272.22,0.0096,0.008,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.374,No,Surgery,56,Alive,1
+P0535,43,9.72,27.22,28.36,0.084,0.198,0.32,0.167,0.067,87.98,2376.2,0.0192,0.0016,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.013,No,Chemotherapy,32,Alive,1
+P0855,62,37.84,15.12,25.25,0.073,0.126,0.492,0.338,0.062,83.4,2270.64,0.01,0.0064,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.156,Yes,Chemotherapy,10,Alive,0
+P0097,73,52.57,9.54,22.38,0.074,0.25,0.332,0.08,0.052,115.94,745.2,0.0014,0.0028,Benign,Low,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.45,No,Radiation,30,Alive,0
+P0117,47,49.42,19.47,14.08,0.155,0.072,0.158,0.047,0.041,162.59,1775.57,0.0069,0.0073,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.567,Yes,Radiation,27,Deceased,1
+P0864,64,9.73,24.26,25.83,0.113,0.23,0.412,0.353,0.088,107.59,1875.7,0.0112,0.0072,Benign,High,Invasive ductal carcinoma detected.,Negative,Positive,0.87,Yes,Radiation,9,Deceased,0
+P0975,30,19.27,21.24,38.47,0.055,0.21,0.176,0.042,0.063,112.04,2410.94,0.0107,0.0069,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.761,No,Surgery,56,Alive,0
+P0483,39,29.67,26.52,35.38,0.094,0.084,0.44,0.183,0.06,106.06,2062.72,0.0037,0.0072,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.38,No,Surgery,30,Alive,0
+P0306,35,8.95,7.33,25.17,0.177,0.285,0.464,0.14,0.055,79.84,394.45,0.0095,0.0095,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.709,Yes,Surgery,49,Deceased,0
+P0449,68,47.17,28.14,23.08,0.141,0.101,0.409,0.154,0.064,51.66,267.38,0.0095,0.0073,Benign,Medium,"Benign lesion, no signs of malignancy.",Negative,Positive,0.754,No,Chemotherapy,57,Alive,0
+P0508,36,42.24,28.77,33.25,0.137,0.26,0.331,0.086,0.066,52.89,479.32,0.018,0.0088,Malignant,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.626,No,Surgery,51,Deceased,1
+P0363,41,55.1,8.91,34.88,0.082,0.154,0.499,0.249,0.077,90.93,1524.23,0.0073,0.0082,Malignant,Low,No evidence of tumor recurrence.,Positive,Positive,0.735,No,Chemotherapy,28,Alive,1
+P0452,66,34.35,24.16,19.03,0.055,0.196,0.272,0.392,0.059,76.1,1287.13,0.0093,0.0037,Malignant,High,Atypical ductal hyperplasia observed.,Positive,Negative,0.674,Yes,Hormone Therapy,24,Alive,1
+P0004,57,46.52,18.69,33.16,0.155,0.1,0.149,0.354,0.045,132.33,2316.0,0.0165,0.0071,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.434,No,Radiation,24,Alive,1
+P0115,42,12.17,14.22,34.32,0.167,0.039,0.108,0.05,0.083,94.63,327.4,0.0076,0.0059,Malignant,High,Normal epithelial tissue morphology maintained.,Positive,Positive,0.801,No,Hormone Therapy,38,Alive,1
+P0147,78,46.0,24.02,34.85,0.082,0.138,0.298,0.111,0.076,41.68,474.26,0.0021,0.0016,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.546,No,Chemotherapy,24,Alive,1
+P0712,75,15.53,21.77,18.89,0.121,0.206,0.116,0.018,0.087,65.56,2398.37,0.0066,0.0068,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.805,Yes,Surgery,36,Alive,0
+P0160,48,52.14,7.74,36.67,0.122,0.292,0.182,0.058,0.049,114.7,200.71,0.0192,0.0032,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Positive,0.021,No,Radiation,33,Alive,0
+P0655,31,48.71,9.78,27.49,0.144,0.121,0.193,0.344,0.041,52.39,977.66,0.0168,0.008,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Positive,0.686,No,Chemotherapy,6,Alive,1
+P0587,57,12.29,22.88,15.95,0.12,0.283,0.484,0.12,0.075,177.43,642.55,0.0192,0.0034,Malignant,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.162,Yes,Radiation,10,Deceased,1
+P0611,34,7.86,14.72,34.61,0.069,0.165,0.346,0.03,0.064,62.26,2118.75,0.0194,0.0047,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.806,Yes,Radiation,15,Alive,1
+P0507,26,33.61,12.17,35.58,0.056,0.036,0.417,0.122,0.088,61.23,493.9,0.0138,0.009,Malignant,Medium,No evidence of tumor recurrence.,Positive,Positive,0.428,No,Radiation,28,Alive,1
+P0180,60,13.85,8.1,21.58,0.162,0.116,0.28,0.111,0.076,115.8,1364.38,0.0173,0.0068,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.411,No,Chemotherapy,42,Deceased,0
+P0472,72,7.2,25.83,26.93,0.187,0.053,0.4,0.026,0.073,82.59,1816.21,0.0172,0.0048,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.053,Yes,Hormone Therapy,11,Alive,0
+P0218,66,39.99,11.97,26.69,0.076,0.136,0.196,0.08,0.078,106.09,720.86,0.0133,0.0032,Malignant,Low,"Benign lesion, no signs of malignancy.",Negative,Positive,0.91,No,Radiation,43,Alive,1
+P0037,65,21.59,26.16,10.29,0.069,0.191,0.46,0.259,0.061,179.27,1603.57,0.0163,0.0081,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.708,No,Surgery,41,Alive,0
+P0139,70,49.18,20.23,10.36,0.177,0.066,0.471,0.327,0.048,132.05,391.35,0.0043,0.0039,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Positive,1.0,No,Chemotherapy,15,Alive,0
+P0210,38,48.61,21.83,14.93,0.183,0.241,0.273,0.307,0.08,169.67,513.32,0.0163,0.0021,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Positive,0.671,No,Surgery,14,Alive,1
+P0731,70,32.72,26.34,31.97,0.066,0.068,0.406,0.383,0.074,143.89,1687.58,0.0105,0.0057,Malignant,High,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.965,No,Chemotherapy,34,Deceased,1
+P0913,36,40.79,18.48,37.28,0.104,0.209,0.155,0.339,0.085,128.18,589.36,0.0014,0.0015,Benign,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.757,Yes,Surgery,19,Alive,0
+P0644,28,56.28,19.85,30.36,0.08,0.152,0.217,0.145,0.076,68.31,1652.99,0.0029,0.0069,Benign,Medium,"Fibroadenoma detected, benign nature.",Negative,Negative,0.653,No,Surgery,58,Alive,0
+P0725,46,38.33,6.63,12.39,0.115,0.231,0.256,0.343,0.068,174.93,1660.49,0.0052,0.0073,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.96,No,Radiation,58,Alive,0
+P0207,39,13.79,8.11,30.14,0.072,0.128,0.145,0.252,0.064,163.79,872.97,0.0185,0.0082,Benign,High,"Fibroadenoma detected, benign nature.",Positive,Negative,0.011,No,Surgery,54,Alive,0
+P0265,39,44.04,19.6,20.27,0.103,0.135,0.224,0.21,0.046,113.09,642.27,0.0165,0.0027,Benign,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.933,Yes,Chemotherapy,28,Alive,0
+P0878,32,15.64,7.54,31.03,0.146,0.294,0.455,0.123,0.041,123.37,2053.64,0.0124,0.0005,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.967,No,Hormone Therapy,55,Deceased,0
+P0010,52,13.52,18.01,24.56,0.107,0.024,0.423,0.16,0.06,103.17,814.58,0.0182,0.0074,Benign,Low,Invasive ductal carcinoma detected.,Positive,Positive,0.692,No,Chemotherapy,20,Alive,0
+P0774,56,15.4,26.74,20.13,0.124,0.253,0.465,0.137,0.055,176.67,1825.74,0.0159,0.0015,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Positive,0.306,No,Chemotherapy,44,Alive,0
+P0940,63,52.36,10.46,29.41,0.142,0.168,0.13,0.288,0.076,94.61,423.22,0.006,0.0054,Benign,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.341,No,Hormone Therapy,41,Alive,0
+P0170,40,37.78,27.67,35.97,0.071,0.211,0.328,0.282,0.087,168.17,2320.88,0.015,0.0075,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.891,No,Hormone Therapy,33,Deceased,0
+P1000,65,39.68,15.73,29.36,0.162,0.186,0.345,0.323,0.053,88.84,2377.62,0.0185,0.0039,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.026,No,Surgery,59,Alive,1
+P0049,59,49.39,27.7,14.64,0.057,0.274,0.422,0.161,0.065,78.04,2042.66,0.0193,0.0053,Malignant,Medium,No evidence of tumor recurrence.,Positive,Negative,0.3,No,Surgery,6,Deceased,1
+P0016,65,35.92,14.81,21.8,0.11,0.193,0.21,0.387,0.047,65.74,2209.99,0.0072,0.0093,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Positive,0.132,No,Hormone Therapy,28,Alive,0
+P0926,57,23.86,6.07,13.37,0.088,0.185,0.432,0.281,0.044,124.84,1056.57,0.0122,0.0043,Benign,High,No evidence of tumor recurrence.,Positive,Negative,0.402,No,Chemotherapy,43,Alive,0
+P0693,56,52.45,20.18,23.51,0.168,0.112,0.142,0.076,0.078,76.52,1746.9,0.0158,0.0058,Benign,Low,Malignant cells present with irregular borders.,Positive,Positive,0.469,No,Chemotherapy,29,Alive,0
+P0061,44,45.07,16.76,38.51,0.179,0.158,0.414,0.263,0.077,163.93,910.39,0.0074,0.004,Malignant,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.067,No,Hormone Therapy,16,Deceased,1
+P0943,53,51.77,19.33,22.83,0.139,0.126,0.317,0.047,0.062,43.7,482.02,0.0125,0.0016,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.881,No,Radiation,35,Alive,1
+P0844,44,42.73,26.6,24.65,0.125,0.104,0.314,0.028,0.079,114.13,304.66,0.0041,0.0084,Benign,High,Malignant cells present with irregular borders.,Negative,Positive,0.775,No,Surgery,59,Alive,0
+P0240,44,30.71,23.45,23.12,0.127,0.06,0.288,0.171,0.084,69.5,561.52,0.0074,0.0091,Benign,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.395,No,Hormone Therapy,51,Alive,0
+P0710,67,49.32,25.61,34.32,0.173,0.221,0.411,0.237,0.076,129.13,630.35,0.0181,0.0057,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.354,No,Chemotherapy,12,Alive,1
+P0690,33,20.65,13.99,24.78,0.09,0.064,0.136,0.293,0.078,61.82,1447.91,0.0106,0.0033,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.719,No,Hormone Therapy,49,Alive,1
+P0140,57,35.9,28.46,25.57,0.114,0.266,0.204,0.292,0.072,66.98,856.11,0.0159,0.0011,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.513,Yes,Chemotherapy,15,Alive,0
+P0252,73,45.67,23.27,22.45,0.161,0.094,0.39,0.102,0.06,80.64,524.41,0.0093,0.0025,Malignant,Medium,No evidence of tumor recurrence.,Positive,Negative,0.916,No,Chemotherapy,28,Alive,1
+P0380,35,57.12,12.3,28.28,0.096,0.136,0.255,0.267,0.071,50.03,1134.55,0.0042,0.0085,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.319,No,Hormone Therapy,10,Alive,0
+P0235,61,35.28,19.95,30.05,0.053,0.11,0.357,0.15,0.075,169.65,2406.44,0.0192,0.0031,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.752,No,Hormone Therapy,27,Alive,0
+P0485,51,41.5,29.35,16.35,0.065,0.235,0.183,0.333,0.047,98.08,1098.29,0.0122,0.0068,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.078,No,Radiation,31,Alive,0
+P0228,51,32.67,27.1,19.27,0.154,0.276,0.386,0.063,0.058,163.14,781.52,0.0024,0.0046,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.644,No,Chemotherapy,16,Alive,0
+P0373,61,40.7,26.72,14.93,0.2,0.132,0.108,0.213,0.042,104.11,2181.39,0.0061,0.001,Benign,Low,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.134,No,Hormone Therapy,24,Alive,0
+P0092,37,54.42,18.35,23.2,0.167,0.269,0.241,0.075,0.076,163.37,2061.27,0.019,0.0012,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.982,No,Surgery,18,Alive,0
+P0648,46,33.51,28.49,27.98,0.096,0.186,0.152,0.227,0.078,100.77,720.45,0.009,0.0099,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.617,No,Hormone Therapy,46,Deceased,1
+P0793,67,30.89,6.79,35.92,0.189,0.052,0.416,0.087,0.061,118.99,236.88,0.0142,0.0079,Benign,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.726,No,Chemotherapy,8,Alive,0
+P0789,50,31.91,17.23,32.85,0.156,0.263,0.365,0.275,0.087,40.47,1918.04,0.0059,0.0078,Malignant,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.944,No,Radiation,20,Alive,1
+P0414,28,41.33,16.09,27.14,0.162,0.201,0.203,0.253,0.078,97.59,1076.7,0.0151,0.0046,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.37,Yes,Chemotherapy,16,Alive,0
+P0196,44,20.81,9.8,28.29,0.102,0.134,0.313,0.021,0.044,74.18,1250.68,0.0164,0.0075,Benign,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.126,Yes,Chemotherapy,28,Alive,0
+P0289,42,9.7,17.15,36.29,0.157,0.095,0.368,0.068,0.048,121.12,1040.98,0.0152,0.0037,Benign,High,"Fibroadenoma detected, benign nature.",Positive,Positive,0.928,No,Radiation,32,Deceased,0
+P0582,58,52.68,15.51,29.83,0.068,0.1,0.405,0.376,0.056,43.85,1192.57,0.0117,0.0088,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.127,Yes,Surgery,32,Alive,0
+P0467,33,49.92,26.2,36.15,0.054,0.022,0.331,0.348,0.054,156.49,1801.66,0.0067,0.0031,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.032,No,Chemotherapy,45,Deceased,1
+P0592,40,46.46,13.29,20.65,0.168,0.146,0.111,0.378,0.073,139.42,2006.18,0.0149,0.0074,Benign,High,Malignant cells present with irregular borders.,Positive,Positive,0.858,No,Hormone Therapy,14,Alive,0
+P0064,48,32.59,29.31,10.45,0.158,0.049,0.467,0.071,0.041,148.87,2499.83,0.0019,0.0095,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Positive,0.323,No,Radiation,34,Alive,0
+P0055,63,21.96,11.07,36.32,0.161,0.262,0.254,0.357,0.061,139.22,1471.06,0.0109,0.0047,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.81,No,Hormone Therapy,24,Alive,0
+P0353,47,49.11,25.11,28.86,0.05,0.13,0.291,0.327,0.042,110.92,531.64,0.0022,0.0046,Malignant,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.08,No,Hormone Therapy,36,Alive,1
+P0286,53,55.31,19.64,27.2,0.179,0.258,0.105,0.343,0.046,71.38,1525.86,0.0182,0.0087,Malignant,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.376,No,Radiation,25,Alive,1
+P0163,51,29.08,28.14,30.75,0.091,0.067,0.378,0.3,0.079,165.23,1942.97,0.0054,0.0036,Benign,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.034,No,Radiation,6,Alive,0
+P0871,42,25.22,13.42,33.32,0.176,0.116,0.433,0.321,0.078,119.13,1771.54,0.0014,0.0042,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.533,No,Surgery,19,Alive,0
+P0114,50,13.36,26.9,17.57,0.156,0.214,0.375,0.135,0.085,130.82,1623.52,0.0146,0.0054,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.807,No,Radiation,52,Alive,1
+P0159,34,50.31,16.73,22.8,0.084,0.231,0.264,0.225,0.046,83.02,2166.12,0.0184,0.0056,Malignant,Low,No evidence of tumor recurrence.,Positive,Positive,0.266,Yes,Radiation,17,Alive,1
+P0096,60,9.88,7.73,15.91,0.093,0.282,0.244,0.164,0.062,70.58,259.87,0.0016,0.0034,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.602,No,Hormone Therapy,36,Alive,0
+P0310,34,34.28,13.59,10.38,0.154,0.035,0.416,0.213,0.076,142.48,1496.55,0.0082,0.008,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.483,Yes,Hormone Therapy,54,Alive,1
+P0843,59,54.23,16.8,23.82,0.147,0.21,0.163,0.198,0.042,152.31,2440.06,0.0131,0.0039,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.373,No,Hormone Therapy,6,Deceased,1
+P0765,63,57.19,17.88,31.76,0.079,0.285,0.488,0.231,0.044,122.06,1567.35,0.0086,0.002,Malignant,High,Malignant cells present with irregular borders.,Positive,Positive,0.1,No,Radiation,35,Deceased,1
+P0785,40,34.35,24.84,23.83,0.179,0.127,0.16,0.149,0.063,50.72,1082.05,0.0013,0.0057,Benign,High,Invasive ductal carcinoma detected.,Negative,Negative,0.817,No,Surgery,36,Alive,0
+P0206,71,20.43,20.73,10.59,0.189,0.024,0.378,0.069,0.041,119.89,446.12,0.0022,0.0066,Benign,Medium,Malignant cells present with irregular borders.,Negative,Positive,0.41,Yes,Hormone Therapy,9,Deceased,0
+P0722,61,21.58,18.23,18.71,0.144,0.092,0.396,0.22,0.049,96.99,687.51,0.0108,0.0019,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Positive,0.441,No,Radiation,50,Alive,1
+P0738,72,10.84,7.7,26.15,0.097,0.171,0.495,0.224,0.051,137.67,2070.02,0.0056,0.004,Malignant,Medium,"Fibroadenoma detected, benign nature.",Negative,Negative,0.976,Yes,Hormone Therapy,32,Alive,1
+P0827,78,14.61,10.1,19.02,0.156,0.229,0.33,0.073,0.069,85.11,1579.7,0.0153,0.0026,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.578,No,Chemotherapy,46,Alive,0
+P0854,35,14.66,18.23,15.96,0.142,0.157,0.488,0.082,0.08,84.49,1341.34,0.0031,0.0038,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.113,Yes,Radiation,37,Alive,0
+P0175,59,49.4,19.02,18.52,0.069,0.194,0.142,0.129,0.051,170.54,699.64,0.0111,0.0063,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.408,No,Surgery,30,Alive,0
+P0477,38,20.64,21.41,31.31,0.198,0.011,0.235,0.15,0.081,172.65,683.43,0.0095,0.0064,Benign,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.699,Yes,Radiation,52,Alive,0
+P0847,68,42.98,28.36,18.82,0.092,0.141,0.311,0.267,0.061,61.4,2030.17,0.0153,0.0059,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.635,No,Radiation,34,Alive,0
+P0924,48,52.94,21.69,18.4,0.123,0.101,0.209,0.177,0.053,173.5,1176.07,0.0141,0.0063,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.555,No,Hormone Therapy,21,Alive,0
+P0958,26,6.24,23.1,12.28,0.099,0.258,0.163,0.302,0.045,165.16,1637.98,0.0024,0.0091,Malignant,High,"Benign lesion, no signs of malignancy.",Negative,Negative,0.136,No,Surgery,55,Deceased,1
+P0168,40,50.52,6.13,16.6,0.157,0.158,0.297,0.362,0.051,89.64,1965.27,0.0128,0.0023,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.195,No,Radiation,41,Alive,1
+P0456,35,18.78,26.15,18.6,0.183,0.159,0.484,0.231,0.082,49.46,302.72,0.0186,0.0068,Malignant,Low,"Benign lesion, no signs of malignancy.",Negative,Negative,0.324,No,Surgery,55,Deceased,1
+P0329,75,30.6,27.31,19.59,0.19,0.184,0.1,0.201,0.045,105.33,615.11,0.0122,0.0067,Benign,Low,No evidence of tumor recurrence.,Negative,Negative,0.735,No,Surgery,32,Alive,0
+P0839,68,34.51,23.18,31.81,0.132,0.188,0.449,0.357,0.072,153.2,596.95,0.0159,0.0048,Malignant,High,Invasive ductal carcinoma detected.,Negative,Negative,0.763,No,Radiation,16,Alive,1
+P0512,64,6.89,17.55,17.6,0.152,0.024,0.233,0.248,0.088,44.07,370.17,0.0114,0.0024,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.438,No,Hormone Therapy,20,Alive,0
+P0823,58,27.15,11.44,22.28,0.127,0.145,0.386,0.388,0.074,140.85,1307.88,0.0101,0.0061,Benign,High,Invasive ductal carcinoma detected.,Negative,Negative,0.44,Yes,Surgery,52,Deceased,0
+P0755,65,6.72,18.2,20.54,0.096,0.03,0.388,0.21,0.052,49.47,1154.95,0.0064,0.0032,Benign,High,No evidence of tumor recurrence.,Negative,Positive,0.933,Yes,Radiation,36,Alive,0
+P0815,58,54.55,8.71,27.44,0.141,0.277,0.436,0.196,0.079,96.23,330.44,0.0051,0.0085,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.379,Yes,Hormone Therapy,27,Alive,0
+P0205,58,20.78,10.71,24.76,0.136,0.216,0.304,0.137,0.063,43.5,236.94,0.0106,0.0021,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.712,No,Chemotherapy,57,Alive,1
+P0883,67,17.51,6.53,16.89,0.125,0.28,0.233,0.314,0.062,44.9,1819.43,0.0125,0.0063,Benign,High,Invasive ductal carcinoma detected.,Positive,Positive,0.948,No,Surgery,57,Alive,0
+P0359,52,16.84,7.18,16.47,0.141,0.268,0.468,0.055,0.084,124.7,440.94,0.0048,0.0092,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.383,No,Chemotherapy,57,Alive,1
+P0515,54,15.06,19.7,13.95,0.184,0.164,0.229,0.273,0.051,172.32,345.29,0.0172,0.0091,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Negative,Positive,0.427,No,Hormone Therapy,39,Alive,0
+P0702,55,7.78,12.04,17.27,0.138,0.017,0.226,0.047,0.055,149.62,1894.08,0.0014,0.0019,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Positive,0.854,No,Hormone Therapy,37,Deceased,1
+P0396,46,46.4,28.81,18.24,0.127,0.06,0.497,0.183,0.09,119.99,2380.96,0.0192,0.0077,Malignant,Medium,Invasive ductal carcinoma detected.,Negative,Negative,0.195,No,Radiation,57,Alive,1
+P0760,36,8.65,15.5,26.66,0.156,0.284,0.374,0.205,0.079,63.98,645.55,0.0107,0.0094,Benign,Low,Malignant cells present with irregular borders.,Positive,Positive,0.728,Yes,Surgery,32,Alive,0
+P0038,27,26.12,23.4,22.09,0.161,0.129,0.234,0.161,0.086,154.68,1829.23,0.0134,0.0027,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.904,No,Surgery,21,Alive,0
+P0553,31,18.46,17.88,34.34,0.127,0.164,0.219,0.365,0.052,98.67,2036.96,0.0183,0.0035,Benign,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.232,No,Surgery,54,Alive,0
+P0995,44,43.72,8.3,38.63,0.074,0.286,0.444,0.05,0.073,153.22,410.26,0.0114,0.001,Malignant,High,Malignant cells present with irregular borders.,Negative,Negative,0.911,No,Radiation,14,Deceased,1
+P0766,66,18.53,9.14,16.29,0.133,0.185,0.273,0.276,0.047,149.58,2232.87,0.0083,0.0028,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Positive,0.3,No,Surgery,39,Deceased,0
+P0809,44,51.73,16.88,15.82,0.18,0.118,0.12,0.155,0.083,51.54,1061.7,0.0046,0.0015,Malignant,High,Normal epithelial tissue morphology maintained.,Positive,Negative,0.898,No,Chemotherapy,19,Alive,1
+P0907,31,25.2,27.64,10.59,0.129,0.034,0.405,0.081,0.079,154.45,2127.0,0.0054,0.0082,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.541,Yes,Radiation,42,Alive,1
+P0728,76,12.73,26.97,31.65,0.189,0.29,0.186,0.252,0.074,168.84,2058.65,0.0084,0.0013,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.032,Yes,Hormone Therapy,32,Alive,0
+P0431,63,21.68,24.77,30.9,0.134,0.072,0.336,0.364,0.059,103.38,962.2,0.0011,0.0051,Malignant,High,Malignant cells present with irregular borders.,Negative,Negative,0.449,Yes,Surgery,52,Alive,1
+P0236,50,50.42,19.17,36.87,0.088,0.238,0.427,0.124,0.053,103.78,2036.81,0.0121,0.009,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.761,No,Chemotherapy,53,Deceased,0
+P0392,47,12.51,21.0,33.45,0.1,0.027,0.234,0.216,0.044,46.89,746.3,0.0175,0.0044,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.709,Yes,Hormone Therapy,59,Alive,0
+P0482,79,19.57,12.51,13.22,0.184,0.186,0.195,0.22,0.054,93.74,1078.31,0.003,0.0049,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.066,Yes,Hormone Therapy,29,Alive,1
+P0253,72,28.45,26.51,33.04,0.144,0.118,0.121,0.136,0.054,155.93,2088.48,0.0191,0.0072,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.471,No,Hormone Therapy,42,Alive,0
+P0772,42,16.8,9.02,32.65,0.112,0.138,0.413,0.202,0.061,130.2,654.44,0.0114,0.0062,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.196,No,Chemotherapy,32,Alive,0
+P0078,66,41.62,13.81,11.04,0.066,0.074,0.386,0.035,0.047,66.7,2448.52,0.0103,0.0049,Malignant,High,No evidence of tumor recurrence.,Positive,Positive,0.908,No,Radiation,49,Alive,1
+P0548,58,57.75,15.33,19.73,0.197,0.232,0.492,0.088,0.055,66.1,1446.99,0.013,0.0018,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.744,Yes,Hormone Therapy,25,Deceased,0
+P0967,30,32.82,16.19,28.31,0.152,0.015,0.437,0.105,0.087,178.56,2010.38,0.0123,0.0037,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.657,No,Hormone Therapy,11,Alive,1
+P0474,66,26.09,18.59,39.91,0.148,0.251,0.279,0.083,0.043,108.25,782.98,0.0136,0.0085,Benign,Low,No evidence of tumor recurrence.,Positive,Positive,0.832,No,Radiation,13,Alive,0
+P0491,52,26.07,8.42,10.9,0.143,0.217,0.138,0.261,0.057,121.56,1670.48,0.0119,0.0069,Benign,High,Malignant cells present with irregular borders.,Positive,Negative,0.072,No,Radiation,52,Alive,0
+P0219,56,14.06,13.79,22.34,0.113,0.069,0.188,0.157,0.08,111.99,2264.72,0.0148,0.0023,Benign,High,Invasive ductal carcinoma detected.,Positive,Negative,0.8,No,Radiation,34,Alive,0
+P0270,68,16.84,16.84,36.36,0.124,0.212,0.427,0.374,0.07,95.08,392.43,0.0107,0.0016,Malignant,Low,No evidence of tumor recurrence.,Negative,Negative,0.318,Yes,Chemotherapy,29,Alive,1
+P0727,41,7.95,29.42,38.29,0.106,0.081,0.496,0.035,0.072,158.72,2020.53,0.0078,0.003,Malignant,High,Normal epithelial tissue morphology maintained.,Positive,Negative,0.229,Yes,Chemotherapy,10,Alive,1
+P0939,58,36.32,28.53,15.38,0.071,0.238,0.154,0.184,0.044,97.04,927.57,0.002,0.0066,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.148,No,Hormone Therapy,51,Alive,0
+P0073,74,43.11,16.57,35.87,0.181,0.162,0.294,0.367,0.042,78.73,2215.31,0.0149,0.0058,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.572,No,Chemotherapy,8,Alive,0
+P0545,41,53.94,20.03,21.35,0.075,0.297,0.364,0.19,0.085,43.74,2161.29,0.0017,0.0007,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.06,Yes,Hormone Therapy,58,Alive,1
+P0978,52,17.35,19.37,20.89,0.193,0.271,0.121,0.164,0.043,167.57,927.54,0.0099,0.0048,Benign,Low,"Benign lesion, no signs of malignancy.",Negative,Positive,0.185,No,Radiation,52,Alive,0
+P0411,69,11.96,6.74,29.85,0.135,0.058,0.281,0.102,0.076,148.66,1031.42,0.014,0.0081,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.673,No,Hormone Therapy,34,Alive,0
+P0608,71,39.61,16.1,33.08,0.121,0.252,0.319,0.222,0.076,102.91,1599.71,0.0122,0.0082,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.848,No,Chemotherapy,39,Alive,0
+P0837,73,6.36,8.15,39.96,0.131,0.059,0.476,0.139,0.082,155.64,911.45,0.0174,0.0096,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.047,Yes,Chemotherapy,26,Alive,1
+P0767,72,34.26,22.71,36.54,0.088,0.178,0.488,0.142,0.041,144.46,2294.56,0.0011,0.0071,Malignant,Medium,Normal epithelial tissue morphology maintained.,Negative,Positive,0.069,Yes,Hormone Therapy,52,Deceased,1
+P0626,63,17.85,6.16,22.88,0.152,0.22,0.211,0.046,0.045,56.47,2169.14,0.0195,0.0088,Malignant,High,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.582,No,Radiation,35,Alive,1
+P0660,50,13.11,15.11,10.7,0.186,0.253,0.354,0.023,0.059,113.71,949.85,0.0142,0.007,Benign,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.454,Yes,Surgery,29,Alive,0
+P0851,47,16.92,11.02,22.22,0.073,0.181,0.129,0.145,0.041,75.08,2260.65,0.0138,0.001,Benign,Low,No evidence of tumor recurrence.,Negative,Negative,0.334,Yes,Chemotherapy,36,Alive,0
+P0769,56,43.66,16.59,22.86,0.054,0.024,0.335,0.184,0.069,164.95,1978.5,0.0016,0.0028,Benign,High,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.451,No,Chemotherapy,36,Alive,0
+P0551,59,8.68,20.51,18.74,0.083,0.04,0.439,0.258,0.055,163.59,955.12,0.0153,0.0064,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.76,Yes,Hormone Therapy,28,Deceased,0
+P0438,28,18.2,12.58,20.21,0.121,0.256,0.484,0.039,0.049,73.25,2419.09,0.0114,0.0007,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Positive,0.307,No,Radiation,37,Deceased,1
+P0718,56,40.29,7.67,29.91,0.197,0.173,0.472,0.077,0.049,90.7,2333.87,0.0109,0.0065,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Positive,0.091,Yes,Radiation,31,Alive,0
+P0735,72,51.34,18.25,16.65,0.072,0.215,0.105,0.101,0.052,179.7,239.78,0.0114,0.0018,Malignant,High,Invasive ductal carcinoma detected.,Negative,Negative,0.178,No,Surgery,48,Alive,1
+P0042,29,11.46,11.03,25.89,0.125,0.169,0.306,0.281,0.068,171.04,497.91,0.0044,0.0022,Benign,High,Atypical ductal hyperplasia observed.,Positive,Negative,0.439,No,Radiation,20,Alive,0
+P0842,34,13.94,20.15,10.28,0.126,0.231,0.34,0.224,0.086,91.11,1256.25,0.0082,0.0041,Malignant,Low,Invasive ductal carcinoma detected.,Positive,Positive,0.564,Yes,Chemotherapy,43,Alive,1
+P0708,37,41.85,24.2,30.62,0.15,0.188,0.405,0.271,0.064,120.34,2323.99,0.0153,0.0013,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Positive,0.493,No,Hormone Therapy,35,Alive,0
+P0308,49,57.68,6.22,35.83,0.19,0.041,0.424,0.213,0.055,57.25,1552.66,0.0061,0.0033,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.572,Yes,Radiation,57,Alive,0
+P0877,40,30.31,20.1,15.67,0.062,0.192,0.12,0.375,0.085,177.08,1845.54,0.0199,0.0076,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.048,Yes,Surgery,31,Alive,0
+P0620,73,10.33,21.31,18.22,0.078,0.283,0.366,0.096,0.087,173.21,2493.84,0.0011,0.0089,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.008,Yes,Radiation,42,Alive,0
+P0087,33,48.68,13.98,22.75,0.125,0.269,0.428,0.275,0.064,147.58,1187.18,0.0065,0.0055,Malignant,High,Invasive ductal carcinoma detected.,Positive,Negative,0.64,No,Radiation,18,Alive,1
+P0213,70,17.78,15.07,13.82,0.164,0.113,0.121,0.375,0.07,177.42,1616.32,0.0056,0.0078,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.436,No,Radiation,54,Alive,0
+P0368,48,16.57,10.28,28.46,0.141,0.104,0.139,0.176,0.052,168.94,747.68,0.015,0.0058,Malignant,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.302,Yes,Hormone Therapy,8,Deceased,1
+P0670,49,54.23,14.4,36.98,0.053,0.13,0.414,0.181,0.066,40.83,305.17,0.0195,0.0021,Benign,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.821,No,Hormone Therapy,58,Alive,0
+P0418,57,8.34,9.88,18.25,0.194,0.082,0.255,0.328,0.078,69.19,2347.32,0.0142,0.0011,Malignant,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.606,Yes,Hormone Therapy,48,Alive,1
+P0212,31,58.63,12.78,33.76,0.145,0.18,0.203,0.255,0.044,104.22,1653.56,0.011,0.0007,Malignant,Low,"Fibroadenoma detected, benign nature.",Negative,Positive,0.891,No,Surgery,6,Alive,1
+P0446,52,7.13,23.29,37.41,0.106,0.165,0.362,0.39,0.044,109.95,210.12,0.0164,0.0066,Benign,Medium,"Benign lesion, no signs of malignancy.",Negative,Negative,0.9,No,Chemotherapy,36,Alive,0
+P0232,42,56.63,14.21,24.87,0.063,0.074,0.448,0.024,0.075,143.58,776.26,0.0079,0.0016,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.558,Yes,Radiation,43,Alive,0
+P0813,61,36.85,24.96,34.17,0.105,0.295,0.242,0.34,0.078,103.18,785.03,0.0199,0.0035,Benign,Medium,Atypical ductal hyperplasia observed.,Negative,Positive,0.915,Yes,Radiation,56,Alive,0
+P0201,25,29.73,23.96,35.64,0.09,0.197,0.303,0.336,0.069,148.06,2124.88,0.013,0.0036,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.321,No,Surgery,13,Alive,0
+P0632,25,37.59,11.78,31.85,0.177,0.036,0.381,0.102,0.063,99.32,918.13,0.0088,0.0011,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.645,Yes,Chemotherapy,46,Deceased,1
+P0674,26,57.11,20.14,21.52,0.079,0.087,0.32,0.053,0.04,156.19,392.24,0.011,0.008,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Positive,0.542,Yes,Chemotherapy,35,Alive,0
+P0376,58,22.63,25.72,21.81,0.173,0.26,0.376,0.186,0.058,57.79,290.0,0.0128,0.0077,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.599,No,Chemotherapy,36,Alive,0
+P0167,73,9.15,28.34,32.61,0.119,0.077,0.446,0.043,0.077,53.4,363.09,0.0081,0.0034,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.326,No,Surgery,56,Alive,1
+P0238,59,26.92,16.29,14.22,0.052,0.248,0.497,0.319,0.071,128.14,659.59,0.0194,0.0042,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.506,No,Surgery,13,Alive,1
+P0044,43,55.64,29.94,25.62,0.086,0.036,0.186,0.225,0.043,95.52,1917.88,0.0132,0.0085,Malignant,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.622,Yes,Chemotherapy,38,Alive,1
+P0271,26,49.61,26.56,19.06,0.169,0.157,0.216,0.086,0.052,58.46,828.62,0.0025,0.0073,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Positive,0.509,No,Hormone Therapy,15,Alive,1
+P0260,39,31.24,11.52,29.64,0.194,0.215,0.196,0.011,0.069,122.61,1057.46,0.0121,0.0063,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Positive,0.06,No,Chemotherapy,13,Alive,0
+P0008,61,15.11,8.72,29.68,0.154,0.036,0.448,0.274,0.07,105.56,2035.51,0.0152,0.0058,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.892,No,Radiation,17,Alive,0
+P0633,78,25.9,28.47,10.0,0.181,0.204,0.346,0.375,0.088,111.52,2291.94,0.0198,0.0077,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.984,Yes,Hormone Therapy,15,Alive,0
+P0759,68,24.94,20.52,21.04,0.058,0.286,0.226,0.258,0.062,41.74,760.42,0.0106,0.0025,Benign,High,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.619,No,Surgery,36,Alive,0
+P0478,68,37.22,11.9,20.92,0.182,0.131,0.403,0.174,0.084,45.78,2190.46,0.0074,0.0072,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.715,Yes,Chemotherapy,22,Deceased,1
+P0723,79,10.2,16.14,26.24,0.175,0.185,0.341,0.279,0.064,131.08,1423.68,0.0152,0.0038,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.836,No,Radiation,48,Alive,0
+P0561,79,54.94,12.73,24.27,0.076,0.264,0.131,0.214,0.056,155.81,2232.97,0.0086,0.0014,Benign,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.709,Yes,Radiation,17,Alive,0
+P0954,62,38.37,27.98,18.65,0.157,0.108,0.181,0.14,0.087,107.02,694.26,0.0043,0.0013,Malignant,Low,"Benign lesion, no signs of malignancy.",Negative,Negative,0.358,Yes,Radiation,47,Alive,1
+P0242,66,57.89,28.48,14.11,0.189,0.128,0.19,0.331,0.088,80.59,1041.83,0.0037,0.0048,Malignant,Medium,"Benign lesion, no signs of malignancy.",Negative,Negative,0.498,Yes,Radiation,6,Alive,1
+P0668,79,12.24,8.34,25.96,0.195,0.232,0.178,0.316,0.062,178.98,947.24,0.0185,0.0084,Malignant,Medium,"Benign lesion, no signs of malignancy.",Positive,Negative,0.916,Yes,Surgery,18,Alive,1
+P0730,57,16.43,20.11,35.39,0.066,0.265,0.217,0.227,0.062,115.1,615.86,0.0072,0.0086,Malignant,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.459,No,Chemotherapy,40,Alive,1
+P0035,50,48.48,7.78,30.12,0.169,0.05,0.371,0.29,0.052,52.56,273.24,0.0079,0.0066,Benign,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.84,No,Chemotherapy,32,Deceased,0
+P0391,31,46.98,9.38,35.92,0.088,0.207,0.431,0.131,0.086,179.76,1456.37,0.0033,0.0034,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.405,Yes,Radiation,51,Alive,1
+P0244,43,10.39,11.61,13.8,0.112,0.231,0.153,0.273,0.085,96.9,503.11,0.0019,0.0035,Malignant,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.625,No,Surgery,39,Alive,1
+P0915,28,23.38,6.37,20.8,0.129,0.259,0.342,0.183,0.051,157.1,746.4,0.008,0.0028,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.695,No,Surgery,57,Alive,0
+P0589,70,19.56,14.97,25.34,0.11,0.234,0.17,0.046,0.063,98.56,2418.53,0.0131,0.0034,Benign,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.705,No,Chemotherapy,11,Alive,0
+P0032,49,30.89,16.02,36.21,0.077,0.032,0.266,0.091,0.087,177.56,678.14,0.0041,0.0067,Malignant,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.304,No,Hormone Therapy,42,Alive,1
+P0026,45,53.49,22.12,18.1,0.091,0.129,0.144,0.323,0.048,107.47,2367.2,0.0143,0.0053,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.897,No,Hormone Therapy,57,Alive,0
+P0579,51,13.92,14.97,18.06,0.119,0.207,0.145,0.171,0.063,44.06,330.99,0.0056,0.0053,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.671,Yes,Chemotherapy,46,Alive,1
+P0770,49,8.74,7.56,15.47,0.08,0.284,0.18,0.267,0.089,71.78,2283.77,0.0106,0.0029,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Positive,0.189,Yes,Surgery,21,Alive,0
+P0282,35,25.17,20.54,25.09,0.184,0.177,0.335,0.368,0.088,98.48,2273.65,0.0123,0.001,Benign,Medium,"Fibroadenoma detected, benign nature.",Negative,Negative,0.866,No,Hormone Therapy,53,Alive,0
+P0505,35,55.1,19.24,16.04,0.098,0.218,0.326,0.118,0.089,101.37,256.27,0.0025,0.0047,Malignant,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.365,No,Surgery,55,Alive,1
+P0928,58,29.17,28.27,28.43,0.165,0.172,0.188,0.251,0.041,125.97,290.43,0.0143,0.0089,Malignant,High,"Fibroadenoma detected, benign nature.",Negative,Negative,0.724,No,Surgery,44,Alive,1
+P0836,58,40.74,20.54,38.47,0.183,0.013,0.373,0.035,0.04,60.94,778.16,0.0153,0.0021,Malignant,Low,Invasive ductal carcinoma detected.,Positive,Positive,0.477,Yes,Radiation,56,Alive,1
+P0395,35,6.11,12.69,27.31,0.116,0.3,0.389,0.043,0.085,82.09,1975.57,0.0076,0.003,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.063,Yes,Surgery,31,Alive,0
+P0443,49,55.14,16.93,39.33,0.192,0.213,0.223,0.348,0.065,47.17,1849.53,0.0136,0.0074,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.841,Yes,Surgery,23,Alive,0
+P0217,53,52.85,23.01,17.9,0.101,0.213,0.144,0.248,0.081,161.59,422.39,0.018,0.0084,Malignant,High,"Benign lesion, no signs of malignancy.",Negative,Negative,0.579,No,Chemotherapy,32,Alive,1
+P0532,68,40.97,28.81,21.97,0.157,0.272,0.351,0.144,0.077,153.05,1515.56,0.0161,0.0042,Benign,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.89,No,Chemotherapy,10,Alive,0
+P0714,71,31.67,20.68,14.38,0.097,0.28,0.344,0.384,0.085,72.74,1768.59,0.0071,0.0014,Malignant,Low,No evidence of tumor recurrence.,Positive,Positive,0.883,No,Chemotherapy,31,Deceased,1
+P0555,77,27.88,24.49,31.52,0.075,0.2,0.174,0.078,0.046,60.59,564.65,0.0167,0.002,Malignant,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.57,No,Surgery,39,Alive,1
+P0798,30,32.3,26.46,36.29,0.066,0.089,0.201,0.348,0.054,130.19,221.86,0.0135,0.0078,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.337,Yes,Surgery,45,Alive,0
+P0109,50,46.05,18.01,24.94,0.056,0.139,0.418,0.265,0.074,114.99,1070.99,0.0132,0.0099,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.202,No,Hormone Therapy,52,Alive,0
+P0761,79,59.41,13.17,13.0,0.13,0.236,0.186,0.05,0.076,157.34,1355.28,0.0148,0.0081,Malignant,Low,Normal epithelial tissue morphology maintained.,Negative,Positive,0.699,No,Radiation,19,Deceased,1
+P0119,38,8.48,18.67,16.43,0.074,0.063,0.462,0.03,0.054,150.84,2084.5,0.0152,0.0016,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.411,No,Surgery,35,Deceased,1
+P0568,72,34.37,8.83,29.72,0.184,0.118,0.338,0.036,0.072,111.89,743.2,0.0042,0.0078,Benign,High,"Fibroadenoma detected, benign nature.",Negative,Positive,0.801,No,Surgery,37,Alive,0
+P0141,63,45.75,22.27,28.17,0.133,0.245,0.234,0.25,0.044,82.35,1396.86,0.0136,0.0062,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.551,No,Chemotherapy,16,Alive,0
+P0101,65,27.99,24.08,23.47,0.134,0.281,0.343,0.101,0.089,157.06,779.39,0.0107,0.0072,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Positive,0.068,No,Chemotherapy,43,Deceased,1
+P0075,36,43.47,24.02,30.6,0.108,0.162,0.267,0.298,0.09,56.78,449.55,0.0062,0.0088,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.645,Yes,Surgery,40,Alive,1
+P0301,27,22.99,16.11,13.73,0.122,0.171,0.148,0.091,0.083,160.66,870.23,0.0199,0.01,Malignant,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.938,No,Radiation,59,Deceased,1
+P0465,66,46.12,27.46,29.77,0.089,0.286,0.128,0.391,0.047,136.38,2427.09,0.0149,0.0011,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.204,No,Surgery,32,Deceased,0
+P0322,37,15.61,21.69,12.85,0.059,0.14,0.421,0.253,0.066,43.18,586.12,0.0027,0.0028,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.742,No,Hormone Therapy,6,Alive,0
+P0509,78,47.82,10.07,21.78,0.084,0.246,0.359,0.39,0.064,73.56,847.53,0.0016,0.01,Benign,Medium,Malignant cells present with irregular borders.,Positive,Positive,0.734,No,Radiation,21,Alive,0
+P0039,57,51.99,27.47,37.22,0.11,0.084,0.218,0.176,0.084,117.8,1718.89,0.0093,0.002,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.165,No,Radiation,26,Alive,1
+P0812,63,32.13,16.74,25.94,0.173,0.132,0.432,0.074,0.089,160.63,1705.4,0.0148,0.0094,Malignant,High,No evidence of tumor recurrence.,Negative,Negative,0.033,No,Chemotherapy,29,Alive,1
+P0584,39,41.8,18.94,24.44,0.135,0.21,0.141,0.355,0.074,77.71,2372.83,0.0162,0.0027,Malignant,Medium,No evidence of tumor recurrence.,Positive,Negative,0.747,Yes,Hormone Therapy,46,Alive,1
+P0821,78,9.33,15.32,17.4,0.124,0.141,0.4,0.231,0.081,131.86,664.46,0.0165,0.0099,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.851,No,Radiation,38,Alive,0
+P0384,25,32.39,14.62,21.68,0.181,0.017,0.137,0.076,0.061,91.36,780.1,0.0176,0.0097,Benign,Low,No evidence of tumor recurrence.,Positive,Positive,0.581,Yes,Hormone Therapy,9,Alive,0
+P0500,46,31.97,25.23,27.27,0.129,0.297,0.4,0.026,0.051,106.05,2134.36,0.0108,0.0017,Benign,Medium,"Benign lesion, no signs of malignancy.",Negative,Negative,0.008,No,Radiation,59,Alive,0
+P0088,64,32.2,16.52,18.26,0.098,0.148,0.274,0.308,0.072,146.11,2263.88,0.0171,0.0038,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.527,No,Chemotherapy,20,Alive,0
+P0245,54,33.97,12.32,24.3,0.19,0.038,0.258,0.18,0.08,142.28,481.14,0.0181,0.0078,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.837,No,Radiation,52,Alive,1
+P0172,40,23.55,8.31,22.11,0.173,0.118,0.177,0.326,0.09,121.18,1302.45,0.0016,0.0021,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.879,No,Chemotherapy,43,Alive,0
+P0466,43,35.29,17.95,18.18,0.077,0.214,0.26,0.237,0.081,78.13,1325.94,0.0064,0.005,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.192,Yes,Chemotherapy,17,Alive,0
+P0357,31,58.78,15.91,33.31,0.186,0.199,0.341,0.387,0.047,116.15,1938.14,0.0136,0.0007,Benign,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.809,Yes,Surgery,20,Alive,0
+P0360,38,21.05,6.06,12.51,0.118,0.259,0.466,0.341,0.064,94.9,2123.51,0.0018,0.0015,Malignant,Low,Malignant cells present with irregular borders.,Negative,Positive,0.069,Yes,Radiation,36,Alive,1
+P0514,53,13.52,16.78,10.91,0.126,0.158,0.445,0.367,0.08,59.7,413.67,0.0152,0.0067,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.711,No,Radiation,13,Alive,0
+P0652,53,18.9,9.05,25.03,0.168,0.235,0.459,0.255,0.063,151.38,2353.83,0.0108,0.0059,Malignant,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.598,No,Surgery,35,Alive,1
+P0870,27,30.8,9.13,38.47,0.167,0.251,0.372,0.349,0.059,170.91,1399.21,0.0081,0.0026,Benign,High,Malignant cells present with irregular borders.,Positive,Positive,0.935,No,Hormone Therapy,27,Alive,0
+P0957,61,59.75,21.64,25.97,0.133,0.183,0.496,0.379,0.078,148.94,1212.72,0.0086,0.0049,Benign,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.773,No,Hormone Therapy,7,Deceased,0
+P0479,49,37.27,8.62,35.0,0.184,0.221,0.318,0.049,0.052,168.64,1160.98,0.0171,0.0029,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.762,No,Chemotherapy,31,Alive,0
+P0841,41,8.39,22.9,10.24,0.162,0.084,0.244,0.079,0.066,99.85,1309.69,0.0197,0.0062,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.41,Yes,Hormone Therapy,48,Alive,0
+P0448,27,50.72,8.3,31.75,0.076,0.181,0.197,0.38,0.073,118.77,1286.21,0.0179,0.005,Benign,Low,No evidence of tumor recurrence.,Negative,Positive,0.893,No,Radiation,37,Deceased,0
+P0901,49,59.94,9.4,17.69,0.119,0.039,0.16,0.335,0.059,106.79,2473.61,0.011,0.0023,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.916,No,Surgery,30,Deceased,0
+P0586,41,57.02,8.89,22.15,0.055,0.232,0.341,0.382,0.057,139.49,1239.27,0.0143,0.0037,Malignant,High,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.258,Yes,Surgery,42,Alive,1
+P0194,62,59.61,13.26,13.71,0.055,0.141,0.198,0.078,0.077,54.78,420.03,0.0161,0.0017,Benign,High,Atypical ductal hyperplasia observed.,Positive,Negative,0.589,No,Surgery,12,Alive,0
+P0988,34,37.5,25.3,20.44,0.161,0.245,0.478,0.031,0.049,46.79,1944.68,0.0117,0.0052,Benign,High,Invasive ductal carcinoma detected.,Positive,Negative,0.902,No,Hormone Therapy,28,Alive,0
+P0379,39,12.08,14.09,30.03,0.05,0.235,0.165,0.142,0.089,87.29,258.76,0.0018,0.0017,Malignant,Medium,No evidence of tumor recurrence.,Positive,Negative,0.137,No,Radiation,44,Alive,1
+P0093,56,54.29,10.8,12.73,0.13,0.256,0.261,0.09,0.072,126.09,2087.44,0.0078,0.0073,Benign,High,No evidence of tumor recurrence.,Positive,Negative,0.437,No,Hormone Therapy,57,Deceased,0
+P0550,47,19.39,25.23,14.06,0.155,0.223,0.221,0.288,0.079,161.27,1990.63,0.0025,0.0041,Benign,Medium,Malignant cells present with irregular borders.,Positive,Positive,0.119,No,Radiation,12,Alive,0
+P0780,58,24.38,24.86,21.59,0.075,0.058,0.237,0.173,0.055,113.52,1687.78,0.0048,0.0042,Malignant,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.344,Yes,Chemotherapy,50,Alive,1
+P0775,30,36.54,17.15,34.29,0.181,0.018,0.178,0.385,0.048,108.34,2356.17,0.0061,0.0069,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Positive,0.315,Yes,Surgery,34,Deceased,0
+P0786,32,56.92,25.72,30.22,0.069,0.126,0.364,0.335,0.056,138.83,203.28,0.0149,0.0063,Malignant,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.734,No,Hormone Therapy,7,Alive,1
+P0091,74,27.58,22.54,23.47,0.151,0.032,0.14,0.17,0.071,86.8,2360.15,0.0196,0.0086,Benign,High,Normal epithelial tissue morphology maintained.,Positive,Negative,0.195,No,Radiation,55,Alive,0
+P0189,49,52.4,13.23,11.62,0.153,0.163,0.494,0.083,0.073,99.84,1733.54,0.0183,0.0085,Malignant,Low,Malignant cells present with irregular borders.,Positive,Positive,0.83,Yes,Radiation,13,Alive,1
+P0248,59,17.07,29.67,24.42,0.07,0.029,0.249,0.282,0.088,171.65,1508.07,0.0167,0.003,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Positive,0.097,No,Hormone Therapy,55,Alive,0
+P0595,57,38.98,12.05,26.33,0.109,0.258,0.201,0.307,0.048,55.91,2241.04,0.0038,0.0068,Malignant,High,Malignant cells present with irregular borders.,Positive,Positive,0.282,No,Surgery,48,Alive,1
+P0694,72,13.96,27.92,15.98,0.198,0.115,0.184,0.236,0.061,151.89,1788.17,0.0166,0.0016,Malignant,High,Normal epithelial tissue morphology maintained.,Positive,Negative,0.852,Yes,Radiation,9,Alive,1
+P0744,74,25.03,6.68,38.3,0.057,0.203,0.138,0.146,0.065,127.57,1356.09,0.0124,0.0019,Benign,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.734,No,Chemotherapy,11,Deceased,0
+P0796,77,23.11,25.92,13.37,0.137,0.124,0.362,0.361,0.046,41.7,384.1,0.0158,0.003,Benign,Low,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.411,No,Surgery,35,Alive,0
+P0280,50,54.73,9.8,38.31,0.068,0.157,0.313,0.127,0.06,138.22,2045.86,0.0147,0.0046,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Positive,0.822,No,Radiation,55,Alive,0
+P0302,77,39.54,15.85,16.43,0.062,0.216,0.313,0.322,0.044,110.57,2157.08,0.0141,0.0057,Benign,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.696,No,Radiation,50,Alive,0
+P0922,61,41.71,8.04,39.37,0.094,0.187,0.185,0.046,0.086,143.03,389.06,0.0078,0.0059,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.913,No,Radiation,37,Alive,0
+P0688,36,11.59,6.59,30.96,0.121,0.06,0.442,0.068,0.083,106.31,896.38,0.0069,0.0007,Benign,High,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.967,No,Chemotherapy,10,Deceased,0
+P0442,72,41.69,11.03,14.96,0.185,0.279,0.449,0.28,0.086,64.89,1517.14,0.0112,0.0077,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.556,No,Hormone Therapy,38,Alive,0
+P0581,64,45.62,7.52,26.57,0.052,0.057,0.239,0.398,0.055,55.45,1296.88,0.0191,0.0076,Malignant,Low,No evidence of tumor recurrence.,Negative,Negative,0.133,Yes,Hormone Therapy,22,Alive,1
+P0102,34,18.82,23.19,26.12,0.192,0.135,0.48,0.297,0.058,134.93,1109.17,0.0117,0.0011,Malignant,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.598,Yes,Surgery,8,Deceased,1
+P0816,35,42.08,9.75,33.42,0.105,0.281,0.12,0.343,0.084,66.15,1552.61,0.0049,0.0067,Benign,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.029,No,Hormone Therapy,19,Alive,0
+P0203,30,36.48,27.16,19.83,0.199,0.228,0.436,0.351,0.081,125.36,813.65,0.0181,0.0063,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.697,Yes,Hormone Therapy,8,Alive,0
+P0777,67,52.39,20.87,32.97,0.137,0.051,0.494,0.131,0.047,171.22,1664.97,0.0126,0.0053,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.559,No,Chemotherapy,56,Alive,1
+P0182,41,56.91,27.95,21.73,0.153,0.235,0.349,0.101,0.085,48.68,791.29,0.0105,0.007,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Positive,0.627,Yes,Surgery,58,Alive,0
+P0303,63,20.14,11.55,11.93,0.134,0.049,0.243,0.254,0.084,135.68,1254.48,0.0017,0.0072,Malignant,High,No evidence of tumor recurrence.,Positive,Positive,0.325,Yes,Hormone Therapy,38,Alive,1
+P0885,73,12.01,15.93,31.46,0.102,0.238,0.198,0.18,0.057,43.21,1103.46,0.0187,0.0079,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.276,No,Hormone Therapy,7,Alive,1
+P0687,66,54.81,22.26,30.86,0.082,0.264,0.121,0.049,0.084,116.1,1590.03,0.0112,0.0039,Benign,Medium,"Benign lesion, no signs of malignancy.",Negative,Negative,0.048,Yes,Surgery,50,Alive,0
+P0043,37,18.86,6.28,20.43,0.101,0.187,0.152,0.181,0.052,178.49,2138.84,0.0129,0.0016,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.08,No,Surgery,18,Deceased,0
+P0430,52,51.34,16.53,10.34,0.181,0.097,0.257,0.144,0.088,146.51,1408.63,0.0066,0.0075,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.602,Yes,Chemotherapy,49,Alive,1
+P0658,66,19.7,6.38,11.93,0.068,0.202,0.497,0.084,0.054,160.09,1344.82,0.0128,0.001,Malignant,Low,"Fibroadenoma detected, benign nature.",Negative,Positive,0.279,No,Surgery,58,Alive,1
+P0680,51,23.62,8.33,32.03,0.17,0.064,0.289,0.273,0.086,54.5,1843.34,0.0156,0.0015,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.12,Yes,Hormone Therapy,25,Alive,1
+P0559,49,15.52,21.92,23.83,0.124,0.136,0.428,0.18,0.067,41.19,2495.8,0.0181,0.0054,Benign,Medium,"Fibroadenoma detected, benign nature.",Negative,Positive,0.536,No,Surgery,10,Alive,0
+P0094,74,42.71,13.67,31.56,0.138,0.298,0.107,0.28,0.066,155.13,648.95,0.0037,0.0038,Benign,Medium,No evidence of tumor recurrence.,Negative,Negative,0.95,No,Surgery,57,Deceased,0
+P0603,30,30.4,15.24,28.15,0.085,0.062,0.131,0.059,0.07,124.07,354.53,0.0127,0.0006,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.818,Yes,Chemotherapy,57,Alive,0
+P0437,62,18.24,11.48,16.11,0.099,0.188,0.162,0.212,0.07,121.2,1105.01,0.01,0.0088,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.688,Yes,Surgery,17,Alive,0
+P0661,64,38.64,18.16,19.88,0.168,0.082,0.277,0.19,0.046,115.52,1684.73,0.0083,0.0036,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.217,No,Radiation,22,Alive,0
+P0709,52,5.02,6.53,29.0,0.191,0.137,0.14,0.29,0.081,105.24,1578.39,0.0083,0.0094,Benign,High,Malignant cells present with irregular borders.,Positive,Negative,0.801,Yes,Hormone Therapy,48,Alive,0
+P0992,25,47.87,25.27,14.37,0.193,0.158,0.342,0.237,0.066,130.11,2481.31,0.0161,0.0049,Malignant,Medium,Normal epithelial tissue morphology maintained.,Negative,Negative,0.473,No,Hormone Therapy,33,Alive,1
+P0853,34,58.39,11.8,26.04,0.139,0.179,0.187,0.354,0.071,79.85,658.26,0.0103,0.0085,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.559,No,Chemotherapy,47,Alive,0
+P0173,64,9.93,16.19,16.44,0.081,0.142,0.398,0.333,0.08,112.85,1862.98,0.0019,0.0019,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Positive,0.447,No,Surgery,37,Alive,0
+P0529,57,31.63,8.53,32.65,0.125,0.189,0.184,0.284,0.051,56.68,2478.67,0.0182,0.0092,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.343,Yes,Surgery,7,Alive,1
+P0214,55,53.47,8.47,21.96,0.198,0.15,0.104,0.127,0.078,67.91,1466.76,0.0154,0.0043,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Positive,0.92,No,Chemotherapy,16,Alive,1
+P0852,56,41.83,6.09,16.97,0.09,0.066,0.117,0.263,0.042,142.74,748.98,0.0065,0.0089,Benign,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.095,No,Chemotherapy,32,Deceased,0
+P0585,68,11.95,12.91,28.52,0.133,0.296,0.441,0.036,0.068,154.7,458.53,0.0147,0.009,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Positive,0.026,No,Radiation,13,Alive,1
+P0899,48,38.22,16.6,15.67,0.185,0.126,0.427,0.077,0.089,110.12,2005.25,0.0029,0.0011,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.599,Yes,Hormone Therapy,26,Alive,0
+P0768,36,31.53,10.95,28.49,0.193,0.077,0.156,0.233,0.071,47.08,2405.2,0.0127,0.0079,Benign,Low,Invasive ductal carcinoma detected.,Positive,Positive,0.92,No,Chemotherapy,24,Alive,0
+P0256,54,47.57,11.35,16.09,0.067,0.197,0.486,0.122,0.08,75.67,460.96,0.014,0.0089,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.663,No,Radiation,50,Alive,1
+P0792,55,30.02,25.47,32.57,0.123,0.284,0.162,0.221,0.048,95.31,1027.94,0.0094,0.0076,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.522,No,Hormone Therapy,7,Deceased,0
+P0481,63,50.99,8.38,31.59,0.102,0.284,0.317,0.273,0.078,153.02,1460.48,0.0168,0.0095,Benign,High,Malignant cells present with irregular borders.,Positive,Negative,0.232,No,Chemotherapy,51,Alive,0
+P0325,52,19.61,7.07,16.43,0.133,0.28,0.443,0.09,0.088,44.79,713.75,0.0058,0.0045,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.694,No,Surgery,12,Alive,0
+P0386,68,49.66,14.72,23.87,0.191,0.19,0.136,0.12,0.048,107.95,1202.91,0.0149,0.0066,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.237,No,Surgery,31,Alive,1
+P0358,54,16.03,18.9,36.17,0.065,0.069,0.181,0.398,0.069,143.54,2016.31,0.0189,0.0063,Malignant,Medium,Normal epithelial tissue morphology maintained.,Negative,Positive,0.149,No,Surgery,35,Alive,1
+P0069,48,34.75,22.57,35.45,0.161,0.272,0.12,0.089,0.07,164.42,1881.47,0.0182,0.0099,Benign,High,Atypical ductal hyperplasia observed.,Negative,Positive,0.975,No,Hormone Therapy,32,Alive,0
+P0346,36,17.63,19.85,20.95,0.053,0.159,0.126,0.356,0.053,59.21,947.62,0.0064,0.001,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.489,Yes,Chemotherapy,12,Alive,0
+P0421,54,28.98,9.69,26.63,0.078,0.14,0.444,0.286,0.05,118.23,2167.94,0.0133,0.0024,Malignant,High,Malignant cells present with irregular borders.,Positive,Negative,0.455,No,Hormone Therapy,28,Alive,1
+P0669,60,21.63,27.55,17.99,0.089,0.275,0.294,0.36,0.066,174.29,1389.21,0.0123,0.0086,Malignant,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.391,Yes,Surgery,33,Alive,1
+P0005,63,57.53,25.45,34.85,0.138,0.292,0.439,0.239,0.066,45.82,2287.77,0.0129,0.0096,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.226,No,Chemotherapy,47,Deceased,1
+P0367,75,7.67,23.09,11.15,0.18,0.183,0.192,0.093,0.042,167.02,2334.7,0.0041,0.0094,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.762,Yes,Radiation,40,Deceased,0
+P0264,61,52.27,27.74,27.31,0.105,0.068,0.403,0.177,0.073,42.37,349.21,0.0109,0.0086,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.712,Yes,Radiation,48,Deceased,0
+P0133,43,24.34,13.48,12.61,0.095,0.031,0.392,0.077,0.089,146.58,471.18,0.012,0.0086,Benign,Low,No evidence of tumor recurrence.,Negative,Negative,0.922,Yes,Surgery,34,Deceased,0
+P0274,76,42.19,19.46,21.74,0.166,0.257,0.166,0.156,0.042,128.23,793.5,0.003,0.0039,Malignant,High,Normal epithelial tissue morphology maintained.,Positive,Positive,0.308,No,Surgery,25,Alive,1
+P0046,72,34.34,22.03,22.55,0.053,0.066,0.254,0.118,0.049,61.83,985.01,0.0087,0.0036,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.382,Yes,Surgery,10,Alive,0
+P0618,34,25.81,17.67,10.96,0.127,0.284,0.116,0.161,0.074,144.9,2158.28,0.0011,0.0022,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Positive,0.717,Yes,Radiation,49,Alive,0
+P0536,56,10.0,26.7,22.99,0.083,0.286,0.209,0.085,0.088,71.64,847.08,0.0027,0.0097,Benign,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.438,No,Hormone Therapy,47,Alive,0
+P0980,31,51.22,18.99,22.55,0.14,0.124,0.16,0.19,0.079,76.89,1141.49,0.0187,0.0073,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.1,No,Chemotherapy,28,Deceased,0
+P0406,52,34.22,27.09,17.94,0.138,0.101,0.487,0.011,0.054,110.45,1477.67,0.0125,0.0028,Malignant,Medium,Malignant cells present with irregular borders.,Negative,Positive,0.523,No,Radiation,44,Alive,1
+P0171,59,9.93,9.35,31.73,0.195,0.124,0.264,0.371,0.088,159.35,317.24,0.0165,0.0093,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.205,Yes,Hormone Therapy,33,Alive,0
+P0130,53,43.18,8.25,20.11,0.133,0.137,0.479,0.213,0.079,150.51,1951.33,0.0061,0.0061,Benign,Low,"Benign lesion, no signs of malignancy.",Negative,Negative,0.08,No,Radiation,39,Alive,0
+P0937,39,26.85,9.24,11.3,0.051,0.095,0.183,0.075,0.077,66.69,581.03,0.0012,0.0019,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.313,No,Surgery,10,Alive,1
+P0523,58,40.06,20.04,32.9,0.116,0.089,0.319,0.265,0.046,87.95,375.7,0.0081,0.0041,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.553,No,Chemotherapy,51,Alive,0
+P0106,42,36.48,6.92,23.01,0.134,0.146,0.443,0.114,0.079,157.83,892.5,0.0153,0.0052,Benign,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.775,Yes,Hormone Therapy,28,Alive,0
+P0080,49,40.17,22.02,18.68,0.093,0.116,0.228,0.29,0.073,124.37,1136.67,0.0085,0.0048,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.709,Yes,Surgery,37,Alive,0
+P0650,35,56.37,21.94,37.99,0.074,0.271,0.127,0.207,0.081,108.35,2488.92,0.0029,0.0009,Benign,High,"Fibroadenoma detected, benign nature.",Negative,Negative,0.913,Yes,Radiation,18,Alive,0
+P0151,30,49.99,6.75,25.13,0.076,0.181,0.354,0.352,0.046,110.84,1194.71,0.0024,0.0097,Benign,Low,No evidence of tumor recurrence.,Positive,Positive,0.185,Yes,Chemotherapy,33,Alive,0
+P0355,41,31.57,17.81,39.59,0.055,0.077,0.104,0.357,0.052,49.7,766.41,0.0017,0.0049,Benign,Medium,"Benign lesion, no signs of malignancy.",Positive,Negative,0.534,No,Hormone Therapy,28,Alive,0
+P0787,49,26.8,19.31,26.25,0.135,0.059,0.229,0.027,0.049,95.11,1883.08,0.0142,0.0049,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.193,No,Chemotherapy,11,Alive,1
+P0948,61,11.88,12.74,26.71,0.161,0.206,0.175,0.074,0.042,91.01,1607.71,0.0185,0.0075,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.588,Yes,Hormone Therapy,7,Alive,1
+P0972,26,37.2,16.66,36.72,0.137,0.042,0.105,0.334,0.06,151.66,1209.97,0.0147,0.0027,Malignant,High,Normal epithelial tissue morphology maintained.,Positive,Negative,0.321,No,Hormone Therapy,22,Deceased,1
+P0413,32,24.92,6.79,32.09,0.066,0.177,0.14,0.295,0.087,86.51,1321.4,0.0055,0.0043,Benign,Low,No evidence of tumor recurrence.,Positive,Positive,0.807,No,Chemotherapy,18,Alive,0
+P0453,44,5.01,12.18,27.35,0.147,0.264,0.448,0.387,0.07,119.16,340.62,0.0082,0.0093,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.003,Yes,Hormone Therapy,6,Alive,1
+P0459,47,15.53,11.31,11.57,0.1,0.084,0.439,0.081,0.079,105.6,2476.82,0.0032,0.0076,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.722,No,Radiation,15,Deceased,0
+P0276,46,56.23,10.81,20.29,0.111,0.076,0.282,0.147,0.06,103.28,1880.75,0.0122,0.0027,Malignant,High,Extensive necrosis with aggressive tumor cells.,Negative,Positive,0.354,No,Radiation,11,Alive,1
+P0409,66,40.32,17.24,10.35,0.132,0.113,0.178,0.088,0.042,54.53,810.2,0.0136,0.0039,Benign,High,No evidence of tumor recurrence.,Positive,Negative,0.578,No,Surgery,54,Alive,0
+P0578,61,41.92,29.3,25.62,0.144,0.104,0.21,0.249,0.062,167.56,2287.42,0.0127,0.0044,Benign,High,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.208,Yes,Radiation,36,Alive,0
+P0234,42,51.78,6.59,12.63,0.125,0.218,0.272,0.187,0.077,52.23,985.56,0.0177,0.0028,Malignant,High,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.184,No,Surgery,45,Alive,1
+P0919,47,33.2,10.11,16.21,0.07,0.136,0.232,0.14,0.083,49.73,1069.37,0.0084,0.0046,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.196,No,Chemotherapy,51,Alive,0
+P0352,39,17.7,9.13,29.14,0.177,0.147,0.412,0.234,0.086,103.35,2348.09,0.0079,0.0043,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.885,Yes,Hormone Therapy,23,Alive,1
+P0489,75,13.28,22.92,17.7,0.134,0.217,0.281,0.337,0.044,129.84,2185.33,0.0147,0.0011,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.255,No,Radiation,57,Deceased,0
+P0916,60,49.98,11.28,23.95,0.136,0.027,0.382,0.071,0.084,47.66,987.69,0.0158,0.0054,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.032,Yes,Chemotherapy,51,Alive,0
+P0484,40,34.57,14.32,32.07,0.134,0.278,0.323,0.257,0.066,161.64,1544.28,0.0196,0.0075,Malignant,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.855,No,Surgery,40,Deceased,1
+P0197,30,35.68,22.51,15.89,0.066,0.186,0.443,0.063,0.054,67.8,2099.46,0.0126,0.0033,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.639,No,Surgery,29,Alive,0
+P0387,36,52.69,21.38,21.7,0.058,0.202,0.152,0.273,0.054,68.15,829.74,0.0017,0.004,Benign,Medium,"Benign lesion, no signs of malignancy.",Positive,Positive,0.264,Yes,Hormone Therapy,29,Alive,0
+P0866,36,15.79,19.72,37.73,0.078,0.214,0.491,0.374,0.088,85.1,1740.88,0.0185,0.0059,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.264,No,Chemotherapy,39,Alive,1
+P0161,45,27.83,28.9,35.36,0.125,0.021,0.261,0.054,0.051,58.8,2229.25,0.0186,0.0038,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.214,Yes,Surgery,55,Alive,1
+P0671,48,58.46,19.23,37.82,0.132,0.133,0.294,0.101,0.067,46.68,2374.32,0.0036,0.0051,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.197,No,Surgery,22,Alive,0
+P0547,66,16.08,29.72,33.76,0.143,0.264,0.205,0.128,0.077,48.08,302.98,0.0171,0.006,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Positive,0.813,Yes,Chemotherapy,45,Alive,0
+P0495,57,31.79,9.33,25.5,0.198,0.058,0.164,0.212,0.041,109.39,1958.2,0.0036,0.0094,Benign,High,"Fibroadenoma detected, benign nature.",Positive,Negative,0.898,Yes,Radiation,55,Alive,0
+P0134,77,34.89,13.35,16.69,0.107,0.242,0.232,0.276,0.055,173.59,733.57,0.0113,0.0072,Benign,High,"Benign lesion, no signs of malignancy.",Negative,Negative,0.013,No,Surgery,23,Alive,0
+P0337,73,54.54,18.09,34.95,0.063,0.037,0.122,0.212,0.082,105.5,1350.61,0.0109,0.0071,Benign,Low,No evidence of tumor recurrence.,Negative,Negative,0.65,Yes,Hormone Therapy,23,Alive,0
+P0211,78,54.82,20.99,34.12,0.082,0.193,0.354,0.223,0.065,89.44,616.49,0.0051,0.0035,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.105,No,Hormone Therapy,51,Alive,1
+P0720,69,28.66,18.5,31.58,0.188,0.05,0.232,0.288,0.05,92.52,2016.65,0.0057,0.007,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.189,Yes,Hormone Therapy,7,Alive,0
+P0338,41,56.15,25.24,39.41,0.172,0.252,0.15,0.075,0.055,53.0,2165.17,0.0011,0.0094,Benign,Medium,"Benign lesion, no signs of malignancy.",Positive,Negative,0.717,No,Hormone Therapy,24,Alive,0
+P0221,38,20.8,6.62,13.79,0.12,0.012,0.222,0.174,0.087,143.4,1689.62,0.0083,0.0073,Malignant,Medium,"Benign lesion, no signs of malignancy.",Positive,Positive,0.955,No,Surgery,33,Deceased,1
+P0251,55,48.98,8.57,35.24,0.168,0.036,0.146,0.332,0.046,118.08,457.54,0.0194,0.0049,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Positive,0.138,No,Radiation,34,Alive,1
+P0638,37,32.77,14.04,38.02,0.053,0.07,0.477,0.038,0.064,79.75,2343.42,0.0077,0.0026,Benign,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.455,No,Hormone Therapy,48,Alive,0
+P0237,33,21.69,11.26,11.73,0.128,0.108,0.102,0.078,0.053,90.87,1254.66,0.0018,0.0049,Malignant,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.723,No,Surgery,32,Alive,1
+P0959,65,11.21,22.51,30.95,0.116,0.121,0.307,0.295,0.052,141.42,1327.94,0.0114,0.0091,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.803,Yes,Surgery,6,Deceased,0
+P0281,75,13.61,16.94,11.26,0.052,0.29,0.14,0.266,0.071,100.84,1500.72,0.0035,0.0027,Malignant,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.081,No,Chemotherapy,10,Deceased,1
+P0857,65,29.57,29.54,30.13,0.168,0.131,0.452,0.094,0.08,117.95,1699.63,0.0076,0.0097,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.317,Yes,Hormone Therapy,20,Alive,0
+P0174,36,57.88,28.41,20.68,0.078,0.061,0.151,0.232,0.049,170.3,1104.47,0.016,0.0056,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Positive,0.934,No,Radiation,13,Alive,0
+P0157,28,17.76,14.8,18.68,0.179,0.093,0.147,0.075,0.048,47.36,2369.28,0.0072,0.0075,Malignant,Low,No evidence of tumor recurrence.,Negative,Negative,0.389,Yes,Chemotherapy,35,Alive,1
+P0246,77,8.14,6.91,32.91,0.168,0.112,0.171,0.228,0.085,175.16,1336.14,0.0113,0.0097,Benign,High,Malignant cells present with irregular borders.,Positive,Negative,0.062,No,Hormone Therapy,29,Alive,0
+P0007,70,22.79,21.93,36.92,0.061,0.288,0.201,0.107,0.058,48.68,704.66,0.0155,0.0064,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.652,No,Radiation,52,Alive,1
+P0012,35,43.34,28.08,37.57,0.143,0.257,0.102,0.293,0.051,177.9,1384.46,0.011,0.0068,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.541,No,Radiation,20,Alive,1
+P0344,38,22.6,12.18,12.25,0.175,0.047,0.377,0.356,0.088,41.08,294.45,0.0188,0.0054,Benign,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.207,No,Chemotherapy,42,Alive,0
+P0951,68,57.05,23.6,23.91,0.115,0.254,0.493,0.373,0.063,158.21,1048.73,0.014,0.0078,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.939,No,Radiation,55,Alive,0
+P0002,48,25.15,10.53,12.01,0.066,0.04,0.444,0.276,0.049,109.8,2313.06,0.0132,0.0039,Benign,Medium,No evidence of tumor recurrence.,Positive,Positive,0.459,No,Hormone Therapy,25,Alive,0
+P0262,67,17.96,12.08,27.59,0.139,0.268,0.328,0.319,0.053,102.54,1839.81,0.0073,0.005,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.617,No,Hormone Therapy,40,Alive,0
+P0077,69,12.61,20.48,16.64,0.154,0.225,0.464,0.021,0.046,149.09,1268.86,0.0125,0.0052,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.655,Yes,Surgery,13,Alive,0
+P0861,61,34.89,7.15,12.13,0.174,0.099,0.14,0.189,0.071,145.41,1125.65,0.0185,0.0091,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.283,Yes,Radiation,42,Alive,0
+P0790,76,33.19,29.23,11.75,0.186,0.115,0.287,0.231,0.089,140.78,993.55,0.0094,0.0053,Benign,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.086,Yes,Radiation,25,Alive,0
+P0247,52,11.08,8.95,17.75,0.08,0.253,0.245,0.033,0.041,153.3,835.74,0.0143,0.0095,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.972,No,Chemotherapy,33,Alive,1
+P0261,55,12.2,18.38,31.28,0.155,0.177,0.306,0.049,0.053,102.06,1763.25,0.0012,0.0017,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.733,No,Chemotherapy,23,Deceased,0
+P0981,33,43.57,13.77,23.23,0.114,0.257,0.332,0.108,0.048,166.32,1721.63,0.018,0.0054,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.432,No,Hormone Therapy,13,Alive,0
+P0542,64,50.96,7.99,18.67,0.138,0.213,0.171,0.074,0.068,82.49,1335.67,0.0152,0.0008,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.371,No,Surgery,32,Alive,1
+P0316,45,32.67,26.14,37.51,0.093,0.029,0.495,0.288,0.079,67.19,949.27,0.0137,0.0009,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.745,No,Radiation,8,Alive,0
+P0341,58,54.29,26.37,14.2,0.065,0.054,0.218,0.052,0.075,49.6,1114.67,0.0136,0.007,Malignant,Medium,Atypical ductal hyperplasia observed.,Negative,Positive,0.452,No,Chemotherapy,34,Alive,1
+P0892,79,35.66,19.56,39.12,0.109,0.27,0.303,0.161,0.085,105.49,2101.38,0.0037,0.0036,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.932,No,Surgery,39,Alive,1
+P0138,47,42.24,12.16,17.91,0.109,0.287,0.409,0.211,0.078,153.01,1420.06,0.0159,0.0091,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.633,No,Radiation,32,Alive,1
+P0407,48,26.98,13.56,25.59,0.136,0.162,0.439,0.021,0.069,147.62,2020.09,0.0156,0.0006,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Positive,0.673,Yes,Hormone Therapy,52,Alive,0
+P0518,71,39.27,23.59,22.69,0.145,0.117,0.16,0.081,0.057,126.02,2418.78,0.0127,0.0088,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.441,Yes,Radiation,49,Alive,0
+P0734,36,57.16,7.79,22.12,0.143,0.138,0.133,0.124,0.079,140.29,282.28,0.0147,0.0084,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.798,No,Radiation,54,Alive,1
+P0909,31,25.26,25.29,24.61,0.187,0.108,0.411,0.304,0.042,81.13,1803.92,0.0023,0.0018,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Positive,0.774,No,Radiation,45,Alive,1
+P0902,31,38.43,21.43,21.41,0.088,0.133,0.191,0.018,0.05,161.3,1752.03,0.019,0.0026,Benign,Low,Malignant cells present with irregular borders.,Negative,Negative,0.871,No,Surgery,55,Alive,0
+P0343,46,5.2,17.77,27.36,0.152,0.073,0.458,0.351,0.046,62.42,2248.87,0.0079,0.0088,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.31,No,Surgery,12,Alive,0
+P0606,25,45.14,29.11,37.27,0.133,0.083,0.251,0.22,0.045,101.81,1446.7,0.0114,0.0069,Malignant,Medium,Normal epithelial tissue morphology maintained.,Negative,Negative,0.21,No,Chemotherapy,9,Alive,1
+P0526,32,23.46,13.53,20.14,0.138,0.299,0.332,0.116,0.049,133.79,1480.4,0.0097,0.0036,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.824,No,Radiation,28,Alive,0
+P0933,37,57.88,18.33,15.59,0.191,0.126,0.126,0.276,0.082,50.82,1373.86,0.011,0.0034,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.786,No,Radiation,6,Alive,0
+P0739,32,32.1,10.54,26.95,0.152,0.222,0.288,0.011,0.043,136.79,2143.05,0.0178,0.0049,Malignant,High,Malignant cells present with irregular borders.,Positive,Negative,0.088,Yes,Chemotherapy,23,Alive,1
+P0340,55,32.05,17.77,10.29,0.159,0.188,0.235,0.156,0.068,50.57,836.8,0.0144,0.0019,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.734,Yes,Chemotherapy,43,Alive,0
+P0278,62,33.13,10.95,31.61,0.074,0.115,0.409,0.156,0.074,153.46,1240.46,0.0119,0.0006,Benign,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.43,No,Hormone Therapy,14,Alive,0
+P0269,50,58.12,23.46,12.17,0.08,0.047,0.416,0.248,0.06,79.01,1521.68,0.0033,0.0046,Malignant,Medium,Normal epithelial tissue morphology maintained.,Negative,Positive,0.196,No,Hormone Therapy,44,Alive,1
+P0914,59,38.78,13.08,25.37,0.17,0.072,0.321,0.102,0.069,143.71,1877.72,0.0197,0.004,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.793,No,Radiation,51,Alive,0
+P0183,56,5.21,11.01,12.4,0.053,0.151,0.358,0.24,0.081,164.33,1927.38,0.0114,0.0048,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.933,Yes,Hormone Therapy,30,Alive,0
+P0506,72,56.88,21.16,37.67,0.089,0.229,0.481,0.321,0.079,42.36,1034.02,0.0053,0.0013,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.446,Yes,Radiation,52,Alive,1
+P0993,37,18.89,14.97,11.0,0.18,0.284,0.372,0.226,0.07,74.12,325.63,0.0104,0.0047,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.647,Yes,Surgery,37,Deceased,0
+P0956,37,51.03,10.45,26.34,0.068,0.022,0.229,0.203,0.087,80.88,2223.46,0.0037,0.0057,Benign,Low,Malignant cells present with irregular borders.,Positive,Positive,0.586,No,Hormone Therapy,51,Alive,0
+P0190,26,31.24,17.12,25.5,0.09,0.141,0.426,0.359,0.045,55.88,1284.64,0.0051,0.0039,Benign,High,Invasive ductal carcinoma detected.,Positive,Negative,0.946,No,Surgery,38,Alive,0
+P0025,69,36.29,22.93,11.85,0.083,0.249,0.424,0.049,0.074,70.75,1928.01,0.0106,0.0074,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.32,No,Chemotherapy,18,Alive,0
+P0729,51,39.24,13.91,12.64,0.174,0.012,0.267,0.102,0.073,102.88,1266.71,0.0161,0.005,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.41,Yes,Radiation,17,Alive,1
+P0057,71,47.03,10.29,37.33,0.087,0.228,0.196,0.024,0.084,157.78,1892.1,0.011,0.0039,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.761,No,Hormone Therapy,21,Deceased,0
+P0696,51,51.94,28.11,11.27,0.155,0.171,0.367,0.294,0.045,44.65,979.11,0.0044,0.0021,Malignant,High,Malignant cells present with irregular borders.,Positive,Negative,0.298,No,Radiation,10,Alive,1
+P0086,68,46.6,16.8,34.81,0.123,0.176,0.494,0.168,0.066,114.51,1259.17,0.0133,0.0031,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.33,Yes,Hormone Therapy,52,Alive,1
+P0662,33,36.12,19.51,26.11,0.143,0.135,0.296,0.132,0.044,160.5,501.43,0.0035,0.0063,Malignant,Medium,No evidence of tumor recurrence.,Positive,Negative,0.898,No,Hormone Therapy,47,Alive,1
+P0745,44,40.17,25.88,12.95,0.177,0.072,0.253,0.046,0.075,94.9,1709.12,0.0153,0.0076,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Positive,0.808,No,Radiation,8,Alive,1
+P0029,62,9.76,8.88,16.65,0.07,0.171,0.386,0.331,0.078,98.65,1467.1,0.0165,0.0075,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.514,No,Surgery,15,Alive,1
+P0525,79,45.61,17.67,16.14,0.197,0.248,0.406,0.378,0.068,95.01,360.58,0.0184,0.0069,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.921,No,Radiation,20,Alive,1
+P0131,44,5.89,24.43,27.56,0.118,0.096,0.286,0.369,0.049,63.53,2014.65,0.0056,0.0097,Benign,Medium,No evidence of tumor recurrence.,Negative,Negative,0.605,No,Radiation,38,Deceased,0
+P0819,57,38.23,23.85,36.21,0.12,0.136,0.214,0.251,0.066,108.25,1166.54,0.014,0.0095,Malignant,Low,"Benign lesion, no signs of malignancy.",Negative,Negative,0.542,No,Chemotherapy,32,Alive,1
+P0370,51,38.86,28.57,14.73,0.13,0.228,0.218,0.177,0.068,111.61,233.65,0.0091,0.004,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.038,No,Hormone Therapy,33,Deceased,0
+P0250,35,28.83,8.77,30.6,0.134,0.296,0.498,0.329,0.08,49.96,1200.41,0.0178,0.0096,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.56,Yes,Radiation,23,Alive,0
+P0675,37,28.28,18.6,32.1,0.089,0.138,0.209,0.115,0.045,164.97,2092.04,0.0027,0.0027,Malignant,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.504,No,Radiation,16,Alive,1
+P0879,72,16.57,26.7,18.72,0.121,0.145,0.325,0.213,0.083,141.46,797.81,0.0016,0.0078,Benign,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.126,Yes,Chemotherapy,35,Alive,0
+P0451,71,25.72,14.73,20.22,0.18,0.285,0.471,0.279,0.086,70.71,710.75,0.0174,0.0031,Benign,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.691,No,Radiation,47,Deceased,0
+P0705,67,29.45,25.04,13.89,0.063,0.09,0.429,0.083,0.044,129.84,1854.36,0.0153,0.0034,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.229,No,Surgery,37,Deceased,0
+P0666,37,57.03,26.91,12.79,0.152,0.029,0.13,0.176,0.075,161.22,2178.04,0.0016,0.004,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.258,No,Radiation,33,Alive,0
+P0285,32,58.24,26.86,11.47,0.172,0.148,0.169,0.116,0.077,87.4,2251.3,0.0173,0.0073,Benign,High,No evidence of tumor recurrence.,Positive,Positive,0.55,No,Surgery,10,Alive,0
+P0177,45,17.3,9.39,32.3,0.162,0.257,0.184,0.138,0.056,57.55,2003.88,0.002,0.0062,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.549,No,Surgery,25,Alive,1
+P0058,78,18.63,27.65,39.79,0.186,0.051,0.183,0.112,0.056,134.81,821.01,0.0054,0.0077,Malignant,Low,Malignant cells present with irregular borders.,Positive,Positive,0.432,No,Surgery,23,Alive,1
+P0126,47,41.05,28.5,10.28,0.126,0.148,0.166,0.294,0.087,113.46,2086.06,0.0187,0.0053,Benign,High,"Benign lesion, no signs of malignancy.",Positive,Positive,0.845,No,Hormone Therapy,47,Alive,0
+P0098,29,22.63,7.76,16.83,0.087,0.255,0.13,0.121,0.04,91.96,1980.64,0.0085,0.0059,Malignant,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.676,No,Radiation,53,Alive,1
+P0445,62,39.18,8.51,37.96,0.083,0.174,0.227,0.027,0.078,75.15,2281.45,0.0036,0.0083,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.989,No,Surgery,25,Alive,1
+P0925,40,29.57,28.95,13.18,0.103,0.25,0.135,0.347,0.051,65.64,1448.12,0.0038,0.006,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.828,No,Hormone Therapy,27,Alive,1
+P0654,36,26.07,13.33,33.76,0.054,0.017,0.241,0.068,0.086,58.76,1785.35,0.0151,0.0057,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.371,No,Radiation,17,Alive,0
+P0558,74,27.44,29.37,26.2,0.156,0.019,0.207,0.046,0.049,166.47,977.17,0.0091,0.0009,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.333,No,Radiation,56,Alive,0
+P0692,32,41.77,11.19,24.68,0.074,0.148,0.113,0.141,0.042,153.12,1097.26,0.0012,0.0014,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.929,No,Radiation,39,Alive,1
+P0299,68,47.97,13.1,30.69,0.136,0.24,0.403,0.216,0.045,67.46,2279.58,0.0191,0.0049,Benign,Medium,No evidence of tumor recurrence.,Negative,Negative,0.531,Yes,Surgery,44,Alive,0
+P0027,53,56.8,15.46,33.05,0.132,0.297,0.2,0.367,0.047,45.95,1115.99,0.0113,0.004,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.974,Yes,Chemotherapy,25,Alive,1
+P0552,74,6.55,10.77,14.34,0.089,0.239,0.404,0.161,0.068,49.79,1285.62,0.0148,0.0016,Benign,High,"Fibroadenoma detected, benign nature.",Negative,Negative,0.655,Yes,Surgery,25,Alive,0
+P0403,42,42.25,25.96,35.54,0.164,0.214,0.482,0.358,0.06,157.01,1314.18,0.0048,0.0094,Malignant,High,"Benign lesion, no signs of malignancy.",Positive,Positive,0.399,No,Radiation,22,Alive,1
+P0054,46,56.51,14.07,29.21,0.081,0.227,0.113,0.348,0.051,111.96,1766.25,0.0048,0.0045,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.629,No,Surgery,41,Alive,1
+P0895,60,11.4,24.86,19.56,0.199,0.26,0.223,0.083,0.088,90.25,1139.79,0.009,0.0048,Benign,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.889,No,Chemotherapy,17,Alive,0
+P0143,42,24.55,22.55,27.68,0.162,0.149,0.471,0.336,0.055,93.62,1827.34,0.0101,0.0081,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.148,No,Surgery,8,Alive,0
+P0622,49,59.54,11.66,16.96,0.164,0.184,0.115,0.305,0.056,85.75,1523.35,0.0091,0.0031,Benign,High,No evidence of tumor recurrence.,Positive,Negative,0.721,Yes,Surgery,18,Alive,0
+P0773,39,45.6,27.67,16.24,0.085,0.043,0.145,0.125,0.059,63.61,214.92,0.0061,0.0021,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.804,No,Chemotherapy,31,Alive,0
+P0635,54,38.28,14.76,34.43,0.07,0.196,0.274,0.384,0.071,117.25,1685.08,0.0047,0.0092,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.591,No,Radiation,32,Deceased,1
+P0136,37,48.46,7.74,22.84,0.195,0.22,0.212,0.241,0.065,156.12,607.64,0.0146,0.0032,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.257,No,Radiation,12,Alive,0
+P0457,64,49.32,16.76,21.01,0.159,0.206,0.232,0.259,0.086,64.0,970.79,0.0161,0.0099,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.979,No,Radiation,39,Alive,1
+P0150,51,30.26,7.18,17.88,0.102,0.038,0.159,0.065,0.064,167.99,685.43,0.015,0.0045,Benign,High,No evidence of tumor recurrence.,Positive,Positive,0.219,No,Hormone Therapy,20,Alive,0
+P0863,64,15.0,19.7,17.93,0.062,0.119,0.329,0.384,0.071,96.08,1606.06,0.0085,0.0084,Malignant,High,No evidence of tumor recurrence.,Positive,Negative,0.608,No,Chemotherapy,55,Alive,1
+P0932,53,28.15,8.2,10.17,0.051,0.11,0.257,0.217,0.042,159.5,2422.44,0.0096,0.0023,Malignant,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.43,Yes,Hormone Therapy,49,Alive,1
+P0266,53,31.52,14.51,12.52,0.145,0.153,0.469,0.067,0.049,86.93,357.61,0.0049,0.0083,Malignant,Low,No evidence of tumor recurrence.,Negative,Negative,0.992,No,Surgery,51,Alive,1
+P0223,60,29.94,25.28,16.92,0.199,0.227,0.318,0.371,0.068,42.37,1678.31,0.0183,0.0006,Malignant,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.375,Yes,Chemotherapy,24,Alive,1
+P0707,29,15.47,10.4,25.21,0.152,0.098,0.264,0.137,0.081,156.52,2009.63,0.0084,0.0034,Malignant,High,Atypical ductal hyperplasia observed.,Positive,Negative,0.23,Yes,Radiation,53,Alive,1
+P0591,78,44.6,6.53,22.33,0.167,0.205,0.359,0.293,0.072,179.92,439.22,0.0137,0.004,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.207,Yes,Radiation,6,Alive,0
+P0259,36,48.75,16.36,20.39,0.167,0.252,0.165,0.032,0.049,73.48,1845.31,0.0081,0.0031,Benign,Low,Invasive ductal carcinoma detected.,Positive,Positive,0.268,No,Chemotherapy,10,Alive,0
+P0152,59,56.15,19.3,32.32,0.05,0.192,0.48,0.081,0.068,116.12,1162.79,0.0185,0.0075,Benign,Low,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.86,Yes,Radiation,45,Alive,0
+P0429,64,50.92,11.27,26.6,0.186,0.113,0.143,0.369,0.054,92.4,1680.6,0.0172,0.0023,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.197,Yes,Hormone Therapy,11,Alive,0
+P0746,40,12.1,24.92,17.95,0.187,0.136,0.478,0.212,0.048,178.54,1155.61,0.0092,0.0065,Malignant,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.354,Yes,Surgery,28,Alive,1
+P0594,33,29.37,13.7,22.28,0.179,0.26,0.152,0.289,0.047,171.37,1015.74,0.0081,0.0065,Benign,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.997,Yes,Surgery,12,Deceased,0
+P0665,69,55.17,23.6,13.82,0.064,0.138,0.231,0.151,0.064,96.92,2050.49,0.0077,0.0072,Benign,High,Invasive ductal carcinoma detected.,Positive,Negative,0.263,No,Surgery,45,Deceased,0
+P0394,58,53.54,28.37,17.37,0.127,0.075,0.32,0.355,0.067,103.29,1330.43,0.0025,0.0046,Benign,Low,Extensive necrosis with aggressive tumor cells.,Negative,Positive,0.162,No,Hormone Therapy,35,Alive,0
+P0450,55,24.29,19.64,28.9,0.121,0.025,0.311,0.014,0.08,65.98,2441.42,0.018,0.0088,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.931,No,Hormone Therapy,52,Alive,1
+P0415,51,30.89,27.48,12.0,0.07,0.066,0.401,0.103,0.066,124.4,1853.42,0.01,0.0019,Benign,Medium,"Benign lesion, no signs of malignancy.",Positive,Positive,0.567,Yes,Surgery,36,Alive,0
+P0656,79,30.1,10.18,37.27,0.196,0.051,0.347,0.273,0.043,167.14,2425.83,0.0153,0.0032,Benign,Low,Invasive ductal carcinoma detected.,Positive,Positive,0.32,No,Chemotherapy,23,Alive,0
+P0941,28,9.31,29.47,23.93,0.075,0.169,0.497,0.157,0.06,153.37,1195.12,0.0108,0.0089,Benign,High,Malignant cells present with irregular borders.,Positive,Negative,0.02,Yes,Chemotherapy,22,Alive,0
+P0911,35,26.09,12.06,38.64,0.105,0.019,0.198,0.237,0.057,129.39,357.44,0.0126,0.0082,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.448,No,Hormone Therapy,35,Alive,0
+P0672,68,52.26,14.63,22.08,0.156,0.214,0.234,0.171,0.066,60.66,530.71,0.0118,0.0075,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.048,No,Hormone Therapy,14,Alive,0
+P0510,30,12.21,29.18,25.13,0.072,0.02,0.472,0.151,0.078,54.0,322.76,0.0164,0.0061,Benign,High,Invasive ductal carcinoma detected.,Positive,Positive,0.785,No,Chemotherapy,40,Alive,0
+P0846,69,8.61,17.98,30.61,0.076,0.053,0.397,0.395,0.042,127.2,1538.46,0.0144,0.0081,Malignant,Medium,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.06,No,Chemotherapy,26,Alive,1
+P0623,35,47.37,23.53,33.94,0.114,0.293,0.342,0.173,0.069,80.54,1236.65,0.0069,0.0041,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Positive,0.4,No,Chemotherapy,23,Alive,0
+P0023,29,19.89,23.15,15.18,0.161,0.272,0.467,0.221,0.064,113.06,1718.4,0.0172,0.001,Benign,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.463,No,Surgery,18,Alive,0
+P0014,26,26.26,25.7,23.44,0.124,0.279,0.14,0.237,0.088,147.98,554.56,0.0199,0.0079,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.028,No,Radiation,32,Alive,1
+P0108,28,24.07,24.67,11.07,0.089,0.266,0.352,0.271,0.07,86.23,1326.76,0.0175,0.0097,Benign,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.273,No,Hormone Therapy,35,Alive,0
+P0364,56,38.84,8.73,23.31,0.054,0.187,0.198,0.032,0.086,143.05,2091.02,0.0192,0.0031,Benign,High,Malignant cells present with irregular borders.,Positive,Negative,0.339,No,Radiation,44,Alive,0
+P0575,62,56.98,11.61,38.52,0.152,0.257,0.285,0.089,0.054,87.93,1215.15,0.0164,0.0074,Benign,Medium,"Fibroadenoma detected, benign nature.",Negative,Negative,0.699,No,Radiation,33,Deceased,0
+P0425,50,7.13,23.02,19.98,0.145,0.175,0.21,0.294,0.05,143.75,566.09,0.0135,0.0081,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.296,Yes,Radiation,54,Deceased,0
+P0544,29,18.01,16.58,38.1,0.086,0.222,0.397,0.139,0.074,133.73,1285.46,0.0073,0.0031,Benign,High,Invasive ductal carcinoma detected.,Positive,Negative,0.474,No,Hormone Therapy,55,Alive,0
+P0365,70,27.66,15.86,27.13,0.115,0.09,0.437,0.208,0.062,111.82,1990.9,0.0166,0.0089,Malignant,High,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.591,No,Hormone Therapy,45,Alive,1
+P0910,48,25.54,29.89,34.4,0.074,0.205,0.218,0.267,0.089,155.94,716.31,0.0098,0.0041,Malignant,High,"Fibroadenoma detected, benign nature.",Positive,Positive,0.796,Yes,Surgery,23,Alive,1
+P0667,79,18.46,10.62,27.68,0.159,0.126,0.129,0.393,0.089,171.44,1027.16,0.0112,0.0069,Malignant,High,Invasive ductal carcinoma detected.,Negative,Positive,0.351,Yes,Chemotherapy,20,Alive,1
+P0882,72,16.59,16.8,31.77,0.093,0.154,0.293,0.141,0.076,151.66,1799.85,0.0087,0.004,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.588,Yes,Radiation,57,Alive,0
+P0890,31,23.68,10.31,24.28,0.09,0.15,0.148,0.099,0.057,104.06,414.33,0.0054,0.0073,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.754,No,Hormone Therapy,45,Alive,0
+P0874,43,41.51,13.41,22.97,0.066,0.012,0.207,0.112,0.067,161.03,1221.05,0.0198,0.0041,Benign,Low,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.595,Yes,Radiation,8,Alive,0
+P0753,77,21.37,14.11,31.95,0.085,0.051,0.483,0.372,0.049,170.37,543.5,0.0161,0.0074,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.645,No,Chemotherapy,52,Alive,0
+P0516,26,25.08,16.45,36.6,0.19,0.088,0.286,0.167,0.067,170.63,815.83,0.0077,0.0084,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.447,No,Surgery,30,Alive,0
+P0513,68,32.37,14.0,25.15,0.163,0.107,0.491,0.229,0.056,126.48,667.57,0.0192,0.0068,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.95,No,Chemotherapy,56,Alive,0
+P0829,70,35.86,26.46,21.28,0.179,0.21,0.296,0.178,0.047,158.07,1387.34,0.0105,0.0056,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.487,Yes,Chemotherapy,49,Alive,0
+P0935,26,49.41,10.35,20.9,0.098,0.15,0.417,0.181,0.056,136.2,895.17,0.0187,0.0048,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.262,Yes,Surgery,45,Alive,0
+P0085,71,29.74,6.57,28.13,0.053,0.087,0.26,0.301,0.074,129.42,1930.79,0.0166,0.0083,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.071,No,Surgery,47,Deceased,1
+P0501,27,11.59,15.54,38.52,0.122,0.11,0.304,0.239,0.082,144.14,1952.17,0.0026,0.0068,Malignant,High,Malignant cells present with irregular borders.,Positive,Positive,0.344,No,Surgery,8,Alive,1
+P0434,38,13.66,25.01,34.54,0.055,0.262,0.41,0.191,0.046,133.49,1911.63,0.0179,0.0072,Benign,Low,Malignant cells present with irregular borders.,Positive,Positive,0.019,Yes,Surgery,15,Alive,0
+P0886,73,40.16,12.48,15.14,0.154,0.096,0.433,0.157,0.056,160.72,1108.16,0.0112,0.0045,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.939,No,Chemotherapy,6,Alive,0
+P0288,61,11.66,7.61,17.26,0.094,0.262,0.455,0.187,0.054,72.25,943.1,0.0167,0.0097,Malignant,Medium,"Benign lesion, no signs of malignancy.",Positive,Negative,0.766,No,Radiation,55,Alive,1
+P0295,59,8.95,6.33,11.35,0.126,0.026,0.489,0.211,0.047,95.92,1221.57,0.0081,0.0085,Malignant,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.823,No,Chemotherapy,18,Alive,1
+P0377,64,10.14,24.46,16.82,0.065,0.118,0.326,0.329,0.085,110.35,951.82,0.007,0.0054,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.501,Yes,Hormone Therapy,42,Alive,1
+P0643,47,47.14,12.95,38.8,0.164,0.105,0.165,0.208,0.078,167.8,329.28,0.0111,0.0077,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.778,Yes,Hormone Therapy,50,Alive,0
+P0345,27,28.2,27.24,38.3,0.056,0.101,0.149,0.014,0.046,99.24,364.54,0.0174,0.0042,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.361,No,Chemotherapy,42,Alive,0
+P0539,67,11.99,29.43,31.06,0.177,0.106,0.44,0.051,0.088,96.02,1103.76,0.0067,0.0039,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.608,No,Chemotherapy,13,Deceased,0
+P0964,31,48.28,16.98,25.88,0.161,0.216,0.27,0.11,0.088,104.94,1855.29,0.0187,0.0027,Benign,High,Extensive necrosis with aggressive tumor cells.,Negative,Positive,0.195,No,Hormone Therapy,54,Alive,0
+P0419,73,27.73,27.74,12.39,0.059,0.204,0.349,0.136,0.085,62.8,1376.48,0.0188,0.0075,Malignant,High,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.837,Yes,Radiation,41,Deceased,1
+P0498,43,56.14,29.05,11.22,0.186,0.2,0.36,0.4,0.074,51.76,1636.9,0.0049,0.0083,Malignant,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.472,No,Radiation,35,Deceased,1
+P0328,33,22.69,19.19,11.03,0.105,0.122,0.168,0.226,0.073,121.09,922.41,0.0151,0.0051,Malignant,Medium,Normal epithelial tissue morphology maintained.,Negative,Negative,0.575,Yes,Radiation,34,Alive,1
+P0354,53,51.83,15.47,26.61,0.075,0.254,0.272,0.317,0.083,44.57,670.13,0.0181,0.006,Benign,High,No evidence of tumor recurrence.,Negative,Negative,0.426,No,Radiation,22,Alive,0
+P0493,71,6.12,6.75,27.14,0.05,0.122,0.493,0.229,0.05,102.36,548.93,0.0184,0.0018,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.044,No,Radiation,40,Alive,0
+P0399,76,5.39,7.37,26.94,0.088,0.033,0.378,0.124,0.079,86.54,934.96,0.0195,0.004,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.584,No,Hormone Therapy,44,Alive,1
+P0440,42,56.07,8.8,18.88,0.069,0.262,0.491,0.16,0.083,146.16,2356.91,0.0082,0.0074,Malignant,High,Atypical ductal hyperplasia observed.,Positive,Positive,0.725,No,Hormone Therapy,12,Alive,1
+P0330,59,56.88,8.51,34.31,0.058,0.159,0.387,0.054,0.053,98.78,1925.19,0.0112,0.0023,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.103,Yes,Hormone Therapy,30,Alive,1
+P0070,74,50.01,18.32,10.61,0.108,0.289,0.146,0.131,0.063,105.01,1265.43,0.0102,0.0051,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.713,Yes,Chemotherapy,42,Alive,1
+P0908,57,55.26,12.49,32.07,0.196,0.192,0.496,0.151,0.052,91.64,590.14,0.0127,0.0064,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.869,No,Hormone Therapy,45,Alive,1
+P0977,61,11.56,6.43,38.0,0.164,0.034,0.361,0.168,0.089,131.82,1651.7,0.0085,0.0026,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.454,No,Radiation,42,Alive,0
+P0794,34,43.87,17.23,29.54,0.128,0.061,0.126,0.178,0.049,71.88,1493.63,0.013,0.0096,Malignant,High,Malignant cells present with irregular borders.,Positive,Positive,0.261,Yes,Chemotherapy,57,Alive,1
+P0997,76,27.49,8.18,38.39,0.11,0.22,0.154,0.22,0.046,82.96,1080.99,0.003,0.0086,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.365,No,Radiation,20,Alive,0
+P0810,75,31.41,18.41,18.55,0.05,0.081,0.343,0.134,0.044,158.04,238.72,0.0161,0.0036,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.652,No,Surgery,6,Alive,0
+P0989,52,59.41,21.82,24.07,0.165,0.15,0.187,0.357,0.054,144.2,1456.13,0.0199,0.0064,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.135,No,Surgery,36,Alive,0
+P0697,49,55.29,29.48,29.01,0.088,0.218,0.411,0.182,0.083,112.38,1147.06,0.0123,0.0011,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.996,No,Radiation,48,Alive,0
+P0749,43,53.83,11.16,25.15,0.2,0.044,0.35,0.336,0.049,93.46,981.26,0.0027,0.0088,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.702,Yes,Radiation,46,Alive,0
+P0540,76,24.62,18.78,25.4,0.174,0.146,0.347,0.364,0.075,123.0,2223.33,0.0174,0.0057,Benign,Medium,Malignant cells present with irregular borders.,Positive,Positive,0.899,Yes,Radiation,11,Deceased,0
+P0165,50,21.02,29.65,24.87,0.158,0.08,0.225,0.033,0.044,88.08,1897.9,0.0094,0.0063,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.475,Yes,Chemotherapy,54,Alive,1
+P0953,31,22.98,20.31,28.27,0.127,0.057,0.483,0.321,0.058,93.08,1006.73,0.0142,0.0056,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.138,No,Surgery,53,Alive,1
+P0917,52,7.11,12.77,30.7,0.178,0.072,0.372,0.242,0.09,148.65,1505.11,0.0072,0.0085,Malignant,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.59,No,Radiation,22,Alive,1
+P0597,53,10.72,25.77,24.91,0.086,0.187,0.295,0.028,0.084,159.11,1483.06,0.0097,0.009,Malignant,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.691,Yes,Hormone Therapy,29,Alive,1
+P0079,63,33.86,29.61,22.28,0.15,0.117,0.454,0.22,0.073,137.16,1759.4,0.0028,0.0066,Malignant,Medium,"Benign lesion, no signs of malignancy.",Positive,Positive,0.993,No,Radiation,32,Alive,1
+P0894,73,40.8,8.82,19.7,0.121,0.015,0.378,0.334,0.067,101.34,2285.34,0.0071,0.0023,Benign,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.05,No,Radiation,23,Alive,0
+P0179,67,23.95,25.44,23.63,0.167,0.187,0.29,0.077,0.079,134.74,1065.18,0.0131,0.0051,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.635,No,Radiation,35,Deceased,1
+P0428,31,56.42,22.52,29.12,0.097,0.265,0.313,0.046,0.053,178.67,2252.58,0.0191,0.0074,Benign,High,Invasive ductal carcinoma detected.,Negative,Positive,0.396,No,Radiation,34,Alive,0
+P0202,61,51.03,12.29,16.91,0.086,0.063,0.424,0.156,0.056,112.33,1729.61,0.0091,0.0074,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.817,Yes,Chemotherapy,13,Alive,0
+P0135,63,9.0,26.11,15.64,0.175,0.081,0.361,0.177,0.08,92.0,2278.57,0.0103,0.0079,Benign,Low,"Benign lesion, no signs of malignancy.",Negative,Negative,0.37,No,Chemotherapy,32,Alive,0
+P0856,30,28.33,16.76,14.72,0.169,0.045,0.362,0.057,0.068,144.7,941.42,0.0056,0.0052,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.982,Yes,Chemotherapy,38,Deceased,0
+P0067,57,27.35,19.58,15.4,0.061,0.094,0.21,0.345,0.055,88.5,2137.95,0.0165,0.0063,Malignant,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.401,No,Chemotherapy,54,Alive,1
+P0814,74,15.4,20.84,33.74,0.14,0.111,0.213,0.327,0.088,40.56,1193.57,0.0134,0.0037,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.902,No,Hormone Therapy,54,Alive,1
+P0402,52,34.74,22.06,29.35,0.161,0.127,0.371,0.39,0.044,164.47,1947.72,0.0041,0.0036,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.069,No,Chemotherapy,27,Alive,0
+P0153,61,34.98,24.29,25.1,0.118,0.166,0.499,0.321,0.052,106.03,301.88,0.0195,0.0006,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.945,Yes,Hormone Therapy,54,Alive,1
+P0081,70,23.59,7.05,34.27,0.08,0.288,0.252,0.094,0.082,65.83,259.93,0.0108,0.0048,Benign,Medium,No evidence of tumor recurrence.,Negative,Negative,0.928,No,Radiation,41,Alive,0
+P0965,63,8.1,26.31,21.86,0.156,0.258,0.342,0.115,0.062,125.28,456.56,0.0101,0.0038,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Positive,0.769,Yes,Hormone Therapy,27,Alive,1
+P0991,57,7.57,18.33,13.22,0.111,0.133,0.14,0.275,0.058,133.9,1388.36,0.0146,0.0069,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.271,Yes,Radiation,7,Deceased,0
+P0530,71,40.65,22.39,19.88,0.055,0.218,0.13,0.099,0.049,74.29,1940.59,0.0118,0.0083,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Positive,0.214,No,Hormone Therapy,45,Alive,1
+P0003,55,7.91,18.19,27.81,0.126,0.259,0.429,0.259,0.078,114.67,2262.53,0.0111,0.002,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.266,No,Hormone Therapy,42,Alive,0
+P0146,56,36.42,29.92,37.84,0.167,0.063,0.153,0.2,0.087,179.23,886.97,0.0172,0.008,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.801,No,Surgery,18,Alive,0
+P0960,35,38.52,13.66,28.71,0.147,0.225,0.417,0.028,0.06,105.12,2206.9,0.0137,0.0083,Malignant,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.61,Yes,Surgery,18,Alive,1
+P0047,49,37.8,10.24,31.42,0.166,0.07,0.435,0.196,0.05,75.5,2423.21,0.0147,0.0068,Benign,Low,Malignant cells present with irregular borders.,Positive,Positive,0.394,No,Chemotherapy,32,Deceased,0
+P0374,48,43.39,24.54,13.7,0.175,0.177,0.286,0.256,0.082,57.86,957.59,0.0022,0.0043,Benign,High,"Fibroadenoma detected, benign nature.",Negative,Negative,0.184,No,Radiation,45,Alive,0
+P0996,25,57.01,27.95,13.47,0.115,0.062,0.295,0.145,0.055,108.76,567.51,0.0088,0.0089,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Positive,0.092,Yes,Radiation,34,Alive,0
+P0979,54,32.51,24.9,35.34,0.058,0.047,0.225,0.128,0.064,53.05,570.2,0.0182,0.0036,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.192,Yes,Radiation,40,Alive,1
+P0349,69,40.39,25.28,32.66,0.134,0.2,0.267,0.341,0.082,68.71,708.92,0.0078,0.0007,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.77,Yes,Surgery,13,Alive,0
+P0826,73,28.7,18.36,10.36,0.168,0.133,0.225,0.043,0.087,164.44,368.43,0.0147,0.0011,Benign,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.941,No,Surgery,45,Deceased,0
+P0488,28,40.53,6.98,39.28,0.084,0.278,0.438,0.382,0.071,62.2,281.58,0.0051,0.0048,Benign,Medium,No evidence of tumor recurrence.,Positive,Negative,0.481,No,Surgery,10,Alive,0
+P0193,77,9.07,23.8,13.12,0.096,0.262,0.117,0.303,0.074,117.13,339.4,0.0031,0.003,Benign,Medium,"Fibroadenoma detected, benign nature.",Negative,Negative,0.825,Yes,Hormone Therapy,36,Alive,0
+P0840,54,20.3,24.92,21.34,0.058,0.238,0.431,0.031,0.065,168.84,1150.03,0.0088,0.0016,Malignant,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.3,Yes,Chemotherapy,32,Alive,1
+P0715,63,24.52,22.7,18.68,0.118,0.087,0.148,0.346,0.055,51.19,976.19,0.0091,0.0066,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.953,No,Hormone Therapy,41,Alive,1
+P0439,66,9.59,13.56,24.3,0.173,0.149,0.115,0.053,0.058,95.81,1514.87,0.0028,0.0057,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.375,No,Chemotherapy,31,Alive,0
+P0090,47,19.72,9.95,26.09,0.106,0.072,0.208,0.145,0.072,150.18,772.75,0.0105,0.0096,Malignant,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.795,Yes,Surgery,56,Alive,1
+P0566,46,54.91,12.96,36.67,0.053,0.226,0.24,0.265,0.073,119.67,2109.27,0.0052,0.0088,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.319,Yes,Surgery,41,Alive,0
+P0083,48,37.31,20.96,23.71,0.053,0.229,0.349,0.326,0.062,97.26,420.97,0.0024,0.0022,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.295,No,Surgery,30,Alive,0
+P0293,78,29.69,17.86,29.72,0.105,0.268,0.426,0.355,0.063,178.43,1979.09,0.0136,0.0039,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.478,Yes,Surgery,8,Alive,1
+P0181,72,35.97,21.21,39.46,0.141,0.071,0.383,0.193,0.049,42.59,1035.2,0.0184,0.0046,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Positive,0.049,No,Surgery,21,Alive,1
+P0241,78,20.71,6.02,22.11,0.136,0.109,0.449,0.381,0.083,157.17,684.06,0.0038,0.0007,Benign,High,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.734,No,Chemotherapy,36,Alive,0
+P0593,53,17.05,28.11,22.21,0.128,0.111,0.106,0.248,0.054,146.64,1803.43,0.0054,0.0036,Malignant,Low,No evidence of tumor recurrence.,Negative,Negative,0.19,No,Surgery,26,Alive,1
+P0612,33,52.29,7.25,35.62,0.113,0.028,0.444,0.164,0.056,46.63,1295.34,0.0137,0.0098,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Positive,0.032,No,Radiation,38,Alive,0
+P0511,67,38.05,6.36,23.93,0.148,0.036,0.271,0.245,0.084,136.87,1783.58,0.0117,0.0076,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.65,No,Radiation,30,Alive,0
+P0519,26,9.09,22.46,25.51,0.096,0.023,0.483,0.222,0.087,43.92,2213.78,0.0071,0.0088,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.516,Yes,Radiation,24,Alive,0
+P0562,70,49.24,23.55,28.08,0.065,0.279,0.289,0.139,0.058,133.88,2355.23,0.0026,0.0045,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.588,Yes,Chemotherapy,22,Deceased,0
+P0930,35,27.2,23.29,36.98,0.057,0.058,0.396,0.315,0.044,141.12,1079.19,0.0175,0.0056,Benign,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.326,No,Hormone Therapy,50,Deceased,0
+P0691,47,7.59,22.07,37.45,0.195,0.234,0.145,0.273,0.045,66.49,1212.5,0.0125,0.0068,Malignant,Low,"Benign lesion, no signs of malignancy.",Negative,Positive,0.091,No,Radiation,43,Alive,1
+P0862,41,21.76,24.61,27.95,0.155,0.278,0.145,0.04,0.077,61.21,2424.14,0.0111,0.0026,Benign,Medium,Normal epithelial tissue morphology maintained.,Negative,Negative,0.367,No,Radiation,22,Alive,0
+P0850,60,25.0,16.91,15.01,0.196,0.253,0.499,0.114,0.066,170.52,2222.45,0.0157,0.001,Malignant,Low,Malignant cells present with irregular borders.,Positive,Positive,0.484,No,Radiation,43,Deceased,1
+P0208,69,14.02,15.4,25.69,0.196,0.214,0.326,0.174,0.043,42.43,1469.12,0.0044,0.0038,Benign,High,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.793,Yes,Chemotherapy,43,Alive,0
+P0166,54,47.47,19.3,19.4,0.166,0.207,0.148,0.229,0.063,125.89,1124.01,0.007,0.0091,Malignant,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.736,No,Radiation,23,Alive,1
+P0880,42,6.27,29.08,18.92,0.186,0.247,0.201,0.163,0.086,102.34,891.43,0.0026,0.0075,Benign,Medium,Atypical ductal hyperplasia observed.,Negative,Positive,0.044,Yes,Radiation,17,Alive,0
+P0082,56,54.88,13.84,34.01,0.19,0.139,0.345,0.292,0.078,78.25,1500.39,0.0167,0.0007,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.858,No,Hormone Therapy,39,Alive,1
+P0011,55,24.59,27.46,26.26,0.101,0.214,0.205,0.314,0.061,60.87,736.48,0.0183,0.0062,Malignant,High,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.135,Yes,Surgery,9,Alive,1
+P0949,41,12.14,29.33,37.87,0.098,0.109,0.362,0.032,0.066,171.4,1182.52,0.0025,0.0044,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.496,No,Hormone Therapy,50,Alive,0
+P0543,56,7.4,10.59,12.59,0.158,0.25,0.449,0.031,0.089,118.27,1098.47,0.0054,0.0095,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Negative,Positive,0.86,No,Radiation,52,Alive,1
+P0756,60,58.18,17.44,17.95,0.196,0.041,0.346,0.129,0.051,179.07,1645.97,0.0121,0.004,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.806,Yes,Chemotherapy,16,Alive,1
+P0216,55,11.21,18.09,17.64,0.165,0.147,0.103,0.29,0.068,160.32,1053.58,0.0173,0.0072,Benign,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.121,Yes,Radiation,31,Alive,0
+P0962,30,20.69,28.94,24.08,0.143,0.119,0.287,0.192,0.065,47.97,1305.8,0.015,0.0073,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.651,Yes,Chemotherapy,27,Alive,1
+P0719,27,6.29,20.13,21.43,0.063,0.043,0.383,0.245,0.058,145.32,1646.67,0.0079,0.0079,Benign,High,Invasive ductal carcinoma detected.,Negative,Negative,0.777,Yes,Surgery,49,Alive,0
+P0497,34,34.0,10.22,26.41,0.119,0.049,0.232,0.169,0.059,148.62,1408.95,0.0027,0.0082,Benign,Medium,No evidence of tumor recurrence.,Positive,Positive,0.657,Yes,Radiation,29,Alive,0
+P0321,47,28.91,19.05,13.38,0.063,0.098,0.475,0.18,0.043,124.98,2287.55,0.0128,0.006,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.222,No,Radiation,14,Alive,1
+P0556,78,44.62,17.99,38.3,0.089,0.196,0.144,0.097,0.081,147.16,1115.31,0.0152,0.0053,Benign,High,"Benign lesion, no signs of malignancy.",Negative,Negative,0.907,No,Radiation,34,Alive,0
+P0970,67,24.52,18.9,12.24,0.112,0.175,0.106,0.228,0.065,114.9,1475.25,0.0045,0.0035,Malignant,High,"Fibroadenoma detected, benign nature.",Positive,Negative,0.108,No,Surgery,51,Alive,1
+P0541,57,37.59,27.73,36.16,0.107,0.101,0.175,0.399,0.076,108.78,2453.55,0.0187,0.0056,Benign,Medium,No evidence of tumor recurrence.,Negative,Negative,0.19,No,Hormone Therapy,30,Alive,0
+P0024,76,25.38,28.0,20.34,0.058,0.047,0.372,0.161,0.088,59.7,2027.64,0.0019,0.0011,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.945,No,Chemotherapy,59,Alive,0
+P0624,78,16.58,6.97,26.89,0.144,0.196,0.294,0.126,0.044,113.32,1496.78,0.0155,0.0068,Malignant,Low,No evidence of tumor recurrence.,Negative,Positive,0.785,No,Radiation,34,Deceased,1
+P0835,44,28.31,8.16,26.47,0.184,0.128,0.204,0.078,0.055,165.7,240.46,0.0055,0.0075,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Positive,0.451,Yes,Surgery,42,Alive,0
+P0129,38,22.02,17.58,28.19,0.173,0.222,0.208,0.092,0.066,55.43,1947.34,0.0178,0.0016,Benign,High,No evidence of tumor recurrence.,Negative,Negative,0.885,Yes,Chemotherapy,15,Alive,0
+P0875,71,41.62,9.13,34.86,0.176,0.148,0.358,0.138,0.044,79.96,1573.01,0.0063,0.0018,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.102,Yes,Chemotherapy,51,Alive,1
+P0305,52,39.86,10.72,28.66,0.073,0.186,0.403,0.095,0.06,157.93,1337.55,0.0064,0.0057,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Positive,0.08,No,Chemotherapy,26,Alive,0
+P0869,43,27.87,6.28,22.05,0.099,0.164,0.286,0.279,0.045,139.31,1843.86,0.0195,0.007,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Negative,Positive,0.99,No,Hormone Therapy,9,Alive,0
+P0487,34,26.71,12.44,19.49,0.071,0.212,0.243,0.26,0.048,42.83,2259.52,0.0109,0.0089,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.701,No,Surgery,59,Deceased,0
+P0220,41,28.64,14.02,38.43,0.169,0.072,0.495,0.192,0.084,157.01,2453.29,0.0114,0.0097,Benign,Medium,Normal epithelial tissue morphology maintained.,Negative,Negative,0.418,No,Hormone Therapy,38,Alive,0
+P0017,51,5.32,19.02,21.63,0.065,0.255,0.277,0.326,0.041,171.8,1512.27,0.0045,0.0099,Benign,High,Invasive ductal carcinoma detected.,Positive,Negative,0.533,No,Chemotherapy,20,Alive,0
+P0848,51,36.48,20.0,26.8,0.074,0.266,0.264,0.153,0.043,158.27,1189.9,0.0022,0.0099,Benign,High,No evidence of tumor recurrence.,Negative,Negative,0.318,No,Surgery,14,Alive,0
+P0984,25,27.26,17.3,11.01,0.134,0.182,0.202,0.335,0.083,114.87,1610.56,0.019,0.0033,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.448,No,Hormone Therapy,15,Deceased,0
+P0807,46,29.96,9.18,34.91,0.183,0.134,0.235,0.159,0.08,46.89,799.12,0.0053,0.0065,Malignant,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.504,No,Hormone Therapy,42,Alive,1
+P0818,64,10.47,15.53,11.5,0.125,0.241,0.248,0.017,0.078,135.11,1150.62,0.0011,0.0065,Benign,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.792,Yes,Hormone Therapy,13,Alive,0
+P0111,79,46.62,12.66,26.77,0.162,0.05,0.242,0.145,0.084,115.39,2080.47,0.004,0.0017,Benign,Medium,"Benign lesion, no signs of malignancy.",Positive,Negative,0.11,No,Surgery,6,Alive,0
+P0319,56,23.71,27.41,10.13,0.081,0.091,0.35,0.039,0.084,143.37,1430.28,0.0172,0.0032,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.09,Yes,Surgery,49,Alive,0
+P0605,37,36.95,24.8,22.05,0.175,0.205,0.162,0.065,0.041,86.68,655.07,0.0066,0.0079,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Positive,0.273,Yes,Hormone Therapy,16,Deceased,0
+P0339,67,26.1,16.6,24.82,0.158,0.115,0.3,0.392,0.087,150.7,1552.34,0.0168,0.0064,Benign,Low,No evidence of tumor recurrence.,Negative,Negative,0.788,No,Chemotherapy,55,Alive,0
+P0762,41,7.16,26.81,34.15,0.122,0.185,0.268,0.087,0.046,43.03,1188.31,0.0105,0.001,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.621,No,Hormone Therapy,56,Alive,0
+P0811,38,25.53,24.33,25.15,0.107,0.221,0.161,0.252,0.063,41.49,1097.66,0.0194,0.0021,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Positive,0.484,Yes,Surgery,32,Alive,0
+P0820,55,11.65,19.94,12.27,0.2,0.276,0.465,0.189,0.086,45.67,403.05,0.0061,0.0025,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.403,No,Hormone Therapy,8,Alive,1
+P0833,27,58.67,14.0,17.98,0.196,0.247,0.281,0.082,0.072,75.24,1746.22,0.01,0.0006,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.9,No,Surgery,29,Alive,0
+P0571,67,31.51,6.01,38.85,0.173,0.22,0.469,0.019,0.076,78.27,1414.72,0.0119,0.0022,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Positive,0.204,Yes,Radiation,27,Deceased,0
+P0524,68,35.62,14.87,31.68,0.059,0.048,0.11,0.337,0.056,50.76,1990.48,0.015,0.001,Benign,Medium,"Benign lesion, no signs of malignancy.",Positive,Negative,0.881,No,Chemotherapy,17,Alive,0
+P0845,42,18.74,28.96,10.68,0.124,0.168,0.192,0.013,0.043,135.82,2387.23,0.0196,0.0006,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Positive,0.884,No,Radiation,34,Alive,0
+P0517,33,28.78,15.96,32.55,0.171,0.274,0.266,0.346,0.049,71.57,1515.37,0.0115,0.0094,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.818,No,Chemotherapy,54,Alive,0
+P0176,73,30.28,18.66,15.28,0.071,0.116,0.384,0.095,0.057,175.71,1945.91,0.012,0.0051,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.178,No,Surgery,52,Alive,1
+P0191,33,59.7,20.39,25.14,0.153,0.178,0.166,0.107,0.056,100.72,1992.17,0.011,0.0009,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Positive,0.564,No,Radiation,42,Alive,1
+P0629,38,47.42,29.9,30.28,0.106,0.179,0.265,0.083,0.057,111.94,844.99,0.0068,0.0025,Malignant,High,Malignant cells present with irregular borders.,Negative,Negative,0.155,Yes,Chemotherapy,33,Alive,1
+P0323,29,15.51,15.29,19.99,0.106,0.168,0.271,0.27,0.057,170.34,222.23,0.0092,0.003,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Positive,0.062,Yes,Chemotherapy,48,Alive,1
+P0921,66,32.34,22.92,34.46,0.115,0.063,0.24,0.02,0.066,51.54,612.18,0.0014,0.006,Benign,High,Malignant cells present with irregular borders.,Negative,Positive,0.269,Yes,Hormone Therapy,58,Alive,0
+P0432,63,28.62,24.81,21.28,0.099,0.021,0.21,0.379,0.04,151.07,2454.0,0.0066,0.0048,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.039,No,Chemotherapy,28,Alive,1
+P0162,35,9.91,11.36,25.76,0.082,0.093,0.13,0.038,0.068,170.57,245.36,0.006,0.0038,Benign,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.185,Yes,Radiation,19,Alive,0
+P0031,74,27.57,22.2,24.11,0.171,0.103,0.366,0.113,0.041,89.69,864.36,0.0171,0.003,Benign,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.866,No,Surgery,57,Alive,0
+P0494,38,16.29,26.88,38.59,0.164,0.128,0.423,0.393,0.086,89.71,1503.99,0.011,0.0008,Benign,Medium,"Benign lesion, no signs of malignancy.",Positive,Negative,0.726,No,Radiation,35,Alive,0
+P0404,38,43.64,9.61,28.28,0.15,0.172,0.304,0.144,0.072,125.16,1436.87,0.0179,0.0012,Benign,Low,No evidence of tumor recurrence.,Negative,Negative,0.187,No,Chemotherapy,16,Alive,0
+P0254,63,23.35,12.17,11.22,0.198,0.235,0.112,0.198,0.055,134.08,2237.53,0.0147,0.0032,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.143,No,Hormone Therapy,32,Alive,0
+P0918,37,52.89,16.65,36.52,0.171,0.3,0.217,0.108,0.044,125.92,855.43,0.01,0.0046,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.347,No,Chemotherapy,39,Deceased,0
+P0987,42,8.37,22.18,20.38,0.142,0.045,0.27,0.351,0.07,82.0,1236.43,0.0158,0.0096,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.678,No,Radiation,24,Alive,0
+P0030,44,41.8,18.83,23.91,0.192,0.164,0.356,0.094,0.055,149.11,454.71,0.0081,0.0035,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.534,No,Surgery,55,Deceased,1
+P0602,34,33.51,23.09,37.98,0.084,0.283,0.105,0.08,0.084,74.65,895.04,0.0168,0.0073,Benign,Low,Malignant cells present with irregular borders.,Negative,Positive,0.677,No,Chemotherapy,51,Alive,0
+P0944,26,16.71,10.08,38.68,0.095,0.089,0.406,0.155,0.057,48.13,881.07,0.0101,0.0017,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.569,No,Chemotherapy,57,Alive,0
+P0099,46,14.81,25.5,27.52,0.084,0.175,0.17,0.187,0.068,137.65,752.09,0.0189,0.0084,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.184,No,Hormone Therapy,45,Alive,1
+P0307,63,55.0,10.76,34.51,0.128,0.108,0.106,0.384,0.055,120.57,2466.29,0.0069,0.0021,Benign,High,"Fibroadenoma detected, benign nature.",Positive,Negative,0.503,Yes,Radiation,22,Alive,0
+P0867,45,42.95,12.09,26.47,0.117,0.085,0.274,0.096,0.067,136.1,792.93,0.0044,0.0013,Benign,High,No evidence of tumor recurrence.,Positive,Positive,0.83,No,Hormone Therapy,45,Alive,0
+P0776,68,16.84,23.86,30.87,0.157,0.252,0.345,0.081,0.047,48.07,629.95,0.0149,0.0079,Benign,Low,No evidence of tumor recurrence.,Negative,Negative,0.87,Yes,Radiation,54,Alive,0
+P0427,58,34.51,11.06,29.46,0.14,0.182,0.101,0.209,0.082,88.17,2201.33,0.0077,0.0019,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.196,No,Chemotherapy,17,Alive,1
+P0300,36,6.07,17.9,24.46,0.179,0.091,0.325,0.14,0.054,105.57,730.46,0.0144,0.0014,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.961,Yes,Surgery,32,Alive,0
+P0158,34,43.99,11.69,29.92,0.089,0.283,0.376,0.268,0.079,117.07,428.58,0.0104,0.0087,Malignant,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.689,Yes,Surgery,45,Alive,1
+P0627,77,27.53,9.67,22.24,0.121,0.273,0.456,0.028,0.056,64.62,2292.01,0.0132,0.0015,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.901,Yes,Hormone Therapy,53,Alive,0
+P0255,60,22.41,6.5,13.69,0.13,0.183,0.142,0.243,0.046,175.9,739.77,0.0023,0.003,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.712,No,Chemotherapy,21,Alive,1
+P0649,53,11.19,15.05,24.29,0.098,0.229,0.405,0.332,0.081,66.88,2443.42,0.0082,0.0083,Benign,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.603,Yes,Radiation,50,Alive,0
+P0052,29,12.1,10.51,30.62,0.172,0.198,0.241,0.245,0.059,149.04,2003.01,0.0124,0.0012,Malignant,High,"Benign lesion, no signs of malignancy.",Positive,Positive,0.53,Yes,Hormone Therapy,28,Alive,1
+P0463,70,9.32,20.83,34.39,0.086,0.28,0.435,0.221,0.041,138.94,2021.64,0.0028,0.0089,Benign,High,"Benign lesion, no signs of malignancy.",Positive,Positive,0.161,No,Hormone Therapy,37,Alive,0
+P0950,45,35.63,9.68,21.34,0.169,0.168,0.25,0.057,0.042,132.79,749.76,0.0126,0.0065,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.916,No,Chemotherapy,9,Deceased,0
+P0750,32,7.23,6.97,32.44,0.089,0.017,0.464,0.25,0.064,131.54,1659.3,0.0168,0.0045,Malignant,Medium,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.504,No,Chemotherapy,20,Alive,1
+P0711,49,9.36,6.33,11.34,0.056,0.27,0.249,0.384,0.05,81.71,1999.05,0.0044,0.008,Malignant,Low,Atypical ductal hyperplasia observed.,Negative,Negative,0.565,No,Hormone Therapy,43,Alive,1
+P0646,40,25.3,10.59,38.37,0.128,0.076,0.226,0.012,0.063,129.17,1990.58,0.0118,0.009,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.378,No,Chemotherapy,55,Deceased,0
+P0169,31,28.52,23.96,21.66,0.16,0.267,0.329,0.364,0.051,75.16,363.88,0.0155,0.0085,Malignant,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.231,No,Hormone Therapy,37,Alive,1
+P0791,46,19.73,24.07,39.95,0.115,0.286,0.425,0.18,0.042,156.73,1401.27,0.0135,0.0086,Malignant,Medium,No evidence of tumor recurrence.,Negative,Positive,0.547,No,Hormone Therapy,53,Deceased,1
+P0971,63,38.7,6.54,23.82,0.165,0.229,0.337,0.346,0.057,58.26,1653.45,0.0115,0.0091,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.052,Yes,Surgery,11,Alive,1
+P0041,75,19.98,29.77,26.29,0.106,0.213,0.419,0.022,0.061,156.9,869.48,0.002,0.0072,Malignant,Low,No evidence of tumor recurrence.,Negative,Negative,0.732,No,Surgery,22,Alive,1
+P0492,45,45.12,22.98,21.92,0.085,0.022,0.258,0.079,0.044,60.06,2321.06,0.0118,0.0086,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.293,No,Hormone Therapy,43,Alive,0
+P0068,32,31.68,9.77,25.08,0.108,0.188,0.126,0.377,0.082,91.71,2052.66,0.009,0.0095,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.332,Yes,Hormone Therapy,22,Alive,0
+P0154,58,41.38,18.9,12.03,0.103,0.202,0.25,0.188,0.089,77.65,1554.84,0.0125,0.0089,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.08,No,Hormone Therapy,43,Alive,1
+P0486,64,48.12,29.51,14.36,0.188,0.177,0.349,0.177,0.041,114.85,452.08,0.0107,0.0057,Malignant,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.576,No,Radiation,55,Alive,1
+P0502,61,49.15,14.07,35.77,0.117,0.184,0.424,0.117,0.065,59.61,1014.21,0.0099,0.0089,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.751,No,Radiation,37,Alive,1
+P0533,64,39.02,23.51,39.4,0.113,0.172,0.326,0.388,0.054,58.93,2203.33,0.0059,0.0028,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.465,No,Radiation,39,Alive,1
+P0651,57,15.1,12.12,12.28,0.081,0.275,0.105,0.367,0.072,96.17,373.87,0.011,0.0035,Malignant,Low,No evidence of tumor recurrence.,Positive,Positive,0.56,Yes,Radiation,42,Deceased,1
+P0804,40,15.84,7.24,35.63,0.065,0.228,0.158,0.35,0.084,95.77,1003.45,0.0163,0.002,Benign,Low,"Fibroadenoma detected, benign nature.",Negative,Negative,0.405,Yes,Surgery,45,Alive,0
+P0733,66,20.59,6.43,34.61,0.065,0.109,0.217,0.168,0.083,164.7,1631.96,0.0054,0.0098,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.167,No,Surgery,24,Alive,0
+P0156,49,10.42,6.8,34.18,0.078,0.171,0.443,0.072,0.061,97.21,379.64,0.0151,0.0018,Malignant,Low,No evidence of tumor recurrence.,Positive,Negative,0.453,Yes,Surgery,19,Alive,1
+P0906,54,31.37,29.09,30.51,0.126,0.079,0.169,0.39,0.088,63.74,299.41,0.0038,0.0017,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.22,No,Surgery,19,Alive,0
+P0412,77,51.34,12.6,27.76,0.157,0.053,0.451,0.176,0.088,100.43,1453.21,0.0111,0.0085,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.81,Yes,Radiation,17,Alive,0
+P0537,51,55.78,16.64,12.13,0.074,0.24,0.198,0.149,0.06,129.53,1569.23,0.014,0.006,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Negative,Positive,0.04,No,Chemotherapy,9,Alive,1
+P0320,74,52.08,18.85,37.74,0.14,0.274,0.43,0.384,0.06,148.39,1256.5,0.0109,0.0074,Malignant,Low,Malignant cells present with irregular borders.,Negative,Negative,0.232,No,Hormone Therapy,10,Alive,1
+P0838,68,49.56,29.02,17.06,0.147,0.199,0.365,0.1,0.044,80.78,1618.73,0.0177,0.0026,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.053,No,Hormone Therapy,23,Alive,0
+P0350,26,19.44,7.06,28.2,0.188,0.187,0.381,0.347,0.066,140.17,650.4,0.014,0.005,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.98,No,Hormone Therapy,23,Deceased,0
+P0576,32,20.55,24.68,17.34,0.199,0.235,0.345,0.271,0.041,77.33,1916.66,0.0156,0.0052,Benign,Low,No evidence of tumor recurrence.,Positive,Positive,0.325,No,Chemotherapy,7,Deceased,0
+P0713,59,26.24,14.76,18.4,0.11,0.069,0.245,0.298,0.043,126.32,1534.53,0.0115,0.0054,Malignant,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.239,Yes,Hormone Therapy,49,Alive,1
+P0332,45,16.38,11.04,31.75,0.184,0.026,0.198,0.142,0.073,101.23,1781.49,0.0195,0.0035,Benign,High,No evidence of tumor recurrence.,Positive,Negative,0.824,No,Surgery,40,Alive,0
+P0808,32,34.73,11.6,22.58,0.194,0.23,0.353,0.149,0.073,59.09,2172.37,0.0184,0.0039,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.669,No,Chemotherapy,37,Alive,1
+P0888,69,12.38,21.7,17.13,0.178,0.075,0.465,0.366,0.047,112.0,560.72,0.018,0.0098,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Positive,0.979,No,Hormone Therapy,52,Alive,0
+P0881,76,54.32,11.92,18.89,0.104,0.157,0.482,0.384,0.058,48.45,1720.65,0.0102,0.0006,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.31,No,Surgery,20,Alive,1
+P0185,30,56.61,7.89,27.72,0.146,0.067,0.217,0.302,0.084,90.02,1184.74,0.0112,0.0034,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.597,Yes,Radiation,58,Alive,0
+P0521,57,15.04,12.0,32.22,0.091,0.164,0.45,0.254,0.072,113.22,604.95,0.0055,0.0085,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.839,Yes,Surgery,55,Alive,1
+P0496,72,53.3,9.06,34.57,0.171,0.017,0.211,0.372,0.073,161.85,1942.44,0.0119,0.0019,Benign,Low,Atypical ductal hyperplasia observed.,Positive,Positive,0.634,No,Radiation,30,Alive,0
+P0721,63,53.13,23.81,20.08,0.122,0.097,0.256,0.134,0.05,108.04,594.76,0.0088,0.0069,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Positive,0.726,No,Hormone Therapy,48,Alive,0
+P0716,31,22.64,14.22,19.29,0.108,0.053,0.47,0.075,0.065,40.08,1077.51,0.0104,0.002,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.039,No,Hormone Therapy,51,Alive,0
+P0447,29,15.27,22.49,25.76,0.1,0.05,0.132,0.017,0.044,144.54,200.76,0.0139,0.0043,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.287,Yes,Radiation,10,Alive,0
+P0936,63,11.01,25.45,25.04,0.087,0.283,0.422,0.344,0.084,109.8,271.0,0.0187,0.0089,Malignant,High,Invasive ductal carcinoma detected.,Negative,Positive,0.028,No,Chemotherapy,46,Alive,1
+P0304,38,55.03,9.27,27.23,0.1,0.246,0.417,0.193,0.066,122.31,255.19,0.0167,0.0044,Benign,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.219,No,Hormone Therapy,20,Alive,0
+P0653,63,27.37,7.4,30.61,0.075,0.076,0.333,0.338,0.083,146.9,865.73,0.0099,0.0074,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.346,No,Surgery,31,Alive,1
+P0342,30,49.37,22.95,19.66,0.158,0.029,0.127,0.203,0.07,115.23,1764.61,0.0023,0.0015,Malignant,Low,No evidence of tumor recurrence.,Positive,Positive,0.159,Yes,Radiation,20,Alive,1
+P0121,73,52.23,19.87,19.77,0.137,0.234,0.188,0.304,0.068,45.14,2070.1,0.009,0.0059,Benign,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.582,Yes,Radiation,29,Alive,0
+P0188,44,36.36,23.66,22.96,0.178,0.076,0.223,0.2,0.073,152.83,2310.93,0.016,0.0069,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.834,No,Hormone Therapy,10,Deceased,1
+P0021,61,43.87,10.05,12.1,0.101,0.271,0.161,0.145,0.079,86.94,1523.83,0.0197,0.008,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.87,No,Hormone Therapy,31,Alive,1
+P0317,76,9.56,6.77,14.02,0.128,0.19,0.259,0.354,0.055,98.18,280.7,0.0181,0.0096,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.949,No,Surgery,13,Alive,0
+P0072,40,49.43,27.35,18.31,0.139,0.253,0.404,0.15,0.065,86.59,1600.08,0.0103,0.0066,Benign,Low,Normal epithelial tissue morphology maintained.,Negative,Negative,0.642,Yes,Radiation,13,Alive,0
+P0778,76,56.82,25.27,23.24,0.063,0.267,0.453,0.209,0.046,122.08,1916.86,0.0042,0.004,Benign,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.887,Yes,Chemotherapy,44,Alive,0
+P0112,40,23.26,21.43,31.21,0.057,0.011,0.33,0.336,0.062,60.42,1451.77,0.0129,0.0053,Malignant,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.37,Yes,Surgery,27,Deceased,1
+P0859,58,50.38,16.85,13.31,0.093,0.039,0.489,0.065,0.051,83.03,1990.95,0.0054,0.0098,Benign,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.272,No,Surgery,25,Deceased,0
+P0433,52,30.89,16.88,38.28,0.094,0.022,0.17,0.012,0.054,147.66,935.3,0.0063,0.0086,Benign,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.275,Yes,Chemotherapy,56,Alive,0
+P0378,71,28.49,20.32,15.14,0.084,0.071,0.131,0.218,0.044,118.58,2243.24,0.0041,0.0059,Benign,Low,Malignant cells present with irregular borders.,Negative,Positive,0.623,No,Surgery,26,Alive,0
+P0825,31,9.91,16.16,18.94,0.167,0.068,0.46,0.308,0.042,68.07,2382.56,0.0056,0.0067,Malignant,High,Invasive ductal carcinoma detected.,Positive,Negative,0.164,No,Surgery,37,Alive,1
+P0974,28,40.23,22.32,39.67,0.184,0.171,0.346,0.224,0.081,113.84,449.51,0.0178,0.0054,Malignant,High,Normal epithelial tissue morphology maintained.,Negative,Negative,0.348,Yes,Hormone Therapy,54,Alive,1
+P0076,37,27.66,17.73,30.23,0.074,0.171,0.472,0.201,0.049,163.1,1185.21,0.0038,0.0076,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Positive,0.538,No,Hormone Therapy,37,Alive,1
+P0277,74,9.9,15.92,22.32,0.184,0.045,0.42,0.078,0.047,112.67,887.88,0.0016,0.0022,Benign,Low,Malignant cells present with irregular borders.,Positive,Negative,0.116,No,Radiation,53,Alive,0
+P0898,76,19.73,22.68,14.39,0.175,0.017,0.106,0.358,0.064,178.41,249.78,0.0113,0.0068,Benign,Medium,Malignant cells present with irregular borders.,Negative,Negative,0.747,No,Surgery,15,Deceased,0
+P0309,45,9.27,21.05,28.47,0.171,0.157,0.475,0.166,0.084,136.63,790.03,0.0092,0.0019,Benign,High,Malignant cells present with irregular borders.,Positive,Negative,0.472,No,Surgery,42,Alive,0
+P0952,43,27.82,6.01,12.66,0.118,0.266,0.366,0.225,0.084,147.22,1561.85,0.0106,0.0057,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.107,No,Chemotherapy,29,Alive,1
+P0788,56,43.16,10.32,35.3,0.071,0.121,0.236,0.13,0.047,78.17,1928.95,0.0161,0.0082,Malignant,Low,"Fibroadenoma detected, benign nature.",Positive,Negative,0.277,Yes,Chemotherapy,14,Deceased,1
+P0382,78,22.45,18.23,12.64,0.121,0.272,0.417,0.228,0.074,148.27,1053.12,0.0057,0.0067,Malignant,Medium,Invasive ductal carcinoma detected.,Negative,Negative,0.314,No,Surgery,22,Alive,1
+P0279,47,55.52,27.04,25.35,0.199,0.084,0.468,0.173,0.09,99.88,493.63,0.0169,0.005,Malignant,High,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.197,Yes,Chemotherapy,56,Alive,1
+P0503,65,18.58,11.63,16.85,0.166,0.282,0.275,0.023,0.081,133.9,2492.47,0.0187,0.0045,Benign,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.96,No,Chemotherapy,13,Alive,0
+P0327,32,16.32,16.97,23.29,0.135,0.033,0.187,0.323,0.063,68.04,1356.54,0.0164,0.0082,Benign,Medium,Malignant cells present with irregular borders.,Positive,Negative,0.418,No,Chemotherapy,25,Alive,0
+P0209,50,20.69,23.12,36.96,0.192,0.076,0.199,0.249,0.089,96.73,347.2,0.011,0.0062,Benign,Low,Extensive necrosis with aggressive tumor cells.,Positive,Negative,0.408,No,Hormone Therapy,7,Alive,0
+P0806,70,43.75,25.5,25.6,0.182,0.233,0.41,0.11,0.088,164.2,1030.81,0.0117,0.0006,Benign,High,Atypical ductal hyperplasia observed.,Positive,Negative,0.199,Yes,Surgery,53,Alive,0
+P0830,31,42.81,12.19,26.05,0.184,0.092,0.282,0.184,0.081,171.85,2208.27,0.0077,0.0041,Malignant,Medium,Extensive necrosis with aggressive tumor cells.,Negative,Negative,0.835,No,Radiation,46,Alive,1
+P0290,79,55.02,25.7,10.57,0.067,0.047,0.493,0.185,0.061,151.74,304.6,0.013,0.0099,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Negative,0.95,Yes,Radiation,34,Deceased,1
+P0132,54,25.5,23.93,19.47,0.093,0.142,0.124,0.259,0.069,88.36,2339.06,0.0066,0.002,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Positive,Positive,0.86,Yes,Hormone Therapy,21,Alive,1
+P0527,61,47.08,9.4,24.1,0.134,0.106,0.35,0.076,0.08,105.78,770.11,0.0132,0.0049,Malignant,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,0.065,No,Chemotherapy,58,Alive,1
+P0018,59,9.32,9.55,18.61,0.059,0.096,0.135,0.053,0.087,114.53,2220.17,0.018,0.006,Benign,High,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.68,No,Radiation,57,Alive,0
+P0393,45,17.58,23.49,37.92,0.09,0.279,0.209,0.094,0.061,101.76,1761.99,0.0188,0.006,Malignant,Low,Normal epithelial tissue morphology maintained.,Negative,Positive,0.972,No,Radiation,24,Alive,1
+P0298,35,54.96,24.97,10.87,0.058,0.191,0.452,0.352,0.089,144.9,563.28,0.0143,0.0063,Benign,Low,No evidence of tumor recurrence.,Positive,Positive,0.324,No,Hormone Therapy,17,Alive,0
+P0375,62,40.1,10.05,39.4,0.184,0.263,0.195,0.322,0.07,100.58,1046.71,0.0161,0.0086,Malignant,High,"Benign lesion, no signs of malignancy.",Positive,Negative,0.766,Yes,Radiation,23,Alive,1
+P0681,39,31.04,19.15,21.02,0.137,0.158,0.487,0.374,0.089,104.09,1476.7,0.0136,0.0073,Benign,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.929,No,Radiation,59,Alive,0
+P0040,25,46.19,8.82,32.21,0.089,0.259,0.449,0.039,0.063,107.86,462.88,0.0134,0.0079,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.712,No,Surgery,21,Alive,1
+P0334,57,13.22,13.6,19.33,0.078,0.248,0.324,0.382,0.05,172.53,1377.2,0.0058,0.0079,Malignant,Medium,Atypical ductal hyperplasia observed.,Positive,Negative,0.763,No,Radiation,16,Alive,1
+P0089,74,54.21,12.3,17.95,0.07,0.284,0.391,0.397,0.068,126.5,863.45,0.0104,0.0015,Benign,Low,Invasive ductal carcinoma detected.,Positive,Negative,0.542,No,Hormone Therapy,59,Alive,0
+P0033,26,7.7,23.54,32.88,0.111,0.27,0.118,0.308,0.048,65.31,1112.1,0.0061,0.0058,Malignant,High,"Benign lesion, no signs of malignancy.",Positive,Positive,0.798,No,Chemotherapy,57,Deceased,1
+P0225,48,8.01,18.44,20.17,0.142,0.069,0.371,0.198,0.075,160.25,2492.55,0.007,0.0076,Malignant,Medium,Atypical ductal hyperplasia observed.,Negative,Positive,0.233,No,Surgery,31,Alive,1
+P0318,68,39.1,28.56,30.15,0.09,0.18,0.233,0.155,0.072,93.81,1698.22,0.0013,0.0096,Malignant,Low,Atypical ductal hyperplasia observed.,Positive,Negative,0.306,Yes,Surgery,46,Alive,1
+P0973,43,35.12,24.75,12.83,0.061,0.253,0.1,0.12,0.058,139.38,1764.46,0.0182,0.0023,Benign,High,No evidence of tumor recurrence.,Positive,Positive,0.994,No,Hormone Therapy,40,Alive,0
+P0473,69,59.14,11.46,13.44,0.184,0.146,0.326,0.088,0.041,131.62,1915.23,0.0162,0.0078,Malignant,Low,Invasive ductal carcinoma detected.,Negative,Negative,0.24,Yes,Radiation,32,Deceased,1
+P0006,54,18.21,23.65,15.12,0.175,0.044,0.266,0.314,0.043,141.01,1412.62,0.001,0.0066,Malignant,Low,Lobular carcinoma in situ noted in tissue sample.,Negative,Negative,0.35,No,Hormone Therapy,18,Alive,1
+P0549,33,38.74,7.14,31.48,0.101,0.115,0.419,0.312,0.055,118.47,239.79,0.0077,0.0009,Benign,Low,Normal epithelial tissue morphology maintained.,Positive,Negative,0.876,Yes,Surgery,32,Alive,0
+P0230,56,45.11,28.67,26.99,0.131,0.22,0.367,0.222,0.053,102.24,1685.65,0.0104,0.0027,Malignant,Medium,No evidence of tumor recurrence.,Positive,Negative,0.63,No,Chemotherapy,37,Alive,1
+P0966,43,25.32,16.86,19.67,0.13,0.209,0.122,0.17,0.079,40.91,608.72,0.0117,0.0012,Malignant,Low,"Benign lesion, no signs of malignancy.",Positive,Negative,0.079,No,Chemotherapy,48,Alive,1
+P0155,44,54.68,26.18,31.71,0.133,0.044,0.34,0.138,0.08,47.84,1464.27,0.0101,0.0015,Benign,Medium,"Fibroadenoma detected, benign nature.",Positive,Positive,0.765,No,Surgery,12,Alive,0
+P0028,44,45.68,6.03,36.55,0.072,0.147,0.458,0.305,0.05,104.75,674.69,0.0137,0.0015,Benign,Medium,Atypical ductal hyperplasia observed.,Negative,Negative,0.242,Yes,Hormone Therapy,39,Alive,0
+P0314,72,36.79,14.59,29.47,0.187,0.162,0.351,0.238,0.071,57.37,2211.22,0.0051,0.0054,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.802,No,Radiation,6,Alive,0
+P0805,78,53.14,9.8,30.6,0.145,0.181,0.286,0.126,0.082,84.67,2140.01,0.0131,0.0017,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.269,No,Chemotherapy,46,Alive,0
+P0371,42,7.18,12.26,27.83,0.064,0.072,0.448,0.15,0.049,77.19,2222.44,0.0186,0.0079,Benign,Medium,Invasive ductal carcinoma detected.,Positive,Negative,0.768,No,Radiation,20,Alive,0
+P0865,78,44.28,9.6,25.52,0.134,0.164,0.247,0.304,0.05,89.8,993.46,0.0129,0.0096,Malignant,Low,Malignant cells present with irregular borders.,Positive,Negative,0.816,No,Radiation,26,Alive,1
+P0703,61,7.41,29.54,15.07,0.125,0.119,0.324,0.145,0.087,65.31,401.14,0.0194,0.0034,Benign,High,Atypical ductal hyperplasia observed.,Negative,Negative,0.606,No,Surgery,43,Alive,0
+P0123,49,18.93,29.15,31.3,0.06,0.188,0.347,0.308,0.084,147.11,1549.28,0.0075,0.0013,Malignant,Medium,Lobular carcinoma in situ noted in tissue sample.,Positive,Negative,0.284,Yes,Chemotherapy,58,Alive,1
+P0599,45,53.96,28.63,24.88,0.058,0.131,0.369,0.147,0.048,69.54,884.28,0.0126,0.0021,Benign,Medium,Normal epithelial tissue morphology maintained.,Positive,Negative,1.0,Yes,Surgery,56,Alive,0
+P0313,43,14.88,14.3,26.97,0.08,0.229,0.108,0.08,0.053,98.06,2328.25,0.0066,0.0033,Malignant,Medium,"Benign lesion, no signs of malignancy.",Negative,Negative,0.029,No,Radiation,24,Alive,1
+P0570,63,27.55,12.8,21.79,0.061,0.015,0.231,0.051,0.074,66.78,1365.44,0.0102,0.004,Malignant,Medium,"Fibroadenoma detected, benign nature.",Positive,Positive,0.228,No,Hormone Therapy,14,Deceased,1
+P0336,75,30.33,9.61,18.17,0.158,0.258,0.37,0.267,0.078,135.82,285.91,0.0126,0.0039,Benign,Low,No evidence of tumor recurrence.,Positive,Negative,0.821,Yes,Surgery,36,Alive,0
